@@ -1,0 +1,20 @@
+# Credentials & Secrets (NEVER COMMIT)
+pipeline/config/alerts.json
+data/config/alerts.json
+*.env
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary Downloads & Large Archives
+*.zip
+*.CSV
+data/raw/
+logs/
+*.log
+cookies.txt
+.opt-expiry-cache/
+
+

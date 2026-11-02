@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22",
+  "fetched_at_ist": "2026-11-01T14:50:27+05:30",
+  "files": {
+    "delivery": {
+      "source": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_22102026.csv",
+      "path": "data\\raw\\2026-10-22\\sec_bhavdata_full_22102026.csv",
+      "sha256": "ed7f4f4347f5a9c07580356f6907aad630f34ff7715b69e7b530c6aa7c1f66cb"
+    },
+    "udiff": {
+      "source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20261022_F_0000.csv.zip",
+      "path": "data\\raw\\2026-10-22\\BhavCopy_NSE_CM_20261022.csv.zip",
+      "sha256": "4e1e097210a023fa6a2bfd67610528d28ac0307c6417c8c85cfa4b01196d37b2"
+    }
+  },
+  "rows_total": 3502,
+  "rows_kept": 2694,
+  "rows_unusable": 0,
+  "possible_corporate_actions": 0,
+  "prior_file": "2026-10-21",
+  "isin_available": true,
+  "series": [
+    "EQ"
+  ]
+}

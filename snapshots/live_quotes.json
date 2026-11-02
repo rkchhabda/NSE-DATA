@@ -1,0 +1,95 @@
+{
+  "RELIANCE": {
+    "last_price": 1164.9,
+    "change": -2.5,
+    "pct_change": -0.21,
+    "day_high": 1174.6,
+    "day_low": 1152.5,
+    "vwap": 1160.33,
+    "volume": 14753650,
+    "timestamp": "2026-11-02T07:07:11.688716"
+  },
+  "TCS": {
+    "last_price": 2502.6,
+    "change": 24.6,
+    "pct_change": 0.99,
+    "day_high": 2527.7,
+    "day_low": 2494.2,
+    "vwap": 2513.04,
+    "volume": 3016983,
+    "timestamp": "2026-11-02T07:07:11.846410"
+  },
+  "HDFCBANK": {
+    "last_price": 692.8,
+    "change": 9.5,
+    "pct_change": 1.39,
+    "day_high": 695.5,
+    "day_low": 680.85,
+    "vwap": 690.06,
+    "volume": 21296902,
+    "timestamp": "2026-11-02T07:07:11.901597"
+  },
+  "INFY": {
+    "last_price": 1185,
+    "change": 38.5,
+    "pct_change": 3.36,
+    "day_high": 1185,
+    "day_low": 1147.9,
+    "vwap": 1174.76,
+    "volume": 13030713,
+    "timestamp": "2026-11-02T07:07:12.674439"
+  },
+  "SBIN": {
+    "last_price": 961.85,
+    "change": -10.05,
+    "pct_change": -1.03,
+    "day_high": 971.85,
+    "day_low": 959.6,
+    "vwap": 964.12,
+    "volume": 7510705,
+    "timestamp": "2026-11-02T07:07:12.823314"
+  },
+  "TATAMOTORS": {
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  "ITC": {
+    "last_price": 265.6,
+    "change": 0.6,
+    "pct_change": 0.23,
+    "day_high": 267.9,
+    "day_low": 262.7,
+    "vwap": 264.99,
+    "volume": 16297263,
+    "timestamp": "2026-11-02T07:07:13.739448"
+  },
+  "LT": {
+    "last_price": 3871.7,
+    "change": 34.6,
+    "pct_change": 0.9,
+    "day_high": 3872.7,
+    "day_low": 3806.2,
+    "vwap": 3846.86,
+    "volume": 1765873,
+    "timestamp": "2026-11-02T07:07:13.945695"
+  },
+  "AXISBANK": {
+    "last_price": 1217,
+    "change": -8,
+    "pct_change": -0.65,
+    "day_high": 1227.7,
+    "day_low": 1209.2,
+    "vwap": 1219.49,
+    "volume": 3617098,
+    "timestamp": "2026-11-02T07:07:14.009221"
+  },
+  "BHARTIARTL": {
+    "last_price": 1973.7,
+    "change": 1.6,
+    "pct_change": 0.08,
+    "day_high": 1985,
+    "day_low": 1958,
+    "vwap": 1971.13,
+    "volume": 7221873,
+    "timestamp": "2026-11-02T07:07:14.760918"
+  }
+}

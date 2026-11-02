@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "fetched_at_ist": "2026-10-31T18:12:58+05:30",
+  "files": {
+    "bse": {
+      "source": "local file",
+      "path": "C:\\Users\\r_chh\\Downloads\\BhavCopy_BSE_CM_0_0_0_20261030_F_0000.CSV",
+      "sha256": "20fa6a19603114450cccdec4d2777f5a4ae23094e1f88e99f21042a884a9372c"
+    }
+  },
+  "rows_total": 5007,
+  "rows_unusable": 0,
+  "rows_no_trades": 0
+}

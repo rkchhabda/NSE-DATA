@@ -1,0 +1,22 @@
+{
+  "RELIANCE": {
+    "score": -20,
+    "signal": "HOLD"
+  },
+  "TCS": {
+    "score": -5,
+    "signal": "HOLD"
+  },
+  "HDFCBANK": {
+    "score": -60,
+    "signal": "STRONG_SELL"
+  },
+  "INFY": {
+    "score": -5,
+    "signal": "HOLD"
+  },
+  "SBIN": {
+    "score": 3,
+    "signal": "HOLD"
+  }
+}

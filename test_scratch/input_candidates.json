@@ -1,0 +1,1584 @@
+{
+  "stocks": [
+    {
+      "symbol": "TECHM",
+      "isin": "INE524503401",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 80,
+        "fundamental": 100,
+        "sentiment": 85,
+        "backtest": 75
+      },
+      "conviction_score": 86,
+      "setup": {
+        "fallback_status": "WAIT FOR BREAKOUT"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1769.6,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 1806.0,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 2792606,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 2792606,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 78.9,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 63.4,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 1642.6,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 1592.6,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 1490.8,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 19.2
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 23.04
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.07
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 15.6
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 32.5
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 28.9
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 5.4
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "DIVISLAB",
+      "isin": "INE534171801",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 90,
+        "fundamental": 78,
+        "sentiment": 83,
+        "backtest": 76
+      },
+      "conviction_score": 83,
+      "setup": {
+        "fallback_status": "WAIT FOR BREAKOUT"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 9664.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 9773.0,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 395258,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 395258,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 61.1,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 265.5,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 9288.0,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 9232.5,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 7280.2,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 15.0
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 18.0
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.0
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 27.8
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 65.7
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 89.7
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 15.5
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "LT",
+      "isin": "INE508489001",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 75,
+        "fundamental": 81,
+        "sentiment": 60,
+        "backtest": 100
+      },
+      "conviction_score": 78,
+      "setup": {
+        "fallback_status": "WAIT FOR BREAKOUT"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 3837.1,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 3852.2,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1754505,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 1754505,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 65.6,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 86.9,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 3693.3,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 3843.8,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 3914.8,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 17.9
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 21.479999999999997
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 1.05
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 16.9
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 32.5
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 29.7
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 4.7
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "isin": "INE117331001",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 95,
+        "fundamental": 83,
+        "sentiment": 70,
+        "backtest": 69
+      },
+      "conviction_score": 84,
+      "setup": {
+        "fallback_status": "WAIT FOR BREAKOUT"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1872.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 1839.4,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 7792856,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 7792856,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 62.0,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 49.0,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 1761.1,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 1743.1,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 1650.5,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 15.6
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 18.72
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.63
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 23.7
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 9.2
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 30.7
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 4.1
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "isin": "INE831708101",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 100,
+        "fundamental": 80,
+        "sentiment": 80,
+        "backtest": 55
+      },
+      "conviction_score": 84,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 459.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 460.3,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 46501335,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 46501335,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 63.8,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 9.5,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 439.4,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 423.6,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 400.2,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 11.8
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 14.16
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.3
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 20.7
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 26.2
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 21.3
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 2.3
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "COFORGE",
+      "isin": "INE950800601",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 90,
+        "fundamental": 88,
+        "sentiment": 85,
+        "backtest": 43
+      },
+      "conviction_score": 82,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1962.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 2047.4,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1564321,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 1564321,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 70.0,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 73.9,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 1913.4,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 1882.0,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 1537.7,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 13.3
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 15.96
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.27
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 54.8
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 19.2
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 40.2
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 4.1
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "TCS",
+      "isin": "INE253116901",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 80,
+        "fundamental": 95,
+        "sentiment": 85,
+        "backtest": 30
+      },
+      "conviction_score": 78,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 2478.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 2512.1,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 3427569,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 3427569,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 79.1,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 81.0,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 2326.7,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 2255.4,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 2393.7,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 45.6
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 54.72
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.1
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 11.2
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 15.0
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 17.6
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 7.6
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "HAL",
+      "isin": "INE522923001",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 85,
+        "fundamental": 93,
+        "sentiment": 60,
+        "backtest": 40
+      },
+      "conviction_score": 77,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 4869.9,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 4834.5,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 509555,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 509555,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 60.2,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 119.6,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 4810.3,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 4827.5,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 4439.8,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 15.0
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 18.0
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.0
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 14.4
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 14.9
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 34.7
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 7.9
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "HCLTECH",
+      "isin": "INE160155601",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 80,
+        "fundamental": 85,
+        "sentiment": 85,
+        "backtest": 39
+      },
+      "conviction_score": 76,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1403.9,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 1434.9,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 3093428,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 3093428,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 90.4,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 43.6,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 1322.9,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 1288.8,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 1296.0,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 24.6
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 29.52
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.08
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 2.2
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 10.8
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 21.2
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 5.2
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "PERSISTENT",
+      "isin": "INE025567101",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 42,
+        "technical": 90,
+        "fundamental": 70,
+        "sentiment": 80,
+        "backtest": 47
+      },
+      "conviction_score": 76,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 5880.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 5990.5,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 450167,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 450167,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 68.5,
+            "vendors": []
+          },
+          "macd": {
+            "internal": 4.5,
+            "vendors": []
+          },
+          "atr14": {
+            "internal": 221.4,
+            "vendors": []
+          },
+          "ema20": {
+            "internal": 5711.7,
+            "vendors": []
+          },
+          "ema50": {
+            "internal": 5598.5,
+            "vendors": []
+          },
+          "sma200": {
+            "internal": 5314.2,
+            "vendors": []
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 22.9
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 27.479999999999997
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.07
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 30.3
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": -26.3
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 22.0
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 52.7
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 11.0
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.0
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 22.0
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 16.0
+            }
+          ]
+        },
+        "history": {
+          "bars": 260,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 35
+        },
+        "fundamentals_meta": {
+          "age_days": 15,
+          "newer_result_filed": false
+        }
+      }
+    }
+  ]
+}

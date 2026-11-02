@@ -1,0 +1,1194 @@
+{
+  "stocks": [
+    {
+      "symbol": "SAMPLE_CLEAN",
+      "isin": "INE000A01010",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "conviction_score": 78,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 2500.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 2500.1,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "alpha_vantage",
+            "value": 2499.9,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1200000,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 1205000,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 62.4,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 62.9
+              }
+            ]
+          },
+          "macd": {
+            "internal": 4.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 4.25
+              }
+            ]
+          },
+          "atr14": {
+            "internal": 48.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 48.3
+              }
+            ]
+          },
+          "ema20": {
+            "internal": 2480.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2480.0
+              }
+            ]
+          },
+          "ema50": {
+            "internal": 2430.5,
+            "vendors": [
+              {
+                "source": "alpha_vantage",
+                "value": 2431.0
+              }
+            ]
+          },
+          "sma200": {
+            "internal": 2300.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2300.0
+              }
+            ]
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 18.2
+            },
+            {
+              "source": "tickertape",
+              "value": 18.0
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 22.1
+            },
+            {
+              "source": "tickertape",
+              "value": 21.8
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.35
+            },
+            {
+              "source": "tickertape",
+              "value": 0.36
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 13.8
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 16.5
+            },
+            {
+              "source": "tickertape",
+              "value": 16.0
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 24.0
+            },
+            {
+              "source": "fmp",
+              "value": 24.3
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 28.4
+            },
+            {
+              "source": "tickertape",
+              "value": 28.6
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 5.1
+            },
+            {
+              "source": "tickertape",
+              "value": 5.0
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.1
+            },
+            {
+              "source": "trendlyne",
+              "value": 52.1
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            },
+            {
+              "source": "trendlyne",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 18.2
+            },
+            {
+              "source": "trendlyne",
+              "value": 18.4
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 14.1
+            }
+          ]
+        },
+        "history": {
+          "bars": 800,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 45
+        },
+        "fundamentals_meta": {
+          "age_days": 12,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "SAMPLE_YAHOO_ONLY",
+      "isin": "INE000B01010",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "conviction_score": 78,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 410.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 410.05,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 800000,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "yahoo",
+            "value": 801000,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 62.4,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 62.9
+              }
+            ]
+          },
+          "macd": {
+            "internal": 4.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 4.25
+              }
+            ]
+          },
+          "atr14": {
+            "internal": 48.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 48.3
+              }
+            ]
+          },
+          "ema20": {
+            "internal": 2480.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2480.0
+              }
+            ]
+          },
+          "ema50": {
+            "internal": 2430.5,
+            "vendors": [
+              {
+                "source": "alpha_vantage",
+                "value": 2431.0
+              }
+            ]
+          },
+          "sma200": {
+            "internal": 2300.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2300.0
+              }
+            ]
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 18.2
+            },
+            {
+              "source": "tickertape",
+              "value": 18.0
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 22.1
+            },
+            {
+              "source": "tickertape",
+              "value": 21.8
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.35
+            },
+            {
+              "source": "tickertape",
+              "value": 0.36
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 13.8
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 16.5
+            },
+            {
+              "source": "tickertape",
+              "value": 16.0
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 24.0
+            },
+            {
+              "source": "fmp",
+              "value": 24.3
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 28.4
+            },
+            {
+              "source": "tickertape",
+              "value": 28.6
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 5.1
+            },
+            {
+              "source": "tickertape",
+              "value": 5.0
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.1
+            },
+            {
+              "source": "trendlyne",
+              "value": 52.1
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            },
+            {
+              "source": "trendlyne",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 18.2
+            },
+            {
+              "source": "trendlyne",
+              "value": 18.4
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 14.1
+            }
+          ]
+        },
+        "history": {
+          "bars": 800,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 45
+        },
+        "fundamentals_meta": {
+          "age_days": 12,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "SAMPLE_CONFLICT",
+      "isin": "INE000C01010",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "conviction_score": 78,
+      "setup": {
+        "fallback_status": "WAIT FOR BREAKOUT"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 100.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 104.0,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1200000,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 1205000,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 62.4,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 62.9
+              }
+            ]
+          },
+          "macd": {
+            "internal": 4.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 4.25
+              }
+            ]
+          },
+          "atr14": {
+            "internal": 48.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 48.3
+              }
+            ]
+          },
+          "ema20": {
+            "internal": 2480.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2480.0
+              }
+            ]
+          },
+          "ema50": {
+            "internal": 2430.5,
+            "vendors": [
+              {
+                "source": "alpha_vantage",
+                "value": 2431.0
+              }
+            ]
+          },
+          "sma200": {
+            "internal": 2300.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2300.0
+              }
+            ]
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 18.2
+            },
+            {
+              "source": "tickertape",
+              "value": 18.0
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 22.1
+            },
+            {
+              "source": "tickertape",
+              "value": 21.8
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.35
+            },
+            {
+              "source": "tickertape",
+              "value": 0.36
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 13.8
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 16.5
+            },
+            {
+              "source": "tickertape",
+              "value": 16.0
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 24.0
+            },
+            {
+              "source": "fmp",
+              "value": 24.3
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 28.4
+            },
+            {
+              "source": "tickertape",
+              "value": 28.6
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 5.1
+            },
+            {
+              "source": "tickertape",
+              "value": 5.0
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.1
+            },
+            {
+              "source": "trendlyne",
+              "value": 52.1
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            },
+            {
+              "source": "trendlyne",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 18.2
+            },
+            {
+              "source": "trendlyne",
+              "value": 18.4
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 14.1
+            }
+          ]
+        },
+        "history": {
+          "bars": 800,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 45
+        },
+        "fundamentals_meta": {
+          "age_days": 12,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "SAMPLE_BREAKOUT",
+      "isin": "INE000D01010",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 52,
+        "technical": 70,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "conviction_score": 78,
+      "setup": {
+        "fallback_status": "WAIT FOR BREAKOUT"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 2500.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 2500.1,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "alpha_vantage",
+            "value": 2499.9,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1200000,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 1205000,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 62.4,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 62.9
+              }
+            ]
+          },
+          "macd": {
+            "internal": 4.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 4.25
+              }
+            ]
+          },
+          "atr14": {
+            "internal": 48.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 48.3
+              }
+            ]
+          },
+          "ema20": {
+            "internal": 2480.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2480.0
+              }
+            ]
+          },
+          "ema50": {
+            "internal": 2430.5,
+            "vendors": [
+              {
+                "source": "alpha_vantage",
+                "value": 2431.0
+              }
+            ]
+          },
+          "sma200": {
+            "internal": 2300.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2300.0
+              }
+            ]
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 18.2
+            },
+            {
+              "source": "tickertape",
+              "value": 18.0
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 22.1
+            },
+            {
+              "source": "tickertape",
+              "value": 21.8
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.35
+            },
+            {
+              "source": "tickertape",
+              "value": 0.36
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 13.8
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 16.5
+            },
+            {
+              "source": "tickertape",
+              "value": 16.0
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 24.0
+            },
+            {
+              "source": "fmp",
+              "value": 24.3
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 28.4
+            },
+            {
+              "source": "tickertape",
+              "value": 28.6
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 5.1
+            },
+            {
+              "source": "tickertape",
+              "value": 5.0
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.1
+            },
+            {
+              "source": "trendlyne",
+              "value": 52.1
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            },
+            {
+              "source": "trendlyne",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 18.2
+            },
+            {
+              "source": "trendlyne",
+              "value": 18.4
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 14.1
+            }
+          ]
+        },
+        "history": {
+          "bars": 800,
+          "adjusted": true,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 45
+        },
+        "fundamentals_meta": {
+          "age_days": 12,
+          "newer_result_filed": false
+        }
+      }
+    },
+    {
+      "symbol": "SAMPLE_STALE_UNADJ",
+      "isin": "INE000E01010",
+      "trading_date": "2026-10-29",
+      "cmp_mode": "eod",
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "conviction_score": 78,
+      "setup": {
+        "fallback_status": "WATCH"
+      },
+      "evidence": {
+        "cmp": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 640.0,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 640.1,
+            "as_of": "2026-10-28"
+          }
+        ],
+        "volume": [
+          {
+            "source": "nse_bhavcopy",
+            "value": 1200000,
+            "as_of": "2026-10-29"
+          },
+          {
+            "source": "twelve_data",
+            "value": 1205000,
+            "as_of": "2026-10-29"
+          }
+        ],
+        "indicators": {
+          "rsi14": {
+            "internal": 62.4,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 62.9
+              }
+            ]
+          },
+          "macd": {
+            "internal": 4.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 4.25
+              }
+            ]
+          },
+          "atr14": {
+            "internal": 48.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 48.3
+              }
+            ]
+          },
+          "ema20": {
+            "internal": 2480.2,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2480.0
+              }
+            ]
+          },
+          "ema50": {
+            "internal": 2430.5,
+            "vendors": [
+              {
+                "source": "alpha_vantage",
+                "value": 2431.0
+              }
+            ]
+          },
+          "sma200": {
+            "internal": 2300.1,
+            "vendors": [
+              {
+                "source": "twelve_data",
+                "value": 2300.0
+              }
+            ]
+          }
+        },
+        "fundamentals": {
+          "roe": [
+            {
+              "source": "screener",
+              "value": 18.2
+            },
+            {
+              "source": "tickertape",
+              "value": 18.0
+            }
+          ],
+          "roce": [
+            {
+              "source": "screener",
+              "value": 22.1
+            },
+            {
+              "source": "tickertape",
+              "value": 21.8
+            }
+          ],
+          "debt_equity": [
+            {
+              "source": "screener",
+              "value": 0.35
+            },
+            {
+              "source": "tickertape",
+              "value": 0.36
+            }
+          ],
+          "revenue_growth": [
+            {
+              "source": "screener",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 13.8
+            }
+          ],
+          "profit_growth": [
+            {
+              "source": "screener",
+              "value": 16.5
+            },
+            {
+              "source": "tickertape",
+              "value": 16.0
+            }
+          ],
+          "ebitda_margin": [
+            {
+              "source": "screener",
+              "value": 24.0
+            },
+            {
+              "source": "fmp",
+              "value": 24.3
+            }
+          ],
+          "pe": [
+            {
+              "source": "screener",
+              "value": 28.4
+            },
+            {
+              "source": "tickertape",
+              "value": 28.6
+            }
+          ],
+          "pb": [
+            {
+              "source": "screener",
+              "value": 5.1
+            },
+            {
+              "source": "tickertape",
+              "value": 5.0
+            }
+          ]
+        },
+        "ownership": {
+          "promoter_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 52.1
+            },
+            {
+              "source": "trendlyne",
+              "value": 52.1
+            }
+          ],
+          "promoter_pledge": [
+            {
+              "source": "nse_shareholding",
+              "value": 0.0
+            },
+            {
+              "source": "trendlyne",
+              "value": 0.0
+            }
+          ],
+          "fii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 18.2
+            },
+            {
+              "source": "trendlyne",
+              "value": 18.4
+            }
+          ],
+          "dii_holding": [
+            {
+              "source": "nse_shareholding",
+              "value": 14.0
+            },
+            {
+              "source": "tickertape",
+              "value": 14.1
+            }
+          ]
+        },
+        "history": {
+          "bars": 800,
+          "adjusted": false,
+          "gap_count": 0
+        },
+        "backtest": {
+          "bars": 800,
+          "signals": 12
+        },
+        "fundamentals_meta": {
+          "age_days": 12,
+          "newer_result_filed": false
+        }
+      }
+    }
+  ]
+}

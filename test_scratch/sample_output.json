@@ -1,0 +1,1545 @@
+{
+  "results": [
+    {
+      "symbol": "SAMPLE_CLEAN",
+      "isin": "INE000A01010",
+      "trading_date": "2026-10-29",
+      "status": "BUY NOW",
+      "excluded_for_data_quality": false,
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "data_confidence": {
+        "score": 98.5,
+        "raw": 98.5,
+        "band": "fully validated",
+        "components": {
+          "cmp": 100,
+          "volume": 100,
+          "indicators": 100,
+          "fundamentals": 90,
+          "history": 100,
+          "ownership": 100,
+          "backtest_data": 100
+        },
+        "caps_applied": []
+      },
+      "validation_status": "VERIFIED",
+      "primary_source": "nse_bhavcopy",
+      "validation_sources": [
+        "twelve_data",
+        "alpha_vantage"
+      ],
+      "agreeing_but_insufficient": [],
+      "validation": {
+        "cmp": {
+          "value": 2500.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "twelve_data",
+            "alpha_vantage"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "VERIFIED",
+          "score": 100
+        },
+        "volume": {
+          "value": 1200000.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "twelve_data"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "VERIFIED",
+          "score": 100
+        },
+        "indicators": {
+          "rsi14": {
+            "value": 62.4,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "macd": {
+            "value": 4.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "atr14": {
+            "value": 48.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema20": {
+            "value": 2480.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema50": {
+            "value": 2430.5,
+            "primary": "internal",
+            "validated_by": [
+              "alpha_vantage"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "sma200": {
+            "value": 2300.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        },
+        "fundamentals": {
+          "roe": {
+            "value": 18.2,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "roce": {
+            "value": 22.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "debt_equity": {
+            "value": 0.35,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "revenue_growth": {
+            "value": 14.0,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "profit_growth": {
+            "value": 16.5,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "ebitda_margin": {
+            "value": 24.0,
+            "primary": "screener",
+            "validated_by": [
+              "fmp"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pe": {
+            "value": 28.4,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pb": {
+            "value": 5.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          }
+        },
+        "ownership": {
+          "promoter_holding": {
+            "value": 52.1,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "promoter_pledge": {
+            "value": 0.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "fii_holding": {
+            "value": 18.2,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "dii_holding": {
+            "value": 14.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        }
+      },
+      "conditions": {
+        "Market Regime >= 35": true,
+        "Technical >= 75": true,
+        "Fundamental >= 65": true,
+        "Sentiment >= 60": true,
+        "Backtest >= 60": true,
+        "Data Confidence >= 80": true,
+        "CMP verified": true,
+        "Volume verified": true,
+        "Technical indicators verified": true,
+        "History adjusted, gap-free, sufficient": true,
+        "Backtest data sufficient": true
+      },
+      "failed_conditions": [],
+      "conviction": {
+        "input": 78,
+        "penalty": 0,
+        "adjusted": 78
+      },
+      "notes": []
+    },
+    {
+      "symbol": "SAMPLE_YAHOO_ONLY",
+      "isin": "INE000B01010",
+      "trading_date": "2026-10-29",
+      "status": "WATCH",
+      "excluded_for_data_quality": true,
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "data_confidence": {
+        "score": 79,
+        "raw": 80.5,
+        "band": "several missing fields",
+        "components": {
+          "cmp": 55,
+          "volume": 55,
+          "indicators": 100,
+          "fundamentals": 90,
+          "history": 100,
+          "ownership": 100,
+          "backtest_data": 100
+        },
+        "caps_applied": [
+          "CMP/volume/indicators not all verified: cap 79"
+        ]
+      },
+      "validation_status": "UNVERIFIED DATA",
+      "primary_source": "nse_bhavcopy",
+      "validation_sources": [],
+      "agreeing_but_insufficient": [
+        "yahoo"
+      ],
+      "validation": {
+        "cmp": {
+          "value": 410.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "yahoo"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "WEAK",
+          "score": 55
+        },
+        "volume": {
+          "value": 800000.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "yahoo"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "WEAK",
+          "score": 55
+        },
+        "indicators": {
+          "rsi14": {
+            "value": 62.4,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "macd": {
+            "value": 4.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "atr14": {
+            "value": 48.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema20": {
+            "value": 2480.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema50": {
+            "value": 2430.5,
+            "primary": "internal",
+            "validated_by": [
+              "alpha_vantage"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "sma200": {
+            "value": 2300.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        },
+        "fundamentals": {
+          "roe": {
+            "value": 18.2,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "roce": {
+            "value": 22.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "debt_equity": {
+            "value": 0.35,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "revenue_growth": {
+            "value": 14.0,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "profit_growth": {
+            "value": 16.5,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "ebitda_margin": {
+            "value": 24.0,
+            "primary": "screener",
+            "validated_by": [
+              "fmp"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pe": {
+            "value": 28.4,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pb": {
+            "value": 5.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          }
+        },
+        "ownership": {
+          "promoter_holding": {
+            "value": 52.1,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "promoter_pledge": {
+            "value": 0.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "fii_holding": {
+            "value": 18.2,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "dii_holding": {
+            "value": 14.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        }
+      },
+      "conditions": {
+        "Market Regime >= 35": true,
+        "Technical >= 75": true,
+        "Fundamental >= 65": true,
+        "Sentiment >= 60": true,
+        "Backtest >= 60": true,
+        "Data Confidence >= 80": false,
+        "CMP verified": false,
+        "Volume verified": false,
+        "Technical indicators verified": true,
+        "History adjusted, gap-free, sufficient": true,
+        "Backtest data sufficient": true
+      },
+      "failed_conditions": [
+        "Data Confidence >= 80",
+        "CMP verified",
+        "Volume verified"
+      ],
+      "conviction": {
+        "input": 78,
+        "penalty": -5,
+        "adjusted": 73
+      },
+      "notes": []
+    },
+    {
+      "symbol": "SAMPLE_CONFLICT",
+      "isin": "INE000C01010",
+      "trading_date": "2026-10-29",
+      "status": "WATCH",
+      "excluded_for_data_quality": true,
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "data_confidence": {
+        "score": 49,
+        "raw": 77.2,
+        "band": "major missing fields",
+        "components": {
+          "cmp": 15,
+          "volume": 100,
+          "indicators": 100,
+          "fundamentals": 90,
+          "history": 100,
+          "ownership": 100,
+          "backtest_data": 100
+        },
+        "caps_applied": [
+          "critical metric in CONFLICT: cap 49",
+          "CMP/volume/indicators not all verified: cap 79"
+        ]
+      },
+      "validation_status": "UNVERIFIED DATA",
+      "primary_source": "nse_bhavcopy",
+      "validation_sources": [],
+      "agreeing_but_insufficient": [],
+      "validation": {
+        "cmp": {
+          "value": 100.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [],
+          "outliers": [
+            "twelve_data=104.0"
+          ],
+          "dropped": [],
+          "warnings": [],
+          "status": "CONFLICT",
+          "score": 15
+        },
+        "volume": {
+          "value": 1200000.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "twelve_data"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "VERIFIED",
+          "score": 100
+        },
+        "indicators": {
+          "rsi14": {
+            "value": 62.4,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "macd": {
+            "value": 4.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "atr14": {
+            "value": 48.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema20": {
+            "value": 2480.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema50": {
+            "value": 2430.5,
+            "primary": "internal",
+            "validated_by": [
+              "alpha_vantage"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "sma200": {
+            "value": 2300.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        },
+        "fundamentals": {
+          "roe": {
+            "value": 18.2,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "roce": {
+            "value": 22.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "debt_equity": {
+            "value": 0.35,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "revenue_growth": {
+            "value": 14.0,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "profit_growth": {
+            "value": 16.5,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "ebitda_margin": {
+            "value": 24.0,
+            "primary": "screener",
+            "validated_by": [
+              "fmp"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pe": {
+            "value": 28.4,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pb": {
+            "value": 5.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          }
+        },
+        "ownership": {
+          "promoter_holding": {
+            "value": 52.1,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "promoter_pledge": {
+            "value": 0.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "fii_holding": {
+            "value": 18.2,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "dii_holding": {
+            "value": 14.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        }
+      },
+      "conditions": {
+        "Market Regime >= 35": true,
+        "Technical >= 75": true,
+        "Fundamental >= 65": true,
+        "Sentiment >= 60": true,
+        "Backtest >= 60": true,
+        "Data Confidence >= 80": false,
+        "CMP verified": false,
+        "Volume verified": true,
+        "Technical indicators verified": true,
+        "History adjusted, gap-free, sufficient": true,
+        "Backtest data sufficient": true
+      },
+      "failed_conditions": [
+        "Data Confidence >= 80",
+        "CMP verified"
+      ],
+      "conviction": {
+        "input": 78,
+        "penalty": -10,
+        "adjusted": 68
+      },
+      "notes": []
+    },
+    {
+      "symbol": "SAMPLE_BREAKOUT",
+      "isin": "INE000D01010",
+      "trading_date": "2026-10-29",
+      "status": "WAIT FOR BREAKOUT",
+      "excluded_for_data_quality": false,
+      "scores": {
+        "market_regime": 52,
+        "technical": 70,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "data_confidence": {
+        "score": 98.5,
+        "raw": 98.5,
+        "band": "fully validated",
+        "components": {
+          "cmp": 100,
+          "volume": 100,
+          "indicators": 100,
+          "fundamentals": 90,
+          "history": 100,
+          "ownership": 100,
+          "backtest_data": 100
+        },
+        "caps_applied": []
+      },
+      "validation_status": "VERIFIED",
+      "primary_source": "nse_bhavcopy",
+      "validation_sources": [
+        "twelve_data",
+        "alpha_vantage"
+      ],
+      "agreeing_but_insufficient": [],
+      "validation": {
+        "cmp": {
+          "value": 2500.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "twelve_data",
+            "alpha_vantage"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "VERIFIED",
+          "score": 100
+        },
+        "volume": {
+          "value": 1200000.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "twelve_data"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "VERIFIED",
+          "score": 100
+        },
+        "indicators": {
+          "rsi14": {
+            "value": 62.4,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "macd": {
+            "value": 4.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "atr14": {
+            "value": 48.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema20": {
+            "value": 2480.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema50": {
+            "value": 2430.5,
+            "primary": "internal",
+            "validated_by": [
+              "alpha_vantage"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "sma200": {
+            "value": 2300.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        },
+        "fundamentals": {
+          "roe": {
+            "value": 18.2,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "roce": {
+            "value": 22.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "debt_equity": {
+            "value": 0.35,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "revenue_growth": {
+            "value": 14.0,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "profit_growth": {
+            "value": 16.5,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "ebitda_margin": {
+            "value": 24.0,
+            "primary": "screener",
+            "validated_by": [
+              "fmp"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pe": {
+            "value": 28.4,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pb": {
+            "value": 5.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          }
+        },
+        "ownership": {
+          "promoter_holding": {
+            "value": 52.1,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "promoter_pledge": {
+            "value": 0.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "fii_holding": {
+            "value": 18.2,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "dii_holding": {
+            "value": 14.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        }
+      },
+      "conditions": {
+        "Market Regime >= 35": true,
+        "Technical >= 75": false,
+        "Fundamental >= 65": true,
+        "Sentiment >= 60": true,
+        "Backtest >= 60": true,
+        "Data Confidence >= 80": true,
+        "CMP verified": true,
+        "Volume verified": true,
+        "Technical indicators verified": true,
+        "History adjusted, gap-free, sufficient": true,
+        "Backtest data sufficient": true
+      },
+      "failed_conditions": [
+        "Technical >= 75"
+      ],
+      "conviction": {
+        "input": 78,
+        "penalty": 0,
+        "adjusted": 78
+      },
+      "notes": []
+    },
+    {
+      "symbol": "SAMPLE_STALE_UNADJ",
+      "isin": "INE000E01010",
+      "trading_date": "2026-10-29",
+      "status": "WATCH",
+      "excluded_for_data_quality": true,
+      "scores": {
+        "market_regime": 52,
+        "technical": 82,
+        "fundamental": 72,
+        "sentiment": 66,
+        "backtest": 68
+      },
+      "data_confidence": {
+        "score": 59,
+        "raw": 79.0,
+        "band": "major missing fields",
+        "components": {
+          "cmp": 70,
+          "volume": 100,
+          "indicators": 100,
+          "fundamentals": 90,
+          "history": 30,
+          "ownership": 100,
+          "backtest_data": 50
+        },
+        "caps_applied": [
+          "CMP/volume/indicators not all verified: cap 79",
+          "history not adjusted: cap 59"
+        ]
+      },
+      "validation_status": "UNVERIFIED DATA",
+      "primary_source": "nse_bhavcopy",
+      "validation_sources": [],
+      "agreeing_but_insufficient": [],
+      "validation": {
+        "cmp": {
+          "value": 640.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [],
+          "outliers": [],
+          "dropped": [
+            "twelve_data: as_of=2026-10-28 (expected 2026-10-29)"
+          ],
+          "warnings": [],
+          "status": "SINGLE_OFFICIAL",
+          "score": 70
+        },
+        "volume": {
+          "value": 1200000.0,
+          "primary": "nse_bhavcopy",
+          "validated_by": [
+            "twelve_data"
+          ],
+          "outliers": [],
+          "dropped": [],
+          "warnings": [],
+          "status": "VERIFIED",
+          "score": 100
+        },
+        "indicators": {
+          "rsi14": {
+            "value": 62.4,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "macd": {
+            "value": 4.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "atr14": {
+            "value": 48.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema20": {
+            "value": 2480.2,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "ema50": {
+            "value": 2430.5,
+            "primary": "internal",
+            "validated_by": [
+              "alpha_vantage"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "sma200": {
+            "value": 2300.1,
+            "primary": "internal",
+            "validated_by": [
+              "twelve_data"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        },
+        "fundamentals": {
+          "roe": {
+            "value": 18.2,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "roce": {
+            "value": 22.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "debt_equity": {
+            "value": 0.35,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "revenue_growth": {
+            "value": 14.0,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "profit_growth": {
+            "value": 16.5,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "ebitda_margin": {
+            "value": 24.0,
+            "primary": "screener",
+            "validated_by": [
+              "fmp"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pe": {
+            "value": 28.4,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          },
+          "pb": {
+            "value": 5.1,
+            "primary": "screener",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED_PARTIAL",
+            "score": 90
+          }
+        },
+        "ownership": {
+          "promoter_holding": {
+            "value": 52.1,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "promoter_pledge": {
+            "value": 0.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "fii_holding": {
+            "value": 18.2,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "trendlyne"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          },
+          "dii_holding": {
+            "value": 14.0,
+            "primary": "nse_shareholding",
+            "validated_by": [
+              "tickertape"
+            ],
+            "outliers": [],
+            "dropped": [],
+            "warnings": [],
+            "status": "VERIFIED",
+            "score": 100
+          }
+        }
+      },
+      "conditions": {
+        "Market Regime >= 35": true,
+        "Technical >= 75": true,
+        "Fundamental >= 65": true,
+        "Sentiment >= 60": true,
+        "Backtest >= 60": true,
+        "Data Confidence >= 80": false,
+        "CMP verified": false,
+        "Volume verified": true,
+        "Technical indicators verified": true,
+        "History adjusted, gap-free, sufficient": false,
+        "Backtest data sufficient": false
+      },
+      "failed_conditions": [
+        "Data Confidence >= 80",
+        "CMP verified",
+        "History adjusted, gap-free, sufficient",
+        "Backtest data sufficient"
+      ],
+      "conviction": {
+        "input": 78,
+        "penalty": -10,
+        "adjusted": 68
+      },
+      "notes": [
+        "history not adjusted for corporate actions",
+        "backtest signals < 30"
+      ]
+    }
+  ],
+  "disclaimer": "Screening aid based on rule-based checks of verified data. Not investment advice."
+}

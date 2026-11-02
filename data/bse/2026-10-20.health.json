@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-20",
+  "sources": {
+    "bse_bhavcopy": "FAILED"
+  },
+  "fallbacks_used": [],
+  "validation_failures": [
+    "BSE Bhavcopy 2026-10-20: BSE file not published (HTTP 404, a web page, or an older day's file) by the polling deadline."
+  ]
+}

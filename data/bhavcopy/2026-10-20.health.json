@@ -1,0 +1,10 @@
+{
+  "run_date": "2026-10-20",
+  "sources": {
+    "bhavcopy": "FAILED"
+  },
+  "fallbacks_used": [],
+  "validation_failures": [
+    "Bhavcopy 2026-10-20: Bhavcopy not published (HTTP 404, a web page, or an older day's file) by the polling deadline; EOD fields are MISSING. Detail: the server returned the file for 2026-10-19, not 2026-10-20 (market holiday, or not yet published). Do not substitute another source for the official close."
+  ]
+}

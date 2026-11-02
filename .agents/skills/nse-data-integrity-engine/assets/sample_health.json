@@ -1,0 +1,19 @@
+{
+  "run_date": "2026-10-29",
+  "sources": {
+    "nse_api": "OK",
+    "bhavcopy": "OK",
+    "screener": "OK",
+    "trendlyne": "OK",
+    "tickertape": "OK",
+    "twelve_data": "OK",
+    "alpha_vantage": "FAILED",
+    "yahoo": "OK"
+  },
+  "fallbacks_used": [
+    "Alpha Vantage failed after 3 retries; Twelve Data used as sole vendor for indicators"
+  ],
+  "validation_failures": [
+    "Delivery file published late; delivery % marked MISSING for 3 symbols"
+  ]
+}

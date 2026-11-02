@@ -1,0 +1,6 @@
+pandas>=2.0.0
+numpy>=1.24.0
+nse>=5.1.1
+pyrate-limiter>=4.5.0
+
+
