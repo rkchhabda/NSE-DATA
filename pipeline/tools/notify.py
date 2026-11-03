@@ -326,6 +326,164 @@ def dispatch_morning_alerts(evaluations: List[Dict], date_str: str, capital: flo
     )
 
 
+def format_evening_telegram_message(summary: Dict, date_str: str) -> str:
+    """Formats evening screening results into a concise Telegram HTML message."""
+    top_picks = summary.get("top_picks", [])
+    total_screened = summary.get("total_screened", 0)
+    total_buys = summary.get("pure_equity_buy_now", len(top_picks))
+
+    lines = [
+        f"📊 <b>NSE DAILY SWING SCREENING REPORT</b> ({date_str})",
+        "━━━━━━━━━━━━━━━━━━━━━━",
+        f"Screened: <b>{total_screened:,}</b> stocks | BUY NOW Equities: <b>{total_buys}</b>",
+    ]
+
+    if not top_picks:
+        lines.append("\n⚠️ <b>No stocks passed all data-integrity and conviction gates today.</b>")
+        lines.append("<i>Market regime defensive / Capital preserved in cash.</i>")
+    else:
+        for idx, s in enumerate(top_picks, 1):
+            sym = s.get("symbol", "")
+            cmp_val = s.get("cmp", 0.0)
+            conv = s.get("conviction_score", 0)
+            conf = s.get("data_confidence", 0)
+            band = s.get("data_band", "N/A")
+            ts = s.get("trade_setup", {})
+            sc = s.get("upstream_scores", {})
+            val = s.get("validation", {})
+            ind = val.get("indicators", {})
+            rsi = ind.get("rsi14", {}).get("value", "N/A")
+            macd = ind.get("macd", {}).get("value", "N/A")
+            vol_status = val.get("volume", {}).get("status", "VERIFIED")
+
+            lines.append(f"\n<b>#{idx} {sym}</b> | CMP: ₹{cmp_val:,.2f} | Conviction: <b>{conv}/100</b>")
+            lines.append(f"• Data Confidence: <b>{conf:.1f}</b> ({band}) | Vol: {vol_status}")
+
+            fo_info = s.get("fo")
+            if fo_info:
+                cw_str = f" | Wall: ₹{fo_info.get('call_wall')}" if fo_info.get("call_wall") else ""
+                lines.append(f"• F&O: <b>{fo_info.get('buildup', 'N/A')}</b> (OI: {fo_info.get('fut_oi_change_pct', 0.0):+0.1f}%{cw_str})")
+
+            lines.append(f"• Setup: Entry: ₹{ts.get('entry_range', 'N/A')} | SL: ₹{ts.get('stop_loss', 'N/A')}")
+            lines.append(f"• Targets: T1: ₹{ts.get('target_1', 'N/A')} | T2: ₹{ts.get('target_2', 'N/A')} (R:R {ts.get('risk_reward_t1', 'N/A')})")
+            lines.append(f"• Signals: Tech: {sc.get('technical', 'N/A')}/100 | RSI: {rsi} | MACD: {macd}")
+
+    lines.append("\n━━━━━━━━━━━━━━━━━━━━━━")
+    lines.append("<i>Discipline Rule: Wait for 09:30 AM confirmation before entry. Risk max 1% per trade.</i>")
+    return "\n".join(lines)
+
+
+def format_evening_email_html(summary: Dict, date_str: str) -> str:
+    """Formats evening screening results into a responsive HTML email table."""
+    top_picks = summary.get("top_picks", [])
+    total_screened = summary.get("total_screened", 0)
+    total_buys = summary.get("pure_equity_buy_now", len(top_picks))
+
+    rows = []
+    for idx, s in enumerate(top_picks, 1):
+        sym = s.get("symbol", "")
+        cmp_val = s.get("cmp", 0.0)
+        conv = s.get("conviction_score", 0)
+        conf = s.get("data_confidence", 0)
+        band = s.get("data_band", "N/A")
+        ts = s.get("trade_setup", {})
+        sc = s.get("upstream_scores", {})
+        val = s.get("validation", {})
+        ind = val.get("indicators", {})
+        rsi = ind.get("rsi14", {}).get("value", "N/A")
+        macd = ind.get("macd", {}).get("value", "N/A")
+
+        fo_info = s.get("fo")
+        fo_str = ""
+        if fo_info:
+            fo_str = f"<br><span style='font-size:11px;color:#0066cc;'>F&O: {fo_info.get('buildup', '')} (OI {fo_info.get('fut_oi_change_pct', 0.0):+0.1f}%)</span>"
+
+        rows.append(f"""
+        <tr style="border-bottom:1px solid #dee2e6;">
+            <td style="padding:10px;"><b>#{idx} {sym}</b>{fo_str}</td>
+            <td style="padding:10px;">₹{cmp_val:,.2f}</td>
+            <td style="padding:10px;">
+                <span style="background-color:#d4edda;color:#155724;padding:3px 7px;border-radius:4px;font-weight:bold;">
+                    {conv}/100
+                </span>
+                <br><small style="color:#666;">Conf: {conf:.1f} ({band})</small>
+            </td>
+            <td style="padding:10px;">
+                <b>Entry:</b> ₹{ts.get('entry_range', 'N/A')}<br>
+                <b>SL:</b> ₹{ts.get('stop_loss', 'N/A')}
+            </td>
+            <td style="padding:10px;">
+                <b>T1:</b> ₹{ts.get('target_1', 'N/A')}<br>
+                <b>T2:</b> ₹{ts.get('target_2', 'N/A')}<br>
+                <small style="color:#28a745;">R:R {ts.get('risk_reward_t1', 'N/A')}</small>
+            </td>
+            <td style="padding:10px;font-size:12px;color:#555;">
+                Tech: {sc.get('technical', 'N/A')}/100<br>
+                RSI: {rsi}<br>
+                MACD: {macd}
+            </td>
+        </tr>
+        """)
+
+    content = f"""
+    <table style="width:100%;border-collapse:collapse;margin-top:15px;font-size:13px;">
+        <thead>
+            <tr style="background:#f1f3f4;text-align:left;">
+                <th style="padding:10px;">Symbol</th>
+                <th style="padding:10px;">CMP</th>
+                <th style="padding:10px;">Conviction</th>
+                <th style="padding:10px;">Entry & Stop</th>
+                <th style="padding:10px;">Targets</th>
+                <th style="padding:10px;">Indicators</th>
+            </tr>
+        </thead>
+        <tbody>
+            {''.join(rows)}
+        </tbody>
+    </table>
+    """ if rows else "<p style='padding:15px;background:#fff3cd;border-radius:4px;color:#856404;'>No stocks met all BUY NOW conditions today. Capital preserved in cash.</p>"
+
+    html = f"""
+    <html>
+    <head><meta charset="utf-8"></head>
+    <body style="font-family:Arial,sans-serif;color:#333;margin:0;padding:20px;background-color:#f8f9fa;">
+        <div style="max-width:780px;margin:auto;background:#fff;padding:25px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+            <h2 style="color:#1a73e8;margin-top:0;">📊 NSE Daily Swing Screening Report</h2>
+            <p style="color:#666;font-size:14px;">Date: <b>{date_str}</b> | Universe Screened: <b>{total_screened:,}</b> | Actionable Equities: <b>{total_buys}</b></p>
+            {content}
+            <div style="margin-top:20px;padding:12px;background:#e8f0fe;border-left:4px solid #1a73e8;border-radius:4px;font-size:13px;">
+                <b>Trade Execution Plan:</b> Do NOT buy at the opening tick. Wait for the 09:30 AM Opening Range check next morning. Risk maximum 1% to 2% of portfolio capital per position.
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+    return html
+
+
+def dispatch_evening_alerts(summary: Dict, date_str: str) -> None:
+    """Dispatches evening screening alerts to both Telegram and Email."""
+    cfg = get_alert_config()
+
+    # 1. Telegram
+    tg_text = format_evening_telegram_message(summary, date_str)
+    send_telegram_alert(cfg["telegram_token"], cfg["telegram_chat_id"], tg_text)
+
+    # 2. Email
+    subject = f"📊 NSE Swing Screening Report: {date_str}"
+    email_html = format_evening_email_html(summary, date_str)
+    send_email_alert(
+        smtp_host=cfg["smtp_host"],
+        smtp_port=cfg["smtp_port"],
+        smtp_user=cfg["smtp_user"],
+        smtp_password=cfg["smtp_password"],
+        to_email=cfg["alert_email_to"],
+        subject=subject,
+        html_content=email_html,
+        plain_content=tg_text,
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description="Test or send notifications via Telegram and Email")
     parser.add_argument("--test", action="store_true", help="Send a test notification using configured channels")
