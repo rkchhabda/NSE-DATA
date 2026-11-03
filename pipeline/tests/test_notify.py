@@ -6,6 +6,8 @@ from unittest.mock import patch, MagicMock
 from pipeline.tools.notify import (
     format_morning_telegram_message,
     format_morning_email_html,
+    format_evening_telegram_message,
+    format_evening_email_html,
     send_telegram_alert,
     send_email_alert,
 )
@@ -75,6 +77,55 @@ class TestNotify(unittest.TestCase):
         res = send_telegram_alert("123456789:test_token", "12345", "test message")
         self.assertTrue(res)
 
+    def test_format_evening_messages(self):
+        sample_summary = {
+            "date": "2026-10-30",
+            "total_screened": 2603,
+            "pure_equity_buy_now": 1,
+            "top_picks": [
+                {
+                    "symbol": "INFY",
+                    "cmp": 1850.50,
+                    "conviction_score": 85,
+                    "data_confidence": 92.5,
+                    "data_band": "high confidence",
+                    "upstream_scores": {"technical": 88},
+                    "trade_setup": {
+                        "entry_range": "1840.00 - 1855.00",
+                        "stop_loss": 1790.00,
+                        "target_1": 1950.00,
+                        "target_2": 2020.00,
+                        "risk_reward_t1": "1:1.65",
+                    },
+                    "validation": {
+                        "volume": {"status": "VERIFIED"},
+                        "indicators": {
+                            "rsi14": {"value": 56.4},
+                            "macd": {"value": 12.3},
+                        }
+                    },
+                    "fo": {
+                        "buildup": "Long Buildup",
+                        "fut_oi_change_pct": 5.2,
+                        "call_wall": 1900,
+                        "put_wall": 1800,
+                        "pcr_oi": 1.15
+                    }
+                }
+            ]
+        }
+        tg_msg = format_evening_telegram_message(sample_summary, "2026-10-30")
+        self.assertIn("NSE DAILY SWING SCREENING REPORT", tg_msg)
+        self.assertIn("INFY", tg_msg)
+        self.assertIn("1,850.50", tg_msg)
+        self.assertIn("Long Buildup", tg_msg)
+        self.assertIn("85/100", tg_msg)
+
+        email_html = format_evening_email_html(sample_summary, "2026-10-30")
+        self.assertIn("NSE Daily Swing Screening Report", email_html)
+        self.assertIn("INFY", email_html)
+        self.assertIn("1,850.50", email_html)
+        self.assertIn("1840.00 - 1855.00", email_html)
+
 if __name__ == "__main__":
     unittest.main()
-
