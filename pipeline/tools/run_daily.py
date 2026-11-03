@@ -57,7 +57,7 @@ def run_pipeline_step(cmd: List[str], desc: str) -> None:
         raise RuntimeError(f"Step failed: {desc}")
 
 
-def run_daily(date_str: Optional[str] = None, top_n: int = 5) -> Dict:
+def run_daily(date_str: Optional[str] = None, top_n: int = 5, notify: bool = False) -> Dict:
     bhav_dir = WORKSPACE_ROOT / "data" / "bhavcopy"
     if not date_str:
         date_str = get_latest_available_date(bhav_dir)
@@ -149,13 +149,20 @@ def run_daily(date_str: Optional[str] = None, top_n: int = 5) -> Dict:
     print(f"  Full report: data/reports/screening_report_{date_str}.md")
     print("-" * 72 + "\n")
 
-    return {
+    res = {
         "date": date_str,
         "total_screened": len(screened),
         "total_buy_now": len(buy_now_all),
         "pure_equity_buy_now": len(equity_buys),
         "top_picks": top_picks
     }
+
+    if notify:
+        from pipeline.tools.notify import dispatch_evening_alerts
+        print("  [>] Dispatching daily evening screening alerts via Telegram & Email...")
+        dispatch_evening_alerts(res, date_str)
+
+    return res
 
 
 def main():
@@ -178,7 +185,7 @@ def main():
             notify=args.notify,
         )
     else:
-        run_daily(date_str=args.date, top_n=args.top)
+        run_daily(date_str=args.date, top_n=args.top, notify=args.notify)
 
 
 if __name__ == "__main__":
