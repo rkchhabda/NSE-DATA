@@ -31,6 +31,27 @@ class TestCheckMorningEntry(unittest.TestCase):
         self.assertEqual(res["order"]["order_type"], "BUY LIMIT")
         self.assertLessEqual(res["order"]["risk_amount"], 5000.0)
 
+    def test_evaluate_opening_range_vwap_filter(self):
+        # Otherwise Green Light (range_pos = 70%), but price 1007 is below VWAP 1009
+        res = evaluate_opening_range(
+            symbol="INFY",
+            prev_close=1000.0,
+            open_price=1005.0,
+            h15=1010.0,
+            l15=1000.0,
+            p930=1007.0,
+            atr14=20.0,
+            base_sl=970.0,
+            target_1=1040.0,
+            target_2=1070.0,
+            risk_reward="1:1.33",
+            vwap=1009.0,
+        )
+        # Should switch to BREAKOUT_TRIGGER due to trading below VWAP
+        self.assertEqual(res["verdict"], "BREAKOUT_TRIGGER")
+        self.assertIn("VWAP", res["reason"])
+        self.assertEqual(res["order"]["order_type"], "BUY STOP-LIMIT")
+
     def test_evaluate_opening_range_breakout_trigger(self):
         # Large gap-up of +2.8%
         res = evaluate_opening_range(

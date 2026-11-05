@@ -69,6 +69,7 @@ def evaluate_opening_range(
     risk_reward: str,
     capital: float = 500000.0,
     risk_pct: float = 1.0,
+    vwap: Optional[float] = None,
 ) -> Dict:
     """Evaluates 15-minute opening range against quantitative swing rules."""
     gap_pct = ((open_price - prev_close) / prev_close) * 100.0 if prev_close > 0 else 0.0
@@ -126,10 +127,40 @@ def evaluate_opening_range(
             "risk_reward": risk_reward,
         }
 
-    # 3. Scenario A: GREEN LIGHT (Healthy controlled open holding upper half)
+    # 3. Check intraday VWAP rejection
+    elif vwap and p930 < vwap:
+        verdict = "BREAKOUT_TRIGGER"
+        reason = f"Controlled open ({gap_pct:+.2f}%) but trading below intraday VWAP (₹{vwap:.2f}). Enter only on confirmed breakout above H15."
+        action = "PLACE BUY STOP-LIMIT ORDER"
+
+        trigger_price = round(h15 * 1.001, 2)
+        limit_price = round(h15 * 1.003, 2)
+        tight_sl = round(l15 * 0.998, 2)
+        sl_to_use = min(base_sl, tight_sl) if base_sl > 0 else tight_sl
+
+        per_share_risk = max(0.05, limit_price - sl_to_use)
+        capital_risk = capital * (risk_pct / 100.0)
+        shares = int(capital_risk / per_share_risk)
+        max_investment = round(shares * limit_price, 2)
+
+        order_details = {
+            "order_type": "BUY STOP-LIMIT",
+            "trigger_price": trigger_price,
+            "limit_price": limit_price,
+            "stop_loss": sl_to_use,
+            "target_1": target_1,
+            "target_2": target_2,
+            "shares": shares,
+            "max_investment": max_investment,
+            "risk_amount": round(shares * per_share_risk, 2),
+            "risk_reward": risk_reward,
+        }
+
+    # 4. Scenario A: GREEN LIGHT (Healthy controlled open holding upper half & above VWAP)
     else:
         verdict = "GREEN_LIGHT"
-        reason = f"Healthy controlled open ({gap_pct:+.2f}%) holding firmly in upper {range_pos*100:.0f}% of 15m range. Buyers in control."
+        vwap_note = f" and holding above VWAP (₹{vwap:.2f})" if vwap else ""
+        reason = f"Healthy controlled open ({gap_pct:+.2f}%) holding firmly in upper {range_pos*100:.0f}% of 15m range{vwap_note}. Buyers in control."
         action = "BUY LIMIT ORDER (09:30 - 09:35 AM)"
 
         limit_price = round(p930 * 1.001, 2)  # small buffer for limit fill
@@ -163,6 +194,7 @@ def evaluate_opening_range(
         "h15": h15,
         "l15": l15,
         "p930": p930,
+        "vwap": vwap,
         "gap_pct": round(gap_pct, 2),
         "change_pct": round(change_pct, 2),
         "range_pos_pct": round(range_pos * 100.0, 1),
@@ -233,6 +265,7 @@ def run_morning_check(
         l15 = quote["day_low"] or cmp_prev
         p930 = quote["last_price"] or cmp_prev
         c_prev = quote["prev_close"] or cmp_prev
+        vwap = quote.get("vwap")
 
         eval_res = evaluate_opening_range(
             symbol=sym,
@@ -248,6 +281,7 @@ def run_morning_check(
             risk_reward=rr,
             capital=capital,
             risk_pct=risk_pct,
+            vwap=vwap,
         )
         eval_res["conviction_score"] = s.get("conviction_score")
         fo_info = s.get("fo")
@@ -264,7 +298,8 @@ def run_morning_check(
         if fo_info:
             print(f"    Derivatives: {fo_info['buildup']} (OI: {fo_info['fut_oi_change_pct']:+0.1f}%) | "
                   f"Call Wall: ₹{fo_info['call_wall']} | Put Wall: ₹{fo_info['put_wall']} | PCR: {fo_info['pcr_oi']}")
-        print(f"    15m Range: Low ₹{l15:.2f} — High ₹{h15:.2f} | Position: {eval_res['range_pos_pct']}% of range | Gap: {eval_res['gap_pct']:+.2f}%")
+        vwap_str = f" | VWAP: ₹{vwap:.2f}" if vwap else ""
+        print(f"    15m Range: Low ₹{l15:.2f} — High ₹{h15:.2f}{vwap_str} | Position: {eval_res['range_pos_pct']}% of range | Gap: {eval_res['gap_pct']:+.2f}%")
         print(f"    Analysis: {eval_res['reason']}")
 
         ord_info = eval_res["order"]
