@@ -9,6 +9,8 @@ on:
 jobs:
   screen_universe:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -50,4 +52,3 @@ jobs:
           git add data/reports/ data/history/ data/bhavcopy/ data/fo/
           git diff --staged --quiet || git commit -m "Auto: Daily screening report $(date +'%Y-%m-%d') [skip ci]"
           git push || echo "No changes to push or push failed"
-
