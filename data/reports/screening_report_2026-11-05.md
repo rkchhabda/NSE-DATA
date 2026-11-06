@@ -1,72 +1,56 @@
 # NSE Data Integrity & Swing Trading Report (2026-11-05)
 
-**Market Regime:** Breadth 63.8% of universe above 20 EMA | Regime Score: 67/100
+**Market Regime:** Breadth 33.2% of universe above 20 EMA | Regime Score: 44/100
 
 ---
 
 ## Summary Verdicts
 
-- **BUY NOW:** 333 stocks
-- **WAIT FOR BREAKOUT:** 90 stocks
-- **WATCH:** 2319 stocks
+- **BUY NOW:** 0 stocks
+- **WAIT FOR BREAKOUT:** 128 stocks
+- **WATCH:** 2614 stocks
 - **EXCLUDED:** 0 stocks
 
 ## 🟢 BUY NOW (High Conviction & Data Verified)
 
-| Symbol | CMP (₹) | Conviction | Data Conf | Tech | Fund | Sent | Stop Loss | Target 1 | Target 2 | R:R |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **AEROPLANE** | ₹242.5 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹224.56 | ₹266.42 | ₹284.36 | 1:1.33 |
-| **ASIANPAINT** | ₹2523.8 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹2428.81 | ₹2650.46 | ₹2745.46 | 1:1.33 |
-| **CIPLA** | ₹1404.1 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹1363.78 | ₹1457.86 | ₹1498.18 | 1:1.33 |
-| **EICHERMOT** | ₹7713.0 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹7456.45 | ₹8055.06 | ₹8311.6 | 1:1.33 |
-| **ETERNAL** | ₹358.3 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹342.91 | ₹378.82 | ₹394.21 | 1:1.33 |
-| **GUFICBIO** | ₹434.45 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹409.79 | ₹467.33 | ₹491.99 | 1:1.33 |
-| **HEALTHIETF** | ₹172.24 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹166.65 | ₹179.7 | ₹185.3 | 1:1.33 |
-| **HEROMOTOCO** | ₹5514.0 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹5291.74 | ₹5810.34 | ₹6032.6 | 1:1.33 |
-| **INDIANB** | ₹892.15 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹857.89 | ₹937.83 | ₹972.09 | 1:1.33 |
-| **JKCEMENT** | ₹5250.1 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹5016.49 | ₹5561.58 | ₹5795.19 | 1:1.33 |
-| **JSWSTEEL** | ₹1355.6 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹1306.56 | ₹1420.98 | ₹1470.01 | 1:1.33 |
-| **KOTAKBANK** | ₹467.0 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹451.73 | ₹487.36 | ₹502.63 | 1:1.33 |
-| **NAVINFLUOR** | ₹8845.0 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹8411.69 | ₹9422.74 | ₹9856.05 | 1:1.33 |
-| **PSUBANK** | ₹85.87 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹83.17 | ₹89.47 | ₹92.17 | 1:1.33 |
-| **PSUBNKBEES** | ₹95.44 | **89** | 80.5 (minor gaps) | 100 | 100 | 75 | ₹92.27 | ₹99.66 | ₹102.83 | 1:1.33 |
+- *No stocks met all strict BUY NOW criteria simultaneously today.*
 
 ## 🟡 WAIT FOR BREAKOUT (Validated Setups Coiling at Resistance)
 
 | Symbol | CMP (₹) | Conviction | Data Conf | Tech | Key Trigger / Setup | Target 1 |
 |---|---|---|---|---|---|---|
-| **ATALREAL** | ₹14.81 | 84 | 80.5 | 95 | Entry: 14.74 - 14.88 | ₹16.47 |
-| **EMAMILTD** | ₹388.05 | 84 | 80.5 | 95 | Entry: 386.11 - 389.99 | ₹410.99 |
-| **GLENMARK** | ₹2481.8 | 84 | 80.5 | 93 | Entry: 2469.39 - 2494.21 | ₹2627.26 |
-| **MANKIND** | ₹2518.0 | 84 | 80.5 | 93 | Entry: 2505.41 - 2530.59 | ₹2663.92 |
-| **NHPC** | ₹80.6 | 84 | 80.5 | 95 | Entry: 80.2 - 81.0 | ₹84.68 |
-| **NUVAMA** | ₹1873.4 | 84 | 80.5 | 93 | Entry: 1864.03 - 1882.77 | ₹2025.14 |
-| **NYKAA** | ₹350.3 | 84 | 80.5 | 93 | Entry: 348.55 - 352.05 | ₹372.38 |
-| **ADANIPOWER** | ₹204.0 | 81 | 80.5 | 85 | Entry: 202.98 - 205.02 | ₹216.86 |
-| **INFOBEAN** | ₹168.14 | 81 | 80.5 | 85 | Entry: 167.3 - 168.98 | ₹187.58 |
-| **IREDA** | ₹110.15 | 81 | 80.5 | 85 | Entry: 109.6 - 110.7 | ₹116.79 |
-| **ISGEC** | ₹974.05 | 81 | 80.5 | 85 | Entry: 969.18 - 978.92 | ₹1042.09 |
-| **KOLTEPATIL** | ₹469.3 | 81 | 80.5 | 85 | Entry: 466.95 - 471.65 | ₹513.38 |
-| **MAHABANK** | ₹85.1 | 81 | 80.5 | 85 | Entry: 84.67 - 85.53 | ₹90.52 |
-| **NITCO** | ₹87.38 | 81 | 80.5 | 85 | Entry: 86.94 - 87.82 | ₹96.96 |
-| **SBC** | ₹66.79 | 81 | 80.5 | 85 | Entry: 66.46 - 67.12 | ₹71.07 |
+| **AEROPLANE** | ₹242.5 | 86 | 76.5 | 98 | Entry: 241.29 - 243.71 | ₹267.9 |
+| **BHARTIARTL** | ₹2056.9 | 86 | 76.5 | 98 | Entry: 2046.62 - 2067.18 | ₹2145.98 |
+| **CANTABIL** | ₹260.15 | 86 | 76.5 | 98 | Entry: 258.85 - 261.45 | ₹276.53 |
+| **DIVISLAB** | ₹10140.5 | 86 | 76.5 | 100 | Entry: 10089.8 - 10191.2 | ₹10648.22 |
+| **HDFCPVTBAN** | ₹29.12 | 86 | 76.5 | 98 | Entry: 28.97 - 29.27 | ₹30.34 |
+| **IIFLCAPS** | ₹349.35 | 86 | 76.5 | 98 | Entry: 347.6 - 351.1 | ₹358.95 |
+| **NAVINFLUOR** | ₹8845.0 | 86 | 76.5 | 98 | Entry: 8800.77 - 8889.22 | ₹9418.54 |
+| **NV20IETF** | ₹13.81 | 86 | 76.5 | 98 | Entry: 13.74 - 13.88 | ₹14.37 |
+| **PETRONET** | ₹317.0 | 86 | 76.5 | 98 | Entry: 315.42 - 318.58 | ₹332.08 |
+| **PHARMABEES** | ₹28.41 | 86 | 76.5 | 100 | Entry: 28.27 - 28.55 | ₹30.33 |
+| **PSUBNKBEES** | ₹95.44 | 86 | 76.5 | 100 | Entry: 94.96 - 95.92 | ₹99.66 |
+| **QNIFTY** | ₹270.82 | 86 | 76.5 | 98 | Entry: 269.47 - 272.17 | ₹281.64 |
+| **TATACONSUM** | ₹1077.7 | 86 | 76.5 | 100 | Entry: 1072.31 - 1083.09 | ₹1129.82 |
+| **TOP10ADD** | ₹90.98 | 86 | 76.5 | 100 | Entry: 90.53 - 91.43 | ₹93.98 |
+| **PERSISTENT** | ₹6109.5 | 85 | 76.5 | 100 | Entry: 6078.95 - 6140.05 | ₹6481.52 |
 
 ## 🟠 Top WATCHLIST Candidates
 
 | Symbol | CMP (₹) | Conviction | Data Conf | Validation Status | Top Reason |
 |---|---|---|---|---|---|
-| **AONETOTAL** | ₹11.82 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **BANK10ADD** | ₹17.32 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **BANKBETA** | ₹59.71 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **BEARDSELL** | ₹25.25 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **BNKETFAXIS** | ₹594.81 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **BSE500IETF** | ₹39.36 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **CEMNTGROWW** | ₹14.44 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **DIVIDEND** | ₹35.53 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **EBANKNIFTY** | ₹58.18 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **ELMDIV** | ₹36.46 | 89 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **FLEXIADD** | ₹10.07 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
-| **GROWWLOVOL** | ₹10.33 | 89 | 73.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **BANK10ADD** | ₹17.32 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **BSLSENETFG** | ₹80.08 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **DIVOPPBEES** | ₹77.08 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **DLF** | ₹745.2 | 86 | 76.5 | VERIFIED (weaker: volume: NSE's two files agree (same origin); indicators: computed from NSE history, no vendor match) | Data Confidence >= 80; History adjusted, gap-free, sufficient |
+| **GKWLIMITED** | ₹1670.6 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **HDFCPSUBK** | ₹86.61 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **HDFCSENSEX** | ₹89.65 | 86 | 49 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **IDFNIFTYET** | ₹270.11 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **INDIANB** | ₹892.15 | 86 | 76.5 | VERIFIED (weaker: volume: NSE's two files agree (same origin); indicators: computed from NSE history, no vendor match) | Data Confidence >= 80; History adjusted, gap-free, sufficient |
+| **MOBANK10** | ₹17.53 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **NIRLON** | ₹638.65 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
+| **NPBET** | ₹295.98 | 86 | 69.0 | UNVERIFIED DATA | Data Confidence >= 80; CMP verified |
 
 ---
 **Disclaimer:** Screening aid based on rule-based checks of verified data. Not investment advice.
