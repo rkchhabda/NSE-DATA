@@ -340152,7 +340152,7 @@
             "score": 70
           },
           "macd": {
-            "value": 0.0,
+            "value": -0.0,
             "primary": "internal",
             "validated_by": [],
             "outliers": [],
