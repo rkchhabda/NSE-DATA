@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-02",
+  "fetched_at_ist": "2026-11-06T09:12:47+05:30",
+  "files": {
+    "bse": {
+      "source": "https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20261102_F_0000.CSV",
+      "path": "data\\raw\\2026-11-02\\BhavCopy_BSE_CM_0_0_0_20261102_F_0000.CSV",
+      "sha256": "fc79c0603fb0513fb57cdcffba3b52ab54bd41813a5810c2abe3dc0999459f4b"
+    }
+  },
+  "rows_total": 5189,
+  "rows_unusable": 0,
+  "rows_no_trades": 0
+}

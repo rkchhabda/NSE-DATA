@@ -19,12 +19,16 @@ import json
 import os
 import subprocess
 import sys
-from datetime import datetime
+from datetime import datetime, time as dtime, timedelta, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
 
 WORKSPACE_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(WORKSPACE_ROOT))
+
+from pipeline.fetchers.nse_bhavcopy import is_trading_day, load_holidays
+
+IST = timezone(timedelta(hours=5, minutes=30))
 NON_EQUITY_SUFFIXES = ("BEES", "ETF", "IETF", "GOLD", "SILVER", "LIQUID", "GSEC", "NIFTY", "SENSEX")
 
 
@@ -47,6 +51,67 @@ def get_latest_available_date(bhav_dir: Path) -> str:
     return files[-1]
 
 
+def ensure_bhavcopy_available(date_str: str) -> bool:
+    """Ensures NSE & BSE Bhavcopy files exist for date_str, downloading if missing."""
+    bhav_path = WORKSPACE_ROOT / "data" / "bhavcopy" / f"{date_str}.csv"
+    bse_path = WORKSPACE_ROOT / "data" / "bse" / f"{date_str}.csv"
+
+    # 1. NSE Cash Bhavcopy
+    if not bhav_path.exists():
+        print(f"  [>] Fetching & normalizing NSE Bhavcopy for {date_str}...")
+        res = subprocess.run(
+            [sys.executable, "pipeline/fetchers/nse_bhavcopy.py", "--date", date_str],
+            cwd=str(WORKSPACE_ROOT), capture_output=True, text=True
+        )
+        if res.returncode != 0 or not bhav_path.exists():
+            print(f"  [!] NSE Bhavcopy for {date_str} not available (code {res.returncode}).")
+            return False
+
+    # 2. BSE Cash Bhavcopy
+    if not bse_path.exists():
+        print(f"  [>] Fetching & normalizing BSE Bhavcopy for {date_str}...")
+        try:
+            subprocess.run(
+                [sys.executable, "pipeline/fetchers/bse_bhavcopy.py", "--date", date_str],
+                cwd=str(WORKSPACE_ROOT), capture_output=True, text=True
+            )
+        except Exception as e:
+            print(f"  [!] Note: BSE Bhavcopy not fetched for {date_str} ({e}).")
+
+    return bhav_path.exists()
+
+
+def resolve_target_date(bhav_dir: Path, requested_date: Optional[str] = None) -> str:
+    """Resolves target trading date, automatically fetching new Bhavcopies if missing."""
+    if requested_date:
+        ensure_bhavcopy_available(requested_date)
+        return requested_date
+
+    holidays_file = WORKSPACE_ROOT / "pipeline" / "config" / "holidays.txt"
+    holidays = load_holidays(str(holidays_file))
+    now = datetime.now(IST)
+
+    # Candidate date: today if >= 17:15 IST and is trading day, else prior trading day
+    d = now.date()
+    if is_trading_day(d, holidays) and now.time() >= dtime(17, 15):
+        candidate = d
+    else:
+        candidate = d - timedelta(days=1)
+        while not is_trading_day(candidate, holidays):
+            candidate -= timedelta(days=1)
+
+    # Attempt to fetch/verify for candidate date; if unreleased, walk backward
+    for _ in range(5):
+        cand_str = candidate.strftime("%Y-%m-%d")
+        if ensure_bhavcopy_available(cand_str):
+            return cand_str
+        candidate -= timedelta(days=1)
+        while not is_trading_day(candidate, holidays):
+            candidate -= timedelta(days=1)
+
+    return get_latest_available_date(bhav_dir)
+
+
 def run_pipeline_step(cmd: List[str], desc: str) -> None:
     """Execute a pipeline command with clean error handling."""
     print(f"  [>] {desc}...")
@@ -59,8 +124,7 @@ def run_pipeline_step(cmd: List[str], desc: str) -> None:
 
 def run_daily(date_str: Optional[str] = None, top_n: int = 5, notify: bool = False) -> Dict:
     bhav_dir = WORKSPACE_ROOT / "data" / "bhavcopy"
-    if not date_str:
-        date_str = get_latest_available_date(bhav_dir)
+    date_str = resolve_target_date(bhav_dir, date_str)
 
     print("=" * 72)
     print(f"  NSE DAILY SWING TRADING PIPELINE: {date_str}")

@@ -16,5 +16,6 @@ logs/
 *.log
 cookies.txt
 .opt-expiry-cache/
+data/gate_input_*.json
 
 
