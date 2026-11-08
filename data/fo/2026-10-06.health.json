@@ -2,7 +2,7 @@
   "source": "nse_fo_bhavcopy",
   "date": "2026-10-06",
   "status": "OK",
-  "stocks_count": 0,
-  "indices_count": 0,
+  "stocks_count": 213,
+  "indices_count": 6,
   "sha256": "f0dcc4b7506c723a3a7496c9fbb288f8b4a66b6a68a3c02364bbcd462eb33950"
 }

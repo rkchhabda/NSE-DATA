@@ -395,8 +395,8 @@ def aggregate_symbol_derivatives(records: List[Dict], trading_date: date) -> Dic
     results = {}
 
     for sym, contracts in by_symbol.items():
-        fut_contracts = [c for c in contracts if c["instrument"] in ("FUTSTK", "FUTIDX")]
-        opt_contracts = [c for c in contracts if c["instrument"] in ("OPTSTK", "OPTIDX")]
+        fut_contracts = [c for c in contracts if c["instrument"] in ("FUTSTK", "FUTIDX", "STF", "IDF")]
+        opt_contracts = [c for c in contracts if c["instrument"] in ("OPTSTK", "OPTIDX", "STO", "IDO")]
 
         if not fut_contracts and not opt_contracts:
             continue
@@ -460,7 +460,7 @@ def aggregate_symbol_derivatives(records: List[Dict], trading_date: date) -> Dic
         put_wall = put_wall_contract["strike_price"] if put_wall_contract else None
         put_wall_oi = put_wall_contract["open_interest"] if put_wall_contract else 0.0
 
-        is_index = any(c["instrument"] in ("FUTIDX", "OPTIDX") for c in contracts)
+        is_index = any(c["instrument"] in ("FUTIDX", "OPTIDX", "IDF", "IDO") for c in contracts)
 
         results[sym] = {
             "symbol": sym,
