@@ -1,19 +1,19 @@
 # 📈 Recommendations & Model Predictive Accuracy Summary Sheet
 
-> **Last Updated:** 2026-11-08 09:27:08 IST  
+> **Last Updated:** 2026-11-08 09:58:51 IST  
 > **Tracking Period:** 2026-10-06 to 2026-11-06  
 
 ## 📊 Model Performance & Accuracy KPI
 
 | Metric | Value | Model Prediction Implication |
 |:---|:---:|:---|
-| **Total Tracked Recommendations** | **15** | Complete universe of shortlisted swing trades |
-| **Resolved Trades (Hit / Stop)** | **8** | 4 Target Hits 🎯 vs 4 Stop Loss Hits 🛑 |
-| **Win Rate on Resolved Trades** | **50.0%** | Target 1 or Target 2 hit before stop-loss |
-| **Profit Factor (Gain / Loss)** | **2.15x** | Gross profit generated for every ₹1 lost |
-| **Total Capital Allocated** | **₹1,609,452.11** | Sized strictly at 1% portfolio risk per trade |
-| **Net Realized & Unrealized P&L** | **₹+25,081.43 (+1.56%)** | Positive asymmetric compounding return |
-| **Active / Open Trades** | **7** | Ongoing swings currently under daily surveillance |
+| **Total Tracked Recommendations** | **22** | Complete universe of shortlisted swing trades |
+| **Resolved Trades (Hit / Stop)** | **14** | 10 Target Hits 🎯 vs 4 Stop Loss Hits 🛑 |
+| **Win Rate on Resolved Trades** | **71.4%** | Target 1 or Target 2 hit before stop-loss |
+| **Profit Factor (Gain / Loss)** | **2.32x** | Gross profit generated for every ₹1 lost |
+| **Total Capital Allocated** | **₹2,326,436.07** | Sized strictly at 1% portfolio risk per trade |
+| **Net Realized & Unrealized P&L** | **₹+29,562.47 (+1.27%)** | Positive asymmetric compounding return |
+| **Active / Open Trades** | **8** | Ongoing swings currently under daily surveillance |
 
 ---
 
@@ -21,8 +21,8 @@
 
 | Conviction Tier | Trades Tracked | Win / On-Track Rate | Avg Peak Gain (MFE %) | Predictive Quality |
 |:---|:---:|:---:|:---:|:---|
-| **High Conviction (≥ 85 / 100)** | **11** | **72.7%** | **+4.96%** | 🟢 Superior accuracy & asymmetric upside |
-| **Moderate Conviction (< 85 / 100)** | **4** | **25.0%** | **+4.03%** | 🟡 Requires strict trailing stop discipline |
+| **High Conviction (≥ 85 / 100)** | **10** | **40.0%** | **+4.22%** | 🟢 Superior accuracy & asymmetric upside |
+| **Moderate Conviction (< 85 / 100)** | **12** | **75.0%** | **+5.14%** | 🟡 Requires strict trailing stop discipline |
 
 ---
 
@@ -31,15 +31,22 @@
 | Date | Symbol | Conviction | Entry (₹) | Target 1 (₹) | SL (₹) | CMP (₹) | MFE % (Peak) | MAE % (Drawdown) | Realized R:R | P&L (%) | Accuracy % | Model Verdict |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 | 2026-11-05 | **AEROPLANE** | **89** | ₹242.50 | ₹266.42 | ₹224.56 | ₹238.71 | -0.51% | -3.92% | **-0.21R** | **-1.56%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
-| 2026-11-05 | **ASIANPAINT** | **89** | ₹2523.80 | ₹2650.46 | ₹2428.81 | ₹2546.00 | +0.88% | -2.83% | **+0.23R** | **+0.88%** | 17.5% | 🟢 ON TRACK (IN PROFIT) |
-| 2026-11-05 | **CIPLA** | **89** | ₹1404.10 | ₹1457.86 | ₹1363.78 | ₹1411.00 | +0.49% | -1.57% | **+0.17R** | **+0.49%** | 12.8% | 🟢 ON TRACK (IN PROFIT) |
+| 2026-11-05 | **ASIANPAINT** | **89** | ₹2548.55 | ₹2650.46 | ₹2428.81 | ₹2546.00 | -0.10% | -3.78% | **-0.02R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
+| 2026-11-05 | **CIPLA** | **89** | ₹1412.41 | ₹1457.86 | ₹1363.78 | ₹1411.00 | -0.10% | -2.15% | **-0.03R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
 | 2026-11-05 | **EICHERMOT** | **89** | ₹7713.00 | ₹8055.06 | ₹7456.45 | ₹7669.50 | -0.40% | -2.28% | **-0.17R** | **-0.56%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
-| 2026-11-05 | **ETERNAL** | **89** | ₹358.30 | ₹378.82 | ₹342.91 | ₹363.15 | +1.35% | -1.23% | **+0.32R** | **+1.35%** | 23.6% | 🟢 ON TRACK (IN PROFIT) |
-| 2026-10-30 | **ETERNAL** | **86** | ₹343.65 | ₹364.79 | ₹327.79 | ₹363.15 | +5.67% | -1.06% | **+1.23R** | **+5.67%** | 92.2% | 🟢 ON TRACK (IN PROFIT) |
-| 2026-10-30 | **SAREGAMA** | **86** | ₹548.65 | ₹587.73 | ₹519.34 | ₹619.65 | +22.30% | -1.29% | **+2.33R** | **+12.47%** | 100.0% | 🎯 ACCURATE (TARGET 2 HIT) |
+| 2026-11-05 | **ETERNAL** | **89** | ₹363.51 | ₹378.82 | ₹342.91 | ₹363.15 | -0.10% | -2.64% | **-0.02R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
+| 2026-10-30 | **SAREGAMA** | **86** | ₹565.70 | ₹587.73 | ₹519.34 | ₹619.65 | +18.61% | -4.27% | **+1.11R** | **+9.08%** | 100.0% | 🎯 ACCURATE (TARGET 2 HIT) |
 | 2026-10-30 | **TATACONSUM** | **86** | ₹1025.90 | ₹1077.76 | ₹987.01 | ₹1086.30 | +5.89% | -0.53% | **+1.33R** | **+5.06%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
 | 2026-10-30 | **ADANIPORTS** | **85** | ₹1850.00 | ₹1953.50 | ₹1772.38 | ₹1936.60 | +5.35% | -1.51% | **+1.12R** | **+4.68%** | 83.7% | 🟢 ON TRACK (IN PROFIT) |
 | 2026-10-30 | **ANANDRATHI** | **85** | ₹2252.00 | ₹2344.12 | ₹2182.91 | ₹2373.50 | +6.13% | +0.02% | **+1.33R** | **+4.09%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
+| 2026-10-30 | **INDIANB** | **84** | ₹877.63 | ₹900.00 | ₹833.52 | ₹902.00 | +2.78% | -3.76% | **+0.51R** | **+2.55%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
+| 2026-10-30 | **ETERNAL** | **82** | ₹343.65 | ₹350.00 | ₹327.85 | ₹363.15 | +5.67% | -1.06% | **+0.40R** | **+1.85%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
+| 2026-10-30 | **BANKBARODA** | **82** | ₹246.02 | ₹245.00 | ₹230.63 | ₹250.31 | +2.16% | -1.77% | **+0.06R** | **-0.41%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
+| 2026-10-30 | **SONACOMS** | **82** | ₹890.50 | ₹900.00 | ₹846.49 | ₹900.00 | +3.17% | -1.41% | **+0.22R** | **+1.07%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
+| 2026-10-30 | **BHARTIARTL** | **80** | ₹1973.70 | ₹2000.00 | ₹1908.43 | ₹2107.20 | +7.41% | +0.21% | **+0.40R** | **+1.33%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
+| 2026-10-30 | **VIRAT** | **72** | ₹414.20 | ₹469.60 | ₹372.65 | ₹419.10 | +5.26% | -1.74% | **+0.12R** | **+1.18%** | 8.8% | 🟢 ON TRACK (IN PROFIT) |
+| 2026-10-30 | **LALITHAA** | **71** | ₹360.40 | ₹396.40 | ₹333.40 | ₹373.50 | +5.15% | -3.55% | **+0.49R** | **+3.63%** | 36.4% | 🟢 ON TRACK (IN PROFIT) |
+| 2026-10-30 | **PERMAGN** | **71** | ₹960.75 | ₹1090.25 | ₹863.62 | ₹1078.35 | +14.02% | -5.07% | **+1.33R** | **+13.48%** | 100.0% | 🎯 ACCURATE (TARGET 1 HIT) |
 | 2026-10-06 | **ONEGLOBAL** | **85** | ₹564.00 | ₹619.14 | ₹522.64 | ₹365.45 | +7.45% | -41.49% | **-1.00R** | **-7.33%** | 0.0% | 🛑 STOPPED OUT (PRESERVED) |
 | 2026-10-06 | **AXTEL** | **83** | ₹447.95 | ₹484.87 | ₹420.26 | ₹387.30 | +0.46% | -16.53% | **-1.00R** | **-6.18%** | 0.0% | 🛑 STOPPED OUT (PRESERVED) |
 | 2026-10-06 | **JNPR** | **82** | ₹280.60 | ₹306.94 | ₹260.85 | ₹255.81 | +1.07% | -20.46% | **-1.00R** | **-7.04%** | 0.0% | 🛑 STOPPED OUT (PRESERVED) |

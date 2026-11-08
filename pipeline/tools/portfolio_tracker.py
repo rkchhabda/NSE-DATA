@@ -96,7 +96,15 @@ def add_recommendation(
     recs = load_recommendations()
     for r in recs:
         if r["symbol"] == symbol and r["date"] == rec_date:
-            return  # already exists
+            if r.get("status") == "OPEN":
+                r["conviction_score"] = conviction_score
+                r["technical_score"] = technical_score
+                r["entry_price"] = round(entry_price, 2)
+                r["stop_loss"] = round(stop_loss, 2)
+                r["target_1"] = round(target_1, 2)
+                r["target_2"] = round(target_2, 2) if target_2 else round(target_1 * 1.05, 2)
+                save_recommendations(recs)
+            return
 
     recs.append({
         "symbol": symbol.upper(),

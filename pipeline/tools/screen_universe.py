@@ -186,6 +186,79 @@ def score_sentiment(stock: dict) -> Tuple[int, dict]:
     return min(100, score), {"deliv_pct": deliv_pct, "turnover_lacs": turnover}
 
 
+def score_derivatives(stock: dict, cmp_val: float) -> Tuple[int, dict]:
+    """
+    Score F&O derivatives and smart-money institutional flow (0-100).
+    F&O equities with confirmed institutional buildup receive high scores (up to 100).
+    Cash-only equities receive a calibrated baseline (45-55) reflecting higher liquidity/circuit risk.
+    """
+    fo = stock.get("fo") or stock.get("extras", {}).get("fo")
+    if not fo:
+        # Cash equity: evaluate cash delivery conviction as proxy
+        extras = stock.get("extras", {})
+        deliv = extras.get("delivery_pct", 0.0) or 0.0
+        base = 45
+        if deliv >= 65.0:
+            base = 55
+        elif deliv >= 50.0:
+            base = 50
+        return base, {"segment": "CASH_ONLY", "fo_available": False, "delivery_pct": deliv}
+
+    buildup = fo.get("buildup", "NEUTRAL")
+    call_wall = fo.get("call_wall")
+    put_wall = fo.get("put_wall")
+    pcr = fo.get("pcr_oi", 1.0)
+    fut_oi_chg = fo.get("fut_oi_change_pct", 0.0)
+
+    # 1. Buildup Analysis (40 pts)
+    if buildup == "LONG_BUILDUP":
+        b_pts = 40
+    elif buildup == "NEUTRAL":
+        b_pts = 28
+    elif buildup == "SHORT_COVERING":
+        b_pts = 12
+    elif buildup == "LONG_UNWINDING":
+        b_pts = 8
+    else:  # SHORT_BUILDUP
+        b_pts = 0
+
+    # 2. Call Wall Headroom & Option Resistance (25 pts)
+    cw_pts = 15
+    if call_wall and cmp_val > 0:
+        headroom = ((call_wall - cmp_val) / cmp_val) * 100.0
+        if headroom >= 3.0:
+            cw_pts = 25  # Ample room to reach swing targets before option writer resistance
+        elif headroom >= 1.0:
+            cw_pts = 15
+        else:
+            cw_pts = 0   # Hitting heavy Call Wall resistance ceiling
+
+    # 3. Put Wall Floor & Support Cushion (15 pts)
+    pw_pts = 10
+    if put_wall and put_wall <= cmp_val:
+        pw_pts = 15      # Solid institutional Put Wall floor below price
+
+    # 4. Put-Call Ratio (PCR by Open Interest) (20 pts)
+    pcr_pts = 10
+    if 0.95 <= pcr <= 1.40:
+        pcr_pts = 20     # Ideal bullish cushion without being overbought
+    elif 0.80 <= pcr < 0.95:
+        pcr_pts = 14
+    elif pcr < 0.70 or pcr > 1.60:
+        pcr_pts = 5      # Extreme call heavy or extreme put heavy
+
+    total_score = min(100, max(0, b_pts + cw_pts + pw_pts + pcr_pts))
+    return total_score, {
+        "segment": "F&O",
+        "fo_available": True,
+        "buildup": buildup,
+        "call_wall": call_wall,
+        "put_wall": put_wall,
+        "pcr_oi": pcr,
+        "fut_oi_change_pct": fut_oi_chg,
+    }
+
+
 def score_backtest(stock: dict) -> Tuple[int, dict]:
     """Score historical strategy robustness (0-100)."""
     # Swing setup backtest simulation score
@@ -229,33 +302,36 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
     fund_score, fund_details = score_fundamental(stock)
     sent_score, sent_details = score_sentiment(stock)
     bt_score, bt_details = score_backtest(stock)
+    deriv_score, deriv_details = score_derivatives(stock, cmp_val)
 
     brk = stock.get("extras", {}).get("breakout_20") or {}
     near_breakout = (brk.get("pct_from_high") is not None and -2.5 <= brk["pct_from_high"] <= 1.0)
     fallback = "WAIT FOR BREAKOUT" if near_breakout else "WATCH"
 
     fo = stock.get("fo") or stock.get("extras", {}).get("fo")
-    fo_bonus = 0
     if fo:
         buildup = fo.get("buildup")
-        if buildup == "LONG_BUILDUP":
-            fo_bonus = 5
-        elif buildup == "SHORT_COVERING":
-            fo_bonus = -5
-            fallback = "WAIT FOR BREAKOUT"  # protect against entering pure short-covering spikes
-        elif buildup == "SHORT_BUILDUP":
-            fo_bonus = -10
+        if buildup == "SHORT_BUILDUP":
+            tech_score = min(tech_score, 70)  # Institutional short positioning disqualifies BUY NOW
             fallback = "WATCH"
+        elif buildup == "SHORT_COVERING":
+            fallback = "WAIT FOR BREAKOUT"  # Protect against entering pure short-covering spikes
         elif buildup == "LONG_UNWINDING":
-            fo_bonus = -5
+            fallback = "WATCH"
 
+    # 5-Pillar Conviction Score:
+    # 1. Technicals: 30%
+    # 2. Derivatives & Institutional Flow: 20%
+    # 3. Fundamentals: 20%
+    # 4. Sentiment & Delivery: 15%
+    # 5. Market Regime: 15%
     conviction = int(round(
-        tech_score * 0.35 +
-        fund_score * 0.25 +
+        tech_score * 0.30 +
+        deriv_score * 0.20 +
+        fund_score * 0.20 +
         sent_score * 0.15 +
-        bt_score * 0.15 +
-        regime_score * 0.10
-    )) + fo_bonus
+        regime_score * 0.15
+    ))
     conviction = max(0, min(100, conviction))
 
     # Upstream qualification
@@ -274,6 +350,7 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
         "fundamental": fund_score,
         "sentiment": sent_score,
         "backtest": bt_score,
+        "derivatives": deriv_score,
     }
     stock["conviction_score"] = conviction
     stock["setup"] = {"fallback_status": fallback}
@@ -309,6 +386,10 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
 
     # Run deterministic gate
     gate_res = gate_check.evaluate(stock)
+    gate_status = gate_res["status"]
+    if gate_status == "BUY NOW" and fo and fo.get("buildup") == "SHORT_COVERING":
+        gate_status = "WAIT FOR BREAKOUT"
+        gate_res["failed_conditions"].append("Derivatives: Pure short covering rally - wait for breakout")
 
     # Attach trade setup if qualified
     atr_val = ev.get("indicators", {}).get("atr14", {}).get("internal")
@@ -331,7 +412,7 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
         "isin": stock.get("isin"),
         "trading_date": stock.get("trading_date"),
         "cmp": cmp_val,
-        "gate_status": gate_res["status"],
+        "gate_status": gate_status,
         "data_confidence": gate_res["data_confidence"]["score"],
         "data_band": gate_res["data_confidence"]["band"],
         "validation_status": gate_res["validation_status"],
@@ -341,6 +422,7 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
         "validation": gate_res["validation"],
         "trade_setup": trade_plan,
         "tech_details": tech_details,
+        "deriv_details": deriv_details,
         "fo": fo,
     }
 
@@ -370,15 +452,18 @@ def render_markdown_report(screened: List[dict], regime_info: dict, date_str: st
     if buy_now:
         buy_now.sort(key=lambda x: -x["conviction_score"])
         out += [
-            "| Symbol | CMP (₹) | Conviction | Data Conf | Tech | Fund | Sent | Stop Loss | Target 1 | Target 2 | R:R |",
-            "|---|---|---|---|---|---|---|---|---|---|---|",
+            "| Symbol | Segment | CMP (₹) | Conviction | Data Conf | Tech | Deriv | Fund | Sent | Stop Loss | Target 1 | Target 2 | R:R |",
+            "|---|---|---|---|---|---|---|---|---|---|---|---|---|",
         ]
         for s in buy_now[:15]:
             ts = s["trade_setup"]
             sc = s["upstream_scores"]
+            fo_info = s.get("fo")
+            segment_badge = f"F&O ({fo_info.get('buildup', 'NEUTRAL')})" if fo_info else "CASH"
+            deriv_val = sc.get("derivatives", "-")
             out.append(
-                f"| **{s['symbol']}** | ₹{s['cmp']} | **{s['conviction_score']}** | "
-                f"{s['data_confidence']} ({s['data_band']}) | {sc['technical']} | {sc['fundamental']} | "
+                f"| **{s['symbol']}** | {segment_badge} | ₹{s['cmp']} | **{s['conviction_score']}** | "
+                f"{s['data_confidence']} ({s['data_band']}) | {sc['technical']} | {deriv_val} | {sc['fundamental']} | "
                 f"{sc['sentiment']} | ₹{ts['stop_loss']} | ₹{ts['target_1']} | ₹{ts['target_2']} | {ts['risk_reward_t1']} |"
             )
         out.append("")
@@ -391,15 +476,18 @@ def render_markdown_report(screened: List[dict], regime_info: dict, date_str: st
     if breakout:
         breakout.sort(key=lambda x: -x["conviction_score"])
         out += [
-            "| Symbol | CMP (₹) | Conviction | Data Conf | Tech | Key Trigger / Setup | Target 1 |",
-            "|---|---|---|---|---|---|---|",
+            "| Symbol | Segment | CMP (₹) | Conviction | Data Conf | Tech | Deriv | Key Trigger / Setup | Target 1 |",
+            "|---|---|---|---|---|---|---|---|---|",
         ]
         for s in breakout[:15]:
             ts = s["trade_setup"]
             sc = s["upstream_scores"]
+            fo_info = s.get("fo")
+            segment_badge = f"F&O ({fo_info.get('buildup', 'NEUTRAL')})" if fo_info else "CASH"
+            deriv_val = sc.get("derivatives", "-")
             out.append(
-                f"| **{s['symbol']}** | ₹{s['cmp']} | {s['conviction_score']} | "
-                f"{s['data_confidence']} | {sc['technical']} | Entry: {ts['entry_range']} | ₹{ts['target_1']} |"
+                f"| **{s['symbol']}** | {segment_badge} | ₹{s['cmp']} | {s['conviction_score']} | "
+                f"{s['data_confidence']} | {sc['technical']} | {deriv_val} | Entry: {ts['entry_range']} | ₹{ts['target_1']} |"
             )
         out.append("")
     else:
@@ -410,13 +498,15 @@ def render_markdown_report(screened: List[dict], regime_info: dict, date_str: st
     out += ["## 🟠 Top WATCHLIST Candidates", ""]
     watch.sort(key=lambda x: -x["conviction_score"])
     out += [
-        "| Symbol | CMP (₹) | Conviction | Data Conf | Validation Status | Top Reason |",
-        "|---|---|---|---|---|---|",
+        "| Symbol | Segment | CMP (₹) | Conviction | Data Conf | Validation Status | Top Reason |",
+        "|---|---|---|---|---|---|---|",
     ]
     for s in watch[:12]:
+        fo_info = s.get("fo")
+        segment_badge = f"F&O ({fo_info.get('buildup', 'NEUTRAL')})" if fo_info else "CASH"
         reasons = "; ".join(s["failed_conditions"][:2]) if s["failed_conditions"] else "Consolidating"
         out.append(
-            f"| **{s['symbol']}** | ₹{s['cmp']} | {s['conviction_score']} | "
+            f"| **{s['symbol']}** | {segment_badge} | ₹{s['cmp']} | {s['conviction_score']} | "
             f"{s['data_confidence']} | {s['validation_status']} | {reasons} |"
         )
     out.append("")
@@ -445,6 +535,23 @@ def main(argv=None):
 
     stocks = data["stocks"] if isinstance(data, dict) and "stocks" in data else data
     print(f"Screening {len(stocks)} stocks for date {a.date}...")
+
+    # Load F&O derivatives data if available for this date
+    fo_path = os.path.join("data", "fo", f"{a.date}.json")
+    fo_stocks = {}
+    if os.path.exists(fo_path):
+        try:
+            with open(fo_path, "r", encoding="utf-8") as f:
+                fo_data = json.load(f)
+                fo_stocks = fo_data.get("stocks", {})
+            print(f"Loaded F&O derivatives data for {len(fo_stocks)} symbols from {fo_path}")
+        except Exception as e:
+            print(f"Warning: Failed to load F&O data from {fo_path}: {e}")
+
+    for s in stocks:
+        sym = s.get("symbol")
+        if sym in fo_stocks:
+            s["fo"] = fo_stocks[sym]
 
     # Enable computed indicators in gate check for internal calculations
     gate_check.CONFIG["allow_computed_only_indicators"] = True

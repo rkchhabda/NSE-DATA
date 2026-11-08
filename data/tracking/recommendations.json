@@ -11,7 +11,8 @@
     "notes": "Screening Top 5 pick (Conviction 85/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 98
   },
   {
     "symbol": "AXTEL",
@@ -25,7 +26,8 @@
     "notes": "Screening Top 5 pick (Conviction 83/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 90
   },
   {
     "symbol": "JNPR",
@@ -39,7 +41,8 @@
     "notes": "Screening Top 5 pick (Conviction 82/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 93
   },
   {
     "symbol": "KNACK",
@@ -53,7 +56,8 @@
     "notes": "Screening Top 5 pick (Conviction 79/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 85
   },
   {
     "symbol": "SHRADDHA",
@@ -67,26 +71,28 @@
     "notes": "Screening Top 5 pick (Conviction 79/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 80
   },
   {
     "symbol": "ETERNAL",
     "date": "2026-10-30",
     "entry_price": 343.65,
-    "stop_loss": 327.79,
-    "target_1": 364.79,
-    "target_2": 380.64,
+    "stop_loss": 327.85,
+    "target_1": 350.0,
+    "target_2": 380.5,
     "shares": 315,
-    "conviction_score": 86,
+    "conviction_score": 82,
     "notes": "Screening Top 5 pick (Conviction 86/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 100
   },
   {
     "symbol": "SAREGAMA",
     "date": "2026-10-30",
-    "entry_price": 548.65,
+    "entry_price": 565.7,
     "stop_loss": 519.34,
     "target_1": 587.73,
     "target_2": 617.04,
@@ -95,7 +101,8 @@
     "notes": "Screening Top 5 pick (Conviction 86/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 86
   },
   {
     "symbol": "TATACONSUM",
@@ -156,7 +163,7 @@
   {
     "symbol": "ASIANPAINT",
     "date": "2026-11-05",
-    "entry_price": 2523.8,
+    "entry_price": 2548.55,
     "stop_loss": 2428.81,
     "target_1": 2650.46,
     "target_2": 2745.46,
@@ -165,12 +172,13 @@
     "notes": "Screening Top 5 pick (Conviction 89/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 89
   },
   {
     "symbol": "CIPLA",
     "date": "2026-11-05",
-    "entry_price": 1404.1,
+    "entry_price": 1412.41,
     "stop_loss": 1363.78,
     "target_1": 1457.86,
     "target_2": 1498.18,
@@ -179,7 +187,8 @@
     "notes": "Screening Top 5 pick (Conviction 89/100)",
     "status": "OPEN",
     "exit_price": null,
-    "exit_date": null
+    "exit_date": null,
+    "technical_score": 89
   },
   {
     "symbol": "EICHERMOT",
@@ -198,13 +207,119 @@
   {
     "symbol": "ETERNAL",
     "date": "2026-11-05",
-    "entry_price": 358.3,
+    "entry_price": 363.51,
     "stop_loss": 342.91,
     "target_1": 378.82,
     "target_2": 394.21,
     "shares": 325,
     "conviction_score": 89,
     "notes": "Screening Top 5 pick (Conviction 89/100)",
+    "status": "OPEN",
+    "exit_price": null,
+    "exit_date": null,
+    "technical_score": 89
+  },
+  {
+    "symbol": "VIRAT",
+    "date": "2026-10-30",
+    "entry_price": 414.2,
+    "stop_loss": 372.65,
+    "target_1": 469.6,
+    "target_2": 511.15,
+    "shares": 120,
+    "conviction_score": 72,
+    "technical_score": 80,
+    "notes": "Screening Top 5 pick (Conviction 72/100)",
+    "status": "OPEN",
+    "exit_price": null,
+    "exit_date": null
+  },
+  {
+    "symbol": "LALITHAA",
+    "date": "2026-10-30",
+    "entry_price": 360.4,
+    "stop_loss": 333.4,
+    "target_1": 396.4,
+    "target_2": 423.4,
+    "shares": 185,
+    "conviction_score": 71,
+    "technical_score": 80,
+    "notes": "Screening Top 5 pick (Conviction 71/100)",
+    "status": "OPEN",
+    "exit_price": null,
+    "exit_date": null
+  },
+  {
+    "symbol": "PERMAGN",
+    "date": "2026-10-30",
+    "entry_price": 960.75,
+    "stop_loss": 863.62,
+    "target_1": 1090.25,
+    "target_2": 1187.38,
+    "shares": 51,
+    "conviction_score": 71,
+    "technical_score": 80,
+    "notes": "Screening Top 5 pick (Conviction 71/100)",
+    "status": "OPEN",
+    "exit_price": null,
+    "exit_date": null
+  },
+  {
+    "symbol": "INDIANB",
+    "date": "2026-10-30",
+    "entry_price": 877.63,
+    "stop_loss": 833.52,
+    "target_1": 900.0,
+    "target_2": 940.12,
+    "shares": 156,
+    "conviction_score": 84,
+    "technical_score": 84,
+    "notes": "Screening Top 5 pick (Conviction 84/100)",
+    "status": "OPEN",
+    "exit_price": null,
+    "exit_date": null
+  },
+  {
+    "symbol": "BANKBARODA",
+    "date": "2026-10-30",
+    "entry_price": 246.02,
+    "stop_loss": 230.63,
+    "target_1": 245.0,
+    "target_2": 257.19,
+    "shares": 627,
+    "conviction_score": 82,
+    "technical_score": 82,
+    "notes": "Screening Top 5 pick (Conviction 82/100)",
+    "status": "OPEN",
+    "exit_price": null,
+    "exit_date": null
+  },
+  {
+    "symbol": "SONACOMS",
+    "date": "2026-10-30",
+    "entry_price": 890.5,
+    "stop_loss": 846.49,
+    "target_1": 900.0,
+    "target_2": 993.19,
+    "shares": 114,
+    "conviction_score": 82,
+    "technical_score": 95,
+    "notes": "Screening Top 5 pick (Conviction 82/100)",
+    "status": "OPEN",
+    "exit_price": null,
+    "exit_date": null
+  },
+  {
+    "symbol": "BHARTIARTL",
+    "date": "2026-10-30",
+    "entry_price": 1973.7,
+    "stop_loss": 1908.43,
+    "target_1": 2000.0,
+    "target_2": 2125.99,
+    "shares": 77,
+    "conviction_score": 80,
+    "technical_score": 98,
+    "notes": "Screening Top 5 pick (Conviction 80/100)",
     "status": "OPEN",
     "exit_price": null,
     "exit_date": null

@@ -1,16 +1,18 @@
 # NSE/BSE trading holidays falling on weekdays, one per line (YYYY-MM-DD). '#' starts a comment.
-# Weekends are skipped automatically. This list is PARTIAL: it holds only dates confirmed in
-# several published 2026 holiday lists. Complete and check it against NSE's official holiday
-# circular before relying on it; a missing holiday just means the run asks for a file that is not
-# there (reported as not published), a wrong extra date would skip a real trading day.
+# Weekends are skipped automatically.
 #
 # Sunday 8 Nov 2026 has a special Diwali (Laxmi Pujan) Muhurat trading session. Weekends are skipped,
 # so run that day with --force if you want it.
+2026-01-15   # Pongal / Municipal Election
 2026-01-26   # Republic Day
 2026-03-03   # Holi
 2026-03-26   # Ram Navami
 2026-03-31   # Mahavir Jayanti
 2026-04-03   # Good Friday
+2026-04-14   # Dr. Baba Saheb Ambedkar Jayanti
+2026-05-01   # Maharashtra Day
+2026-05-28   # Bakri Id / Eid-ul-Adha
+2026-06-26   # Muharram
 2026-09-14   # Ganesh Chaturthi
 2026-10-02   # Mahatma Gandhi Jayanti
 2026-10-20   # Dussehra
