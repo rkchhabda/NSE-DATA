@@ -9,6 +9,8 @@ on:
 jobs:
   morning_alert:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -36,10 +38,20 @@ jobs:
         run: |
           python pipeline/tools/run_daily.py --morning --notify --top 5
 
-      - name: Upload Morning Report Artifact
+      - name: Upload Morning Report & Tracking Sheet
         uses: actions/upload-artifact@v4
         with:
           name: morning-entry-report
-          path: data/reports/morning_entry_*.json
+          path: |
+            data/reports/morning_entry_*.json
+            data/tracking/
           retention-days: 7
+
+      - name: Commit and Push Updated Morning Reports & Tracking Sheet
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reports/ data/tracking/
+          git diff --staged --quiet || git commit -m "Auto: Morning entry report & tracking $(date +'%Y-%m-%d') [skip ci]"
+          git push || echo "No changes to push or push failed"
 

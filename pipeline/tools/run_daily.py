@@ -221,6 +221,14 @@ def run_daily(date_str: Optional[str] = None, top_n: int = 5, notify: bool = Fal
         "top_picks": top_picks
     }
 
+    # 6. Update recommendations tracking summary sheet
+    try:
+        from pipeline.tools.portfolio_tracker import update_tracking_sheet
+        print("  [>] Updating recommendations & performance summary sheet...")
+        update_tracking_sheet()
+    except Exception as e:
+        print(f"  [!] Note: Portfolio tracking update failed: {e}")
+
     if notify:
         from pipeline.tools.notify import dispatch_evening_alerts
         print("  [>] Dispatching daily evening screening alerts via Telegram & Email...")

@@ -38,17 +38,19 @@ jobs:
         run: |
           python pipeline/tools/run_daily.py --notify --top 5
 
-      - name: Upload Screening Reports
+      - name: Upload Screening Reports & Tracking Sheet
         uses: actions/upload-artifact@v4
         with:
           name: screening-reports
-          path: data/reports/
+          path: |
+            data/reports/
+            data/tracking/
           retention-days: 14
 
-      - name: Commit and Push Updated Reports & History
+      - name: Commit and Push Updated Reports, Tracking Sheet & History
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/reports/ data/history/ data/bhavcopy/ data/bse/ data/fo/
-          git diff --staged --quiet || git commit -m "Auto: Daily screening report $(date +'%Y-%m-%d') [skip ci]"
+          git add data/reports/ data/history/ data/bhavcopy/ data/bse/ data/fo/ data/tracking/
+          git diff --staged --quiet || git commit -m "Auto: Daily screening report & tracking $(date +'%Y-%m-%d') [skip ci]"
           git push || echo "No changes to push or push failed"

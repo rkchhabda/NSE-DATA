@@ -330,6 +330,14 @@ def run_morning_check(
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump({"date": resolved_date, "capital": capital, "risk_pct": risk_pct, "evaluations": results}, f, indent=2)
 
+    # Update persistent recommendations & performance summary sheet
+    try:
+        from pipeline.tools.portfolio_tracker import update_tracking_sheet
+        print("  [>] Updating persistent recommendations & performance summary sheet...")
+        update_tracking_sheet()
+    except Exception as e:
+        print(f"  [!] Note: Portfolio tracking update failed: {e}")
+
     if notify:
         from pipeline.tools.notify import dispatch_morning_alerts
         print("  [>] Dispatching mobile alerts via Telegram & Email...")
