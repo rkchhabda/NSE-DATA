@@ -17,5 +17,8 @@ logs/
 cookies.txt
 .opt-expiry-cache/
 data/gate_input_*.json
+*.health.json
+*.manifest.json
+
 
 
