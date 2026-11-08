@@ -45489,6 +45489,13 @@
         "prev_close": 138.3,
         "prior_close": 13.83,
         "diff_pct": 900.0
+      },
+      {
+        "date": "2026-11-05",
+        "factor": 1.059887,
+        "prev_close": 127.78,
+        "prior_close": 120.56,
+        "diff_pct": 5.99
       }
     ],
     "gap_count": 8
@@ -48217,11 +48224,11 @@
     "adjusted": true,
     "corporate_actions": [
       {
-        "date": "2026-11-03",
-        "factor": 0.965725,
-        "prev_close": 70.44,
+        "date": "2026-11-05",
+        "factor": 0.944612,
+        "prev_close": 68.9,
         "prior_close": 72.94,
-        "diff_pct": 3.43
+        "diff_pct": 5.54
       }
     ],
     "gap_count": 31
@@ -48301,8 +48308,16 @@
     "start_date": "2026-06-29",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.980703,
+        "prev_close": 1113.0,
+        "prior_close": 1134.9,
+        "diff_pct": 1.93
+      }
+    ],
+    "gap_count": 3
   },
   "VAML": {
     "symbol": "VAML",
@@ -48311,8 +48326,16 @@
     "start_date": "2026-06-30",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.004599,
+        "prev_close": 753.65,
+        "prior_close": 750.2,
+        "diff_pct": 0.46
+      }
+    ],
+    "gap_count": 3
   },
   "VEDPOWER": {
     "symbol": "VEDPOWER",
@@ -48321,8 +48344,16 @@
     "start_date": "2026-06-30",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.080416,
+        "prev_close": 395.0,
+        "prior_close": 365.6,
+        "diff_pct": 8.04
+      }
+    ],
+    "gap_count": 3
   },
   "VISL": {
     "symbol": "VISL",
@@ -48331,8 +48362,16 @@
     "start_date": "2026-06-30",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.060926,
+        "prev_close": 1407.0,
+        "prior_close": 1326.2,
+        "diff_pct": 6.09
+      }
+    ],
+    "gap_count": 3
   },
   "VOGL": {
     "symbol": "VOGL",
@@ -48341,8 +48380,16 @@
     "start_date": "2026-06-30",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.22263,
+        "prev_close": 483.55,
+        "prior_close": 395.5,
+        "diff_pct": 22.26
+      }
+    ],
+    "gap_count": 3
   },
   "CORDELIA": {
     "symbol": "CORDELIA",
@@ -48351,8 +48398,16 @@
     "start_date": "2026-07-01",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.088224,
+        "prev_close": 139.26,
+        "prior_close": 127.97,
+        "diff_pct": 8.82
+      }
+    ],
+    "gap_count": 3
   },
   "GUJENERGY": {
     "symbol": "GUJENERGY",
@@ -48397,8 +48452,16 @@
     "start_date": "2026-07-01",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.091873,
+        "prev_close": 3.09,
+        "prior_close": 2.83,
+        "diff_pct": 9.19
+      }
+    ],
+    "gap_count": 3
   },
   "BNKETFAXIS": {
     "symbol": "BNKETFAXIS",
@@ -48417,8 +48480,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.038191,
+        "prev_close": 731.25,
+        "prior_close": 704.35,
+        "diff_pct": 3.82
+      }
+    ],
+    "gap_count": 3
   },
   "GOLDAXIS": {
     "symbol": "GOLDAXIS",
@@ -48427,8 +48498,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.073158,
+        "prev_close": 4078.0,
+        "prior_close": 3800.0,
+        "diff_pct": 7.32
+      }
+    ],
+    "gap_count": 3
   },
   "HEALTHAXIS": {
     "symbol": "HEALTHAXIS",
@@ -48437,8 +48516,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.010256,
+        "prev_close": 1.97,
+        "prior_close": 1.95,
+        "diff_pct": 1.03
+      }
+    ],
+    "gap_count": 3
   },
   "ITAXIS": {
     "symbol": "ITAXIS",
@@ -48447,8 +48534,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.082018,
+        "prev_close": 154.88,
+        "prior_close": 143.14,
+        "diff_pct": 8.2
+      }
+    ],
+    "gap_count": 3
   },
   "NIFTYAXIS": {
     "symbol": "NIFTYAXIS",
@@ -48457,8 +48552,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.96748,
+        "prev_close": 5.95,
+        "prior_close": 6.15,
+        "diff_pct": 3.25
+      }
+    ],
+    "gap_count": 3
   },
   "SENSEXAXIS": {
     "symbol": "SENSEXAXIS",
@@ -48467,8 +48570,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.06107,
+        "prev_close": 398.75,
+        "prior_close": 375.8,
+        "diff_pct": 6.11
+      }
+    ],
+    "gap_count": 3
   },
   "SILVERAXIS": {
     "symbol": "SILVERAXIS",
@@ -48477,8 +48588,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.122658,
+        "prev_close": 131.8,
+        "prior_close": 117.4,
+        "diff_pct": 12.27
+      }
+    ],
+    "gap_count": 3
   },
   "VALUEAXIS": {
     "symbol": "VALUEAXIS",
@@ -48487,8 +48606,16 @@
     "start_date": "2026-07-03",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.071885,
+        "prev_close": 85.59,
+        "prior_close": 79.85,
+        "diff_pct": 7.19
+      }
+    ],
+    "gap_count": 3
   },
   "KNACK": {
     "symbol": "KNACK",
@@ -48497,8 +48624,16 @@
     "start_date": "2026-07-08",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.067508,
+        "prev_close": 154.81,
+        "prior_close": 145.02,
+        "diff_pct": 6.75
+      }
+    ],
+    "gap_count": 3
   },
   "GYFTR": {
     "symbol": "GYFTR",
@@ -48507,8 +48642,16 @@
     "start_date": "2026-07-10",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.984113,
+        "prev_close": 189.55,
+        "prior_close": 192.61,
+        "diff_pct": 1.59
+      }
+    ],
+    "gap_count": 3
   },
   "AURUS": {
     "symbol": "AURUS",
@@ -48517,8 +48660,16 @@
     "start_date": "2026-07-14",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.007734,
+        "prev_close": 332.25,
+        "prior_close": 329.7,
+        "diff_pct": 0.77
+      }
+    ],
+    "gap_count": 3
   },
   "SABEVENTS": {
     "symbol": "SABEVENTS",
@@ -48537,8 +48688,16 @@
     "start_date": "2026-07-15",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.048319,
+        "prev_close": 4.99,
+        "prior_close": 4.76,
+        "diff_pct": 4.83
+      }
+    ],
+    "gap_count": 3
   },
   "RAMBHAJO": {
     "symbol": "RAMBHAJO",
@@ -48557,8 +48716,16 @@
     "start_date": "2026-07-16",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.028425,
+        "prev_close": 46.31,
+        "prior_close": 45.03,
+        "diff_pct": 2.84
+      }
+    ],
+    "gap_count": 3
   },
   "LASERPOWER": {
     "symbol": "LASERPOWER",
@@ -48567,8 +48734,16 @@
     "start_date": "2026-07-16",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.068672,
+        "prev_close": 141.77,
+        "prior_close": 132.66,
+        "diff_pct": 6.87
+      }
+    ],
+    "gap_count": 3
   },
   "RIR": {
     "symbol": "RIR",
@@ -48577,8 +48752,16 @@
     "start_date": "2026-07-16",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.066133,
+        "prev_close": 258.26,
+        "prior_close": 242.24,
+        "diff_pct": 6.61
+      }
+    ],
+    "gap_count": 3
   },
   "AGL": {
     "symbol": "AGL",
@@ -48587,8 +48770,16 @@
     "start_date": "2026-07-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.015951,
+        "prev_close": 474.5,
+        "prior_close": 467.05,
+        "diff_pct": 1.6
+      }
+    ],
+    "gap_count": 3
   },
   "AASTHA": {
     "symbol": "AASTHA",
@@ -48597,8 +48788,16 @@
     "start_date": "2026-07-20",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.162282,
+        "prev_close": 186.0,
+        "prior_close": 160.03,
+        "diff_pct": 16.23
+      }
+    ],
+    "gap_count": 3
   },
   "AEROPLANE": {
     "symbol": "AEROPLANE",
@@ -48607,8 +48806,16 @@
     "start_date": "2026-07-20",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.124335,
+        "prev_close": 570.6,
+        "prior_close": 507.5,
+        "diff_pct": 12.43
+      }
+    ],
+    "gap_count": 3
   },
   "TAKE": {
     "symbol": "TAKE",
@@ -48617,8 +48824,16 @@
     "start_date": "2026-07-20",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.007361,
+        "prev_close": 54.74,
+        "prior_close": 54.34,
+        "diff_pct": 0.74
+      }
+    ],
+    "gap_count": 3
   },
   "BANK10BETF": {
     "symbol": "BANK10BETF",
@@ -48627,8 +48842,16 @@
     "start_date": "2026-07-21",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.053733,
+        "prev_close": 25.69,
+        "prior_close": 24.38,
+        "diff_pct": 5.37
+      }
+    ],
+    "gap_count": 3
   },
   "LIQUIDBETA": {
     "symbol": "LIQUIDBETA",
@@ -48647,8 +48870,16 @@
     "start_date": "2026-07-21",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.054515,
+        "prev_close": 19.15,
+        "prior_close": 18.16,
+        "diff_pct": 5.45
+      }
+    ],
+    "gap_count": 3
   },
   "MOMMIDCAP": {
     "symbol": "MOMMIDCAP",
@@ -48657,8 +48888,16 @@
     "start_date": "2026-07-22",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.072398,
+        "prev_close": 45.03,
+        "prior_close": 41.99,
+        "diff_pct": 7.24
+      }
+    ],
+    "gap_count": 3
   },
   "PVTBANK": {
     "symbol": "PVTBANK",
@@ -48667,8 +48906,16 @@
     "start_date": "2026-07-22",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.985714,
+        "prev_close": 118.68,
+        "prior_close": 120.4,
+        "diff_pct": 1.43
+      }
+    ],
+    "gap_count": 3
   },
   "CPL": {
     "symbol": "CPL",
@@ -48677,8 +48924,16 @@
     "start_date": "2026-07-23",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.003961,
+        "prev_close": 22.81,
+        "prior_close": 22.72,
+        "diff_pct": 0.4
+      }
+    ],
+    "gap_count": 3
   },
   "CMLL": {
     "symbol": "CMLL",
@@ -48687,8 +48942,16 @@
     "start_date": "2026-07-24",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.068609,
+        "prev_close": 170.55,
+        "prior_close": 159.6,
+        "diff_pct": 6.86
+      }
+    ],
+    "gap_count": 3
   },
   "ASHIKAG": {
     "symbol": "ASHIKAG",
@@ -48715,8 +48978,16 @@
     "start_date": "2026-07-27",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.104,
+        "prev_close": 1.38,
+        "prior_close": 1.25,
+        "diff_pct": 10.4
+      }
+    ],
+    "gap_count": 3
   },
   "CEMNTGROWW": {
     "symbol": "CEMNTGROWW",
@@ -48725,8 +48996,16 @@
     "start_date": "2026-07-28",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.033458,
+        "prev_close": 276.45,
+        "prior_close": 267.5,
+        "diff_pct": 3.35
+      }
+    ],
+    "gap_count": 3
   },
   "EMETAL": {
     "symbol": "EMETAL",
@@ -48735,8 +49014,16 @@
     "start_date": "2026-07-28",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.063171,
+        "prev_close": 43.59,
+        "prior_close": 41.0,
+        "diff_pct": 6.32
+      }
+    ],
+    "gap_count": 3
   },
   "INDOMIM": {
     "symbol": "INDOMIM",
@@ -48745,8 +49032,16 @@
     "start_date": "2026-07-30",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.105263,
+        "prev_close": 351.75,
+        "prior_close": 318.25,
+        "diff_pct": 10.53
+      }
+    ],
+    "gap_count": 3
   },
   "LCL": {
     "symbol": "LCL",
@@ -48755,8 +49050,16 @@
     "start_date": "2026-07-30",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.090345,
+        "prev_close": 12648.0,
+        "prior_close": 11600.0,
+        "diff_pct": 9.03
+      }
+    ],
+    "gap_count": 3
   },
   "HDFCNIMEG": {
     "symbol": "HDFCNIMEG",
@@ -48765,8 +49068,16 @@
     "start_date": "2026-07-31",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.956088,
+        "prev_close": 220.56,
+        "prior_close": 230.69,
+        "diff_pct": 4.39
+      }
+    ],
+    "gap_count": 3
   },
   "HYBRIDETF": {
     "symbol": "HYBRIDETF",
@@ -48775,8 +49086,16 @@
     "start_date": "2026-07-31",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.025295,
+        "prev_close": 6.08,
+        "prior_close": 5.93,
+        "diff_pct": 2.53
+      }
+    ],
+    "gap_count": 3
   },
   "ALPINETEX": {
     "symbol": "ALPINETEX",
@@ -48785,8 +49104,16 @@
     "start_date": "2026-08-04",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.072072,
+        "prev_close": 2.38,
+        "prior_close": 2.22,
+        "diff_pct": 7.21
+      }
+    ],
+    "gap_count": 3
   },
   "EBANK10": {
     "symbol": "EBANK10",
@@ -48795,8 +49122,16 @@
     "start_date": "2026-08-05",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.03352,
+        "prev_close": 16.65,
+        "prior_close": 16.11,
+        "diff_pct": 3.35
+      }
+    ],
+    "gap_count": 3
   },
   "ELMDIV": {
     "symbol": "ELMDIV",
@@ -48815,8 +49150,16 @@
     "start_date": "2026-08-05",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.020883,
+        "prev_close": 56.22,
+        "prior_close": 55.07,
+        "diff_pct": 2.09
+      }
+    ],
+    "gap_count": 3
   },
   "MANIPALHOS": {
     "symbol": "MANIPALHOS",
@@ -48825,8 +49168,16 @@
     "start_date": "2026-08-05",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.004217,
+        "prev_close": 1600.15,
+        "prior_close": 1593.43,
+        "diff_pct": 0.42
+      }
+    ],
+    "gap_count": 3
   },
   "JNPR": {
     "symbol": "JNPR",
@@ -48835,8 +49186,16 @@
     "start_date": "2026-08-06",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.004997,
+        "prev_close": 1422.01,
+        "prior_close": 1414.94,
+        "diff_pct": 0.5
+      }
+    ],
+    "gap_count": 3
   },
   "MOMETAL": {
     "symbol": "MOMETAL",
@@ -48845,8 +49204,16 @@
     "start_date": "2026-08-06",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.007462,
+        "prev_close": 1293.43,
+        "prior_close": 1283.85,
+        "diff_pct": 0.75
+      }
+    ],
+    "gap_count": 3
   },
   "MOOILGAS": {
     "symbol": "MOOILGAS",
@@ -48855,8 +49222,16 @@
     "start_date": "2026-08-06",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.105315,
+        "prev_close": 728.9,
+        "prior_close": 659.45,
+        "diff_pct": 10.53
+      }
+    ],
+    "gap_count": 3
   },
   "MVELECTRO": {
     "symbol": "MVELECTRO",
@@ -48865,8 +49240,16 @@
     "start_date": "2026-08-06",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.042457,
+        "prev_close": 23.08,
+        "prior_close": 22.14,
+        "diff_pct": 4.25
+      }
+    ],
+    "gap_count": 3
   },
   "MIDBANKADD": {
     "symbol": "MIDBANKADD",
@@ -48875,8 +49258,16 @@
     "start_date": "2026-08-07",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.003597,
+        "prev_close": 1562.3,
+        "prior_close": 1556.7,
+        "diff_pct": 0.36
+      }
+    ],
+    "gap_count": 3
   },
   "ONIDA": {
     "symbol": "ONIDA",
@@ -49303,8 +49694,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.078731,
+        "prev_close": 105.09,
+        "prior_close": 97.42,
+        "diff_pct": 7.87
+      }
+    ],
+    "gap_count": 3
   },
   "EKI": {
     "symbol": "EKI",
@@ -49315,14 +49714,14 @@
     "adjusted": true,
     "corporate_actions": [
       {
-        "date": "2026-11-03",
-        "factor": 0.789767,
-        "prev_close": 75.02,
+        "date": "2026-11-05",
+        "factor": 0.78703,
+        "prev_close": 74.76,
         "prior_close": 94.99,
-        "diff_pct": 21.02
+        "diff_pct": 21.3
       }
     ],
-    "gap_count": 21
+    "gap_count": 23
   },
   "EMPIND": {
     "symbol": "EMPIND",
@@ -49331,8 +49730,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.997351,
+        "prev_close": 82.82,
+        "prior_close": 83.04,
+        "diff_pct": 0.26
+      }
+    ],
+    "gap_count": 3
   },
   "ENKEIWHEL": {
     "symbol": "ENKEIWHEL",
@@ -49341,8 +49748,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.114126,
+        "prev_close": 835.65,
+        "prior_close": 750.05,
+        "diff_pct": 11.41
+      }
+    ],
+    "gap_count": 3
   },
   "FREDUN": {
     "symbol": "FREDUN",
@@ -49351,8 +49766,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.062625,
+        "prev_close": 170.02,
+        "prior_close": 160.0,
+        "diff_pct": 6.26
+      }
+    ],
+    "gap_count": 3
   },
   "GKB": {
     "symbol": "GKB",
@@ -49381,8 +49804,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.04635,
+        "prev_close": 836.4,
+        "prior_close": 799.35,
+        "diff_pct": 4.64
+      }
+    ],
+    "gap_count": 3
   },
   "HBPOR": {
     "symbol": "HBPOR",
@@ -49391,8 +49822,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.081832,
+        "prev_close": 58.83,
+        "prior_close": 54.38,
+        "diff_pct": 8.18
+      }
+    ],
+    "gap_count": 3
   },
   "HINDADH": {
     "symbol": "HINDADH",
@@ -49401,8 +49840,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.05776,
+        "prev_close": 935.8,
+        "prior_close": 884.7,
+        "diff_pct": 5.78
+      }
+    ],
+    "gap_count": 3
   },
   "HINDALUMI": {
     "symbol": "HINDALUMI",
@@ -49411,8 +49858,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.092226,
+        "prev_close": 246.57,
+        "prior_close": 225.75,
+        "diff_pct": 9.22
+      }
+    ],
+    "gap_count": 3
   },
   "HRYNSHP": {
     "symbol": "HRYNSHP",
@@ -49421,8 +49876,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.067001,
+        "prev_close": 123.26,
+        "prior_close": 115.52,
+        "diff_pct": 6.7
+      }
+    ],
+    "gap_count": 3
   },
   "INDOKEM": {
     "symbol": "INDOKEM",
@@ -49431,8 +49894,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.023006,
+        "prev_close": 115.17,
+        "prior_close": 112.58,
+        "diff_pct": 2.3
+      }
+    ],
+    "gap_count": 3
   },
   "IPRINGLTD": {
     "symbol": "IPRINGLTD",
@@ -49441,8 +49912,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.99416,
+        "prev_close": 44.26,
+        "prior_close": 44.52,
+        "diff_pct": 0.58
+      }
+    ],
+    "gap_count": 3
   },
   "ISTLTD": {
     "symbol": "ISTLTD",
@@ -49451,8 +49930,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.979879,
+        "prev_close": 35.55,
+        "prior_close": 36.28,
+        "diff_pct": 2.01
+      }
+    ],
+    "gap_count": 3
   },
   "ITL": {
     "symbol": "ITL",
@@ -49461,8 +49948,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.062974,
+        "prev_close": 497.1,
+        "prior_close": 467.65,
+        "diff_pct": 6.3
+      }
+    ],
+    "gap_count": 3
   },
   "JENBURPH": {
     "symbol": "JENBURPH",
@@ -49471,8 +49966,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.142833,
+        "prev_close": 1034.95,
+        "prior_close": 905.6,
+        "diff_pct": 14.28
+      }
+    ],
+    "gap_count": 3
   },
   "JYOTIRES": {
     "symbol": "JYOTIRES",
@@ -49481,8 +49984,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.043245,
+        "prev_close": 874.5,
+        "prior_close": 838.25,
+        "diff_pct": 4.32
+      }
+    ],
+    "gap_count": 3
   },
   "KAMANWALA": {
     "symbol": "KAMANWALA",
@@ -49491,8 +50002,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 2
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.025324,
+        "prev_close": 16.6,
+        "prior_close": 16.19,
+        "diff_pct": 2.53
+      }
+    ],
+    "gap_count": 5
   },
   "KANCOTEA": {
     "symbol": "KANCOTEA",
@@ -49501,8 +50020,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 3
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.030744,
+        "prev_close": 62.36,
+        "prior_close": 60.5,
+        "diff_pct": 3.07
+      }
+    ],
+    "gap_count": 5
   },
   "KJMCFIN": {
     "symbol": "KJMCFIN",
@@ -49511,8 +50038,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.97619,
+        "prev_close": 414.1,
+        "prior_close": 424.2,
+        "diff_pct": 2.38
+      }
+    ],
+    "gap_count": 3
   },
   "KMCSHIL": {
     "symbol": "KMCSHIL",
@@ -49521,8 +50056,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.032089,
+        "prev_close": 680.25,
+        "prior_close": 659.1,
+        "diff_pct": 3.21
+      }
+    ],
+    "gap_count": 3
   },
   "KSE": {
     "symbol": "KSE",
@@ -49531,8 +50074,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.084718,
+        "prev_close": 39.82,
+        "prior_close": 36.71,
+        "diff_pct": 8.47
+      }
+    ],
+    "gap_count": 3
   },
   "LADDERUP": {
     "symbol": "LADDERUP",
@@ -49551,8 +50102,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.115694,
+        "prev_close": 11.09,
+        "prior_close": 9.94,
+        "diff_pct": 11.57
+      }
+    ],
+    "gap_count": 3
   },
   "LEENEE": {
     "symbol": "LEENEE",
@@ -49579,8 +50138,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.990223,
+        "prev_close": 129.64,
+        "prior_close": 130.92,
+        "diff_pct": 0.98
+      }
+    ],
+    "gap_count": 3
   },
   "LOTUSCHO": {
     "symbol": "LOTUSCHO",
@@ -49589,8 +50156,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.047512,
+        "prev_close": 158.52,
+        "prior_close": 151.33,
+        "diff_pct": 4.75
+      }
+    ],
+    "gap_count": 3
   },
   "MAKERSL": {
     "symbol": "MAKERSL",
@@ -49599,8 +50174,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.070682,
+        "prev_close": 215.1,
+        "prior_close": 200.9,
+        "diff_pct": 7.07
+      }
+    ],
+    "gap_count": 3
   },
   "MANBRO": {
     "symbol": "MANBRO",
@@ -49621,14 +50204,14 @@
     "adjusted": true,
     "corporate_actions": [
       {
-        "date": "2026-11-03",
-        "factor": 0.945586,
-        "prev_close": 23.46,
+        "date": "2026-11-05",
+        "factor": 0.858122,
+        "prev_close": 21.29,
         "prior_close": 24.81,
-        "diff_pct": 5.44
+        "diff_pct": 14.19
       }
     ],
-    "gap_count": 30
+    "gap_count": 32
   },
   "MIIL": {
     "symbol": "MIIL",
@@ -49637,8 +50220,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.032685,
+        "prev_close": 695.1,
+        "prior_close": 673.1,
+        "diff_pct": 3.27
+      }
+    ],
+    "gap_count": 3
   },
   "MINALIND": {
     "symbol": "MINALIND",
@@ -49647,8 +50238,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-08-25",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.075758,
+        "prev_close": 0.71,
+        "prior_close": 0.66,
+        "diff_pct": 7.58
+      }
+    ],
+    "gap_count": 3
   },
   "MKEXIM": {
     "symbol": "MKEXIM",
@@ -49657,8 +50256,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.0271,
+        "prev_close": 3.79,
+        "prior_close": 3.69,
+        "diff_pct": 2.71
+      }
+    ],
+    "gap_count": 3
   },
   "MLKFOOD": {
     "symbol": "MLKFOOD",
@@ -49667,8 +50274,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.016654,
+        "prev_close": 51.89,
+        "prior_close": 51.04,
+        "diff_pct": 1.67
+      }
+    ],
+    "gap_count": 3
   },
   "MOHITE": {
     "symbol": "MOHITE",
@@ -49677,8 +50292,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.056769,
+        "prev_close": 55.66,
+        "prior_close": 52.67,
+        "diff_pct": 5.68
+      }
+    ],
+    "gap_count": 3
   },
   "MOLBIO": {
     "symbol": "MOLBIO",
@@ -49687,8 +50310,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.035348,
+        "prev_close": 29.29,
+        "prior_close": 28.29,
+        "diff_pct": 3.53
+      }
+    ],
+    "gap_count": 3
   },
   "MSL": {
     "symbol": "MSL",
@@ -49697,8 +50328,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 3
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.003846,
+        "prev_close": 130.5,
+        "prior_close": 130.0,
+        "diff_pct": 0.38
+      }
+    ],
+    "gap_count": 6
   },
   "MUKESHB": {
     "symbol": "MUKESHB",
@@ -49717,8 +50356,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.090374,
+        "prev_close": 20.39,
+        "prior_close": 18.7,
+        "diff_pct": 9.04
+      }
+    ],
+    "gap_count": 3
   },
   "ODYCORP": {
     "symbol": "ODYCORP",
@@ -49727,8 +50374,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.045657,
+        "prev_close": 131.46,
+        "prior_close": 125.72,
+        "diff_pct": 4.57
+      }
+    ],
+    "gap_count": 3
   },
   "ONEGLOBAL": {
     "symbol": "ONEGLOBAL",
@@ -49737,8 +50392,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.056461,
+        "prev_close": 26.57,
+        "prior_close": 25.15,
+        "diff_pct": 5.65
+      }
+    ],
+    "gap_count": 3
   },
   "ONIXSOLAR": {
     "symbol": "ONIXSOLAR",
@@ -49747,8 +50410,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.019887,
+        "prev_close": 805.15,
+        "prior_close": 789.45,
+        "diff_pct": 1.99
+      }
+    ],
+    "gap_count": 3
   },
   "OPTIFIN": {
     "symbol": "OPTIFIN",
@@ -49757,8 +50428,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.092043,
+        "prev_close": 196.95,
+        "prior_close": 180.35,
+        "diff_pct": 9.2
+      }
+    ],
+    "gap_count": 3
   },
   "ORIRAIL": {
     "symbol": "ORIRAIL",
@@ -49767,8 +50446,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.153097,
+        "prev_close": 161.03,
+        "prior_close": 139.65,
+        "diff_pct": 15.31
+      }
+    ],
+    "gap_count": 3
   },
   "PACIFICI": {
     "symbol": "PACIFICI",
@@ -49777,8 +50464,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 2
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.024553,
+        "prev_close": 134.78,
+        "prior_close": 131.55,
+        "diff_pct": 2.46
+      }
+    ],
+    "gap_count": 5
   },
   "PANCHMAHQ": {
     "symbol": "PANCHMAHQ",
@@ -49797,8 +50492,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.034775,
+        "prev_close": 102.66,
+        "prior_close": 99.21,
+        "diff_pct": 3.48
+      }
+    ],
+    "gap_count": 3
   },
   "PARNAXLAB": {
     "symbol": "PARNAXLAB",
@@ -49807,8 +50510,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.060026,
+        "prev_close": 1732.4,
+        "prior_close": 1634.3,
+        "diff_pct": 6.0
+      }
+    ],
+    "gap_count": 3
   },
   "PBMPOLY": {
     "symbol": "PBMPOLY",
@@ -49827,8 +50538,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.062487,
+        "prev_close": 2079.5,
+        "prior_close": 1957.2,
+        "diff_pct": 6.25
+      }
+    ],
+    "gap_count": 3
   },
   "PHOENXINTL": {
     "symbol": "PHOENXINTL",
@@ -49837,8 +50556,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.980581,
+        "prev_close": 255.0,
+        "prior_close": 260.05,
+        "diff_pct": 1.94
+      }
+    ],
+    "gap_count": 3
   },
   "POEL": {
     "symbol": "POEL",
@@ -49847,8 +50574,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.963803,
+        "prev_close": 110.5,
+        "prior_close": 114.65,
+        "diff_pct": 3.62
+      }
+    ],
+    "gap_count": 3
   },
   "POLYSPIN": {
     "symbol": "POLYSPIN",
@@ -49917,8 +50652,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.075635,
+        "prev_close": 831.95,
+        "prior_close": 773.45,
+        "diff_pct": 7.56
+      }
+    ],
+    "gap_count": 3
   },
   "SEKURITIND": {
     "symbol": "SEKURITIND",
@@ -49927,8 +50670,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.953488,
+        "prev_close": 9.02,
+        "prior_close": 9.46,
+        "diff_pct": 4.65
+      }
+    ],
+    "gap_count": 3
   },
   "SGLRES": {
     "symbol": "SGLRES",
@@ -49937,8 +50688,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.055234,
+        "prev_close": 903.65,
+        "prior_close": 856.35,
+        "diff_pct": 5.52
+      }
+    ],
+    "gap_count": 3
   },
   "SGRL": {
     "symbol": "SGRL",
@@ -49947,8 +50706,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.055628,
+        "prev_close": 168.89,
+        "prior_close": 159.99,
+        "diff_pct": 5.56
+      }
+    ],
+    "gap_count": 3
   },
   "SHERVANI": {
     "symbol": "SHERVANI",
@@ -49967,8 +50734,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.046165,
+        "prev_close": 131.89,
+        "prior_close": 126.07,
+        "diff_pct": 4.62
+      }
+    ],
+    "gap_count": 3
   },
   "SHIVAAGRO": {
     "symbol": "SHIVAAGRO",
@@ -49977,8 +50752,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 1
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.015342,
+        "prev_close": 36.4,
+        "prior_close": 35.85,
+        "diff_pct": 1.53
+      }
+    ],
+    "gap_count": 3
   },
   "SHIVACEM": {
     "symbol": "SHIVACEM",
@@ -49987,8 +50770,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.985288,
+        "prev_close": 358.3,
+        "prior_close": 363.65,
+        "diff_pct": 1.47
+      }
+    ],
+    "gap_count": 3
   },
   "SHRADDHA": {
     "symbol": "SHRADDHA",
@@ -49997,8 +50788,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.047254,
+        "prev_close": 66.93,
+        "prior_close": 63.91,
+        "diff_pct": 4.73
+      }
+    ],
+    "gap_count": 3
   },
   "SHRJAGP": {
     "symbol": "SHRJAGP",
@@ -50007,8 +50806,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.161928,
+        "prev_close": 56.4,
+        "prior_close": 48.54,
+        "diff_pct": 16.19
+      }
+    ],
+    "gap_count": 3
   },
   "SIEL": {
     "symbol": "SIEL",
@@ -50017,8 +50824,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 7
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.947541,
+        "prev_close": 26.01,
+        "prior_close": 27.45,
+        "diff_pct": 5.25
+      }
+    ],
+    "gap_count": 10
   },
   "SIMPLXREA": {
     "symbol": "SIMPLXREA",
@@ -50048,7 +50863,7 @@
     "end_date": "2026-11-05",
     "adjusted": true,
     "corporate_actions": [],
-    "gap_count": 0
+    "gap_count": 3
   },
   "SUNLOC": {
     "symbol": "SUNLOC",
@@ -50067,8 +50882,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.013031,
+        "prev_close": 357.6,
+        "prior_close": 353.0,
+        "diff_pct": 1.3
+      }
+    ],
+    "gap_count": 3
   },
   "SUNSHIEL": {
     "symbol": "SUNSHIEL",
@@ -50077,8 +50900,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.061609,
+        "prev_close": 1064.9,
+        "prior_close": 1003.1,
+        "diff_pct": 6.16
+      }
+    ],
+    "gap_count": 3
   },
   "SUPTANERY": {
     "symbol": "SUPTANERY",
@@ -50087,8 +50918,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-08-26",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.10472,
+        "prev_close": 37.45,
+        "prior_close": 33.9,
+        "diff_pct": 10.47
+      }
+    ],
+    "gap_count": 3
   },
   "SVGLOBAL": {
     "symbol": "SVGLOBAL",
@@ -50097,8 +50936,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.035797,
+        "prev_close": 3547.5,
+        "prior_close": 3424.9,
+        "diff_pct": 3.58
+      }
+    ],
+    "gap_count": 3
   },
   "SWARNSAR": {
     "symbol": "SWARNSAR",
@@ -50135,8 +50982,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.0754,
+        "prev_close": 464.25,
+        "prior_close": 431.7,
+        "diff_pct": 7.54
+      }
+    ],
+    "gap_count": 3
   },
   "TERAI": {
     "symbol": "TERAI",
@@ -50155,8 +51010,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.07214,
+        "prev_close": 117.26,
+        "prior_close": 109.37,
+        "diff_pct": 7.21
+      }
+    ],
+    "gap_count": 3
   },
   "TOYAMSL": {
     "symbol": "TOYAMSL",
@@ -50165,8 +51028,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.112647,
+        "prev_close": 32.2,
+        "prior_close": 28.94,
+        "diff_pct": 11.26
+      }
+    ],
+    "gap_count": 3
   },
   "TRANSCOR": {
     "symbol": "TRANSCOR",
@@ -50175,8 +51046,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.105418,
+        "prev_close": 52.64,
+        "prior_close": 47.62,
+        "diff_pct": 10.54
+      }
+    ],
+    "gap_count": 3
   },
   "TRITONV": {
     "symbol": "TRITONV",
@@ -50185,8 +51064,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.070595,
+        "prev_close": 56.87,
+        "prior_close": 53.12,
+        "diff_pct": 7.06
+      }
+    ],
+    "gap_count": 3
   },
   "TUTIALKA": {
     "symbol": "TUTIALKA",
@@ -50195,8 +51082,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.041704,
+        "prev_close": 22.98,
+        "prior_close": 22.06,
+        "diff_pct": 4.17
+      }
+    ],
+    "gap_count": 3
   },
   "UDAYJEW": {
     "symbol": "UDAYJEW",
@@ -50235,8 +51130,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.027612,
+        "prev_close": 370.3,
+        "prior_close": 360.35,
+        "diff_pct": 2.76
+      }
+    ],
+    "gap_count": 3
   },
   "VGCL": {
     "symbol": "VGCL",
@@ -50245,8 +51148,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.985405,
+        "prev_close": 1424.6,
+        "prior_close": 1445.7,
+        "diff_pct": 1.46
+      }
+    ],
+    "gap_count": 3
   },
   "VIJSOLX": {
     "symbol": "VIJSOLX",
@@ -50255,8 +51166,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 2
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.038943,
+        "prev_close": 747.0,
+        "prior_close": 719.0,
+        "diff_pct": 3.89
+      }
+    ],
+    "gap_count": 5
   },
   "VIRAT": {
     "symbol": "VIRAT",
@@ -50265,8 +51184,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.03042,
+        "prev_close": 426.8,
+        "prior_close": 414.2,
+        "diff_pct": 3.04
+      }
+    ],
+    "gap_count": 3
   },
   "VIRTUALG": {
     "symbol": "VIRTUALG",
@@ -50293,8 +51220,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.025349,
+        "prev_close": 32.36,
+        "prior_close": 31.56,
+        "diff_pct": 2.53
+      }
+    ],
+    "gap_count": 3
   },
   "VISHAL": {
     "symbol": "VISHAL",
@@ -50304,7 +51239,7 @@
     "end_date": "2026-11-05",
     "adjusted": true,
     "corporate_actions": [],
-    "gap_count": 0
+    "gap_count": 3
   },
   "VIVOBIOT": {
     "symbol": "VIVOBIOT",
@@ -50313,8 +51248,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.022494,
+        "prev_close": 30.91,
+        "prior_close": 30.23,
+        "diff_pct": 2.25
+      }
+    ],
+    "gap_count": 3
   },
   "VOITHPAPR": {
     "symbol": "VOITHPAPR",
@@ -50323,8 +51266,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.08989,
+        "prev_close": 529.85,
+        "prior_close": 486.15,
+        "diff_pct": 8.99
+      }
+    ],
+    "gap_count": 3
   },
   "VTMLTD": {
     "symbol": "VTMLTD",
@@ -50353,8 +51304,16 @@
     "start_date": "2026-08-17",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.053366,
+        "prev_close": 43.03,
+        "prior_close": 40.85,
+        "diff_pct": 5.34
+      }
+    ],
+    "gap_count": 3
   },
   "ADDIND": {
     "symbol": "ADDIND",
@@ -50363,8 +51322,16 @@
     "start_date": "2026-08-18",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.98513,
+        "prev_close": 92.75,
+        "prior_close": 94.15,
+        "diff_pct": 1.49
+      }
+    ],
+    "gap_count": 3
   },
   "LAKSHMIMIL": {
     "symbol": "LAKSHMIMIL",
@@ -50413,8 +51380,16 @@
     "start_date": "2026-08-18",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.030495,
+        "prev_close": 839.75,
+        "prior_close": 814.9,
+        "diff_pct": 3.05
+      }
+    ],
+    "gap_count": 3
   },
   "SRIKPRIND": {
     "symbol": "SRIKPRIND",
@@ -50423,8 +51398,16 @@
     "start_date": "2026-08-18",
     "end_date": "2026-09-07",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.044949,
+        "prev_close": 68.58,
+        "prior_close": 65.63,
+        "diff_pct": 4.49
+      }
+    ],
+    "gap_count": 3
   },
   "STLSTRINF": {
     "symbol": "STLSTRINF",
@@ -50531,8 +51514,16 @@
     "start_date": "2026-08-20",
     "end_date": "2026-11-05",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.084151,
+        "prev_close": 119.3,
+        "prior_close": 110.04,
+        "diff_pct": 8.42
+      }
+    ],
+    "gap_count": 3
   },
   "NIFTYJBLK": {
     "symbol": "NIFTYJBLK",
@@ -50777,160 +51768,272 @@
   "CRESTO": {
     "symbol": "CRESTO",
     "isin": "INE203Y01012",
-    "bars": 17,
+    "bars": 16,
     "start_date": "2026-09-10",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
     "corporate_actions": [
       {
-        "date": "2026-11-03",
-        "factor": 0.779405,
-        "prev_close": 18.09,
+        "date": "2026-11-05",
+        "factor": 0.766049,
+        "prev_close": 17.78,
         "prior_close": 23.21,
-        "diff_pct": 22.06
+        "diff_pct": 23.4
       }
     ],
-    "gap_count": 21
+    "gap_count": 23
   },
   "DOLLEX": {
     "symbol": "DOLLEX",
     "isin": "INE0JHH01011",
-    "bars": 37,
+    "bars": 35,
     "start_date": "2026-09-11",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.969945,
+        "prev_close": 35.5,
+        "prior_close": 36.6,
+        "diff_pct": 3.01
+      }
+    ],
+    "gap_count": 3
   },
   "PRANAV": {
     "symbol": "PRANAV",
     "isin": "INE0H4201019",
-    "bars": 36,
+    "bars": 34,
     "start_date": "2026-09-15",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.947193,
+        "prev_close": 88.07,
+        "prior_close": 92.98,
+        "diff_pct": 5.28
+      }
+    ],
+    "gap_count": 3
   },
   "GLASSWALL": {
     "symbol": "GLASSWALL",
     "isin": "INE644Q01039",
-    "bars": 35,
+    "bars": 33,
     "start_date": "2026-09-16",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.154732,
+        "prev_close": 244.63,
+        "prior_close": 211.85,
+        "diff_pct": 15.47
+      }
+    ],
+    "gap_count": 3
   },
   "HTEL": {
     "symbol": "HTEL",
     "isin": "INE0LEG01024",
-    "bars": 35,
+    "bars": 33,
     "start_date": "2026-09-16",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.079204,
+        "prev_close": 80.8,
+        "prior_close": 74.87,
+        "diff_pct": 7.92
+      }
+    ],
+    "gap_count": 3
   },
   "KANOHAR": {
     "symbol": "KANOHAR",
     "isin": "INE877D01025",
-    "bars": 35,
+    "bars": 33,
     "start_date": "2026-09-16",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.126947,
+        "prev_close": 1070.6,
+        "prior_close": 950.0,
+        "diff_pct": 12.69
+      }
+    ],
+    "gap_count": 3
   },
   "PRASOLCHEM": {
     "symbol": "PRASOLCHEM",
     "isin": "INE455U01024",
-    "bars": 35,
+    "bars": 33,
     "start_date": "2026-09-16",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.959446,
+        "prev_close": 772.45,
+        "prior_close": 805.1,
+        "diff_pct": 4.06
+      }
+    ],
+    "gap_count": 3
   },
   "ANNU": {
     "symbol": "ANNU",
     "isin": "INE103001017",
-    "bars": 34,
+    "bars": 32,
     "start_date": "2026-09-17",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.047165,
+        "prev_close": 39.52,
+        "prior_close": 37.74,
+        "diff_pct": 4.72
+      }
+    ],
+    "gap_count": 3
   },
   "ARCIL": {
     "symbol": "ARCIL",
     "isin": "INE148G01016",
-    "bars": 34,
+    "bars": 32,
     "start_date": "2026-09-17",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.032529,
+        "prev_close": 124.11,
+        "prior_close": 120.2,
+        "diff_pct": 3.25
+      }
+    ],
+    "gap_count": 3
   },
   "KARAMTARA": {
     "symbol": "KARAMTARA",
     "isin": "INE590T01012",
-    "bars": 34,
+    "bars": 32,
     "start_date": "2026-09-17",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.021606,
+        "prev_close": 383.0,
+        "prior_close": 374.9,
+        "diff_pct": 2.16
+      }
+    ],
+    "gap_count": 3
   },
   "LCCPROJECT": {
     "symbol": "LCCPROJECT",
     "isin": "INE1FPN01026",
-    "bars": 34,
+    "bars": 32,
     "start_date": "2026-09-17",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.027885,
+        "prev_close": 135.28,
+        "prior_close": 131.61,
+        "diff_pct": 2.79
+      }
+    ],
+    "gap_count": 3
   },
   "MPIMANIPAL": {
     "symbol": "MPIMANIPAL",
     "isin": "INE241U01028",
-    "bars": 34,
+    "bars": 32,
     "start_date": "2026-09-17",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.095734,
+        "prev_close": 331.35,
+        "prior_close": 302.4,
+        "diff_pct": 9.57
+      }
+    ],
+    "gap_count": 3
   },
   "RENTOMOJO": {
     "symbol": "RENTOMOJO",
     "isin": "INE08T701025",
-    "bars": 34,
+    "bars": 32,
     "start_date": "2026-09-17",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.087237,
+        "prev_close": 589.5,
+        "prior_close": 542.2,
+        "diff_pct": 8.72
+      }
+    ],
+    "gap_count": 3
   },
   "STEAMHOUSE": {
     "symbol": "STEAMHOUSE",
     "isin": "INE0FRO01022",
-    "bars": 34,
+    "bars": 32,
     "start_date": "2026-09-17",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.012477,
+        "prev_close": 133.89,
+        "prior_close": 132.24,
+        "diff_pct": 1.25
+      }
+    ],
+    "gap_count": 3
   },
   "SECLEDBETA": {
     "symbol": "SECLEDBETA",
     "isin": "INF789F1AH42",
-    "bars": 33,
+    "bars": 31,
     "start_date": "2026-09-18",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.036299,
+        "prev_close": 14.56,
+        "prior_close": 14.05,
+        "diff_pct": 3.63
+      }
+    ],
+    "gap_count": 3
   },
   "PRIORITY": {
     "symbol": "PRIORITY",
@@ -50945,52 +52048,92 @@
   "HEGAM": {
     "symbol": "HEGAM",
     "isin": "INE545A01024",
-    "bars": 31,
+    "bars": 29,
     "start_date": "2026-09-22",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.212828,
+        "prev_close": 288.18,
+        "prior_close": 237.61,
+        "diff_pct": 21.28
+      }
+    ],
+    "gap_count": 3
   },
   "HEROMOTORS": {
     "symbol": "HEROMOTORS",
     "isin": "INE012G01022",
-    "bars": 30,
+    "bars": 28,
     "start_date": "2026-09-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.963724,
+        "prev_close": 119.55,
+        "prior_close": 124.05,
+        "diff_pct": 3.63
+      }
+    ],
+    "gap_count": 3
   },
   "MOMSBELIEF": {
     "symbol": "MOMSBELIEF",
     "isin": "INE1FCO01014",
-    "bars": 30,
+    "bars": 28,
     "start_date": "2026-09-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.02529,
+        "prev_close": 251.36,
+        "prior_close": 245.16,
+        "diff_pct": 2.53
+      }
+    ],
+    "gap_count": 3
   },
   "SSRETAIL": {
     "symbol": "SSRETAIL",
     "isin": "INE1EQW01028",
-    "bars": 30,
+    "bars": 28,
     "start_date": "2026-09-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.017073,
+        "prev_close": 646.35,
+        "prior_close": 635.5,
+        "diff_pct": 1.71
+      }
+    ],
+    "gap_count": 3
   },
   "PARIN": {
     "symbol": "PARIN",
     "isin": "INE00U801010",
-    "bars": 28,
+    "bars": 26,
     "start_date": "2026-09-25",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.955636,
+        "prev_close": 663.45,
+        "prior_close": 694.25,
+        "diff_pct": 4.44
+      }
+    ],
+    "gap_count": 3
   },
   "QUINTEGRA": {
     "symbol": "QUINTEGRA",
@@ -51005,122 +52148,218 @@
   "VARMORA": {
     "symbol": "VARMORA",
     "isin": "INE0M5301040",
-    "bars": 26,
+    "bars": 24,
     "start_date": "2026-09-29",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.106545,
+        "prev_close": 134.08,
+        "prior_close": 121.17,
+        "diff_pct": 10.65
+      }
+    ],
+    "gap_count": 3
   },
   "ARMEE": {
     "symbol": "ARMEE",
     "isin": "INE0TWE01016",
-    "bars": 25,
+    "bars": 23,
     "start_date": "2026-09-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.006351,
+        "prev_close": 285.2,
+        "prior_close": 283.4,
+        "diff_pct": 0.64
+      }
+    ],
+    "gap_count": 3
   },
   "ELEVATE": {
     "symbol": "ELEVATE",
     "isin": "INE147X01013",
-    "bars": 25,
+    "bars": 23,
     "start_date": "2026-09-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.970131,
+        "prev_close": 280.95,
+        "prior_close": 289.6,
+        "diff_pct": 2.99
+      }
+    ],
+    "gap_count": 3
   },
   "AONESTEELS": {
     "symbol": "AONESTEELS",
     "isin": "INE0OTC01025",
-    "bars": 24,
+    "bars": 22,
     "start_date": "2026-10-01",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.079245,
+        "prev_close": 400.4,
+        "prior_close": 371.0,
+        "diff_pct": 7.92
+      }
+    ],
+    "gap_count": 3
   },
   "MONEYVIEW": {
     "symbol": "MONEYVIEW",
     "isin": "INE0PTN01011",
-    "bars": 24,
+    "bars": 22,
     "start_date": "2026-10-01",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.09416,
+        "prev_close": 55.08,
+        "prior_close": 50.34,
+        "diff_pct": 9.42
+      }
+    ],
+    "gap_count": 3
   },
   "ACEVECTOR": {
     "symbol": "ACEVECTOR",
     "isin": "INE580P01029",
-    "bars": 23,
+    "bars": 21,
     "start_date": "2026-10-05",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.085284,
+        "prev_close": 19.47,
+        "prior_close": 17.94,
+        "diff_pct": 8.53
+      }
+    ],
+    "gap_count": 3
   },
   "GERMAN": {
     "symbol": "GERMAN",
     "isin": "INE0D4501011",
-    "bars": 23,
+    "bars": 21,
     "start_date": "2026-10-05",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.166852,
+        "prev_close": 115.39,
+        "prior_close": 98.89,
+        "diff_pct": 16.69
+      }
+    ],
+    "gap_count": 3
   },
   "ORIENTCABL": {
     "symbol": "ORIENTCABL",
     "isin": "INE0J1N01028",
-    "bars": 23,
+    "bars": 21,
     "start_date": "2026-10-05",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.019747,
+        "prev_close": 351.15,
+        "prior_close": 344.35,
+        "diff_pct": 1.97
+      }
+    ],
+    "gap_count": 3
   },
   "RUNWALENTR": {
     "symbol": "RUNWALENTR",
     "isin": "INE804W01029",
-    "bars": 23,
+    "bars": 21,
     "start_date": "2026-10-05",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.013518,
+        "prev_close": 212.18,
+        "prior_close": 209.35,
+        "diff_pct": 1.35
+      }
+    ],
+    "gap_count": 3
   },
   "VEEGALAND": {
     "symbol": "VEEGALAND",
     "isin": "INE1JTV01015",
-    "bars": 23,
+    "bars": 21,
     "start_date": "2026-10-05",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.013373,
+        "prev_close": 132.61,
+        "prior_close": 130.86,
+        "diff_pct": 1.34
+      }
+    ],
+    "gap_count": 3
   },
   "MANIKA": {
     "symbol": "MANIKA",
     "isin": "INE0KWF01020",
-    "bars": 22,
+    "bars": 20,
     "start_date": "2026-10-06",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.063788,
+        "prev_close": 49.03,
+        "prior_close": 46.09,
+        "diff_pct": 6.38
+      }
+    ],
+    "gap_count": 3
   },
   "INSURADD": {
     "symbol": "INSURADD",
     "isin": "INF740KA1ZR8",
-    "bars": 21,
+    "bars": 19,
     "start_date": "2026-10-07",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.019943,
+        "prev_close": 14.32,
+        "prior_close": 14.04,
+        "diff_pct": 1.99
+      }
+    ],
+    "gap_count": 3
   },
   "JSIPL": {
     "symbol": "JSIPL",
@@ -51135,12 +52374,20 @@
   "SONA": {
     "symbol": "SONA",
     "isin": "INE0LLZ01011",
-    "bars": 19,
+    "bars": 17,
     "start_date": "2026-10-09",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.055089,
+        "prev_close": 104.38,
+        "prior_close": 98.93,
+        "diff_pct": 5.51
+      }
+    ],
+    "gap_count": 3
   },
   "AGOL": {
     "symbol": "AGOL",
@@ -51155,422 +52402,758 @@
   "BELDING": {
     "symbol": "BELDING",
     "isin": "INE363L01045",
-    "bars": 18,
+    "bars": 16,
     "start_date": "2026-10-12",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.042236,
+        "prev_close": 824.2,
+        "prior_close": 790.8,
+        "diff_pct": 4.22
+      }
+    ],
+    "gap_count": 3
   },
   "NXT100CASE": {
     "symbol": "NXT100CASE",
     "isin": "INF0R8F01257",
-    "bars": 16,
+    "bars": 14,
     "start_date": "2026-10-14",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.039039,
+        "prev_close": 10.38,
+        "prior_close": 9.99,
+        "diff_pct": 3.9
+      }
+    ],
+    "gap_count": 3
   },
   "ADROITIND": {
     "symbol": "ADROITIND",
     "isin": "INE505M01015",
-    "bars": 15,
+    "bars": 13,
     "start_date": "2026-10-15",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.049212,
+        "prev_close": 176.32,
+        "prior_close": 168.05,
+        "diff_pct": 4.92
+      }
+    ],
+    "gap_count": 3
   },
   "GSPLTRANS": {
     "symbol": "GSPLTRANS",
     "isin": "INE1TUG01013",
-    "bars": 15,
+    "bars": 13,
     "start_date": "2026-10-15",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.985691,
+        "prev_close": 112.97,
+        "prior_close": 114.61,
+        "diff_pct": 1.43
+      }
+    ],
+    "gap_count": 3
   },
   "SWASTIKAIN": {
     "symbol": "SWASTIKAIN",
     "isin": "INE1QJA01015",
-    "bars": 15,
+    "bars": 13,
     "start_date": "2026-10-15",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.004754,
+        "prev_close": 198.65,
+        "prior_close": 197.71,
+        "diff_pct": 0.48
+      }
+    ],
+    "gap_count": 3
   },
   "FARBEES": {
     "symbol": "FARBEES",
     "isin": "INF204KC1HS1",
-    "bars": 14,
+    "bars": 12,
     "start_date": "2026-10-16",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.99828,
+        "prev_close": 133.47,
+        "prior_close": 133.7,
+        "diff_pct": 0.17
+      }
+    ],
+    "gap_count": 3
   },
   "HFTSEINDIA": {
     "symbol": "HFTSEINDIA",
     "isin": "INF179KC1LA2",
-    "bars": 14,
+    "bars": 12,
     "start_date": "2026-10-16",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.040523,
+        "prev_close": 31.84,
+        "prior_close": 30.6,
+        "diff_pct": 4.05
+      }
+    ],
+    "gap_count": 3
   },
   "HDFIRE": {
     "symbol": "HDFIRE",
     "isin": "INE18AK01028",
-    "bars": 12,
+    "bars": 10,
     "start_date": "2026-10-21",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.9955,
+        "prev_close": 265.45,
+        "prior_close": 266.65,
+        "diff_pct": 0.45
+      }
+    ],
+    "gap_count": 3
   },
   "SHAHINVEST": {
     "symbol": "SHAHINVEST",
     "isin": "INE029N01014",
-    "bars": 12,
+    "bars": 10,
     "start_date": "2026-10-21",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.009258,
+        "prev_close": 139.54,
+        "prior_close": 138.26,
+        "diff_pct": 0.93
+      }
+    ],
+    "gap_count": 3
   },
   "SRIT": {
     "symbol": "SRIT",
     "isin": "INE307K01028",
-    "bars": 12,
+    "bars": 10,
     "start_date": "2026-10-21",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.10495,
+        "prev_close": 118.97,
+        "prior_close": 107.67,
+        "diff_pct": 10.5
+      }
+    ],
+    "gap_count": 3
   },
   "FUSIONCX": {
     "symbol": "FUSIONCX",
     "isin": "INE0N2201019",
-    "bars": 11,
+    "bars": 9,
     "start_date": "2026-10-22",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.022711,
+        "prev_close": 285.95,
+        "prior_close": 279.6,
+        "diff_pct": 2.27
+      }
+    ],
+    "gap_count": 3
   },
   "IIRM": {
     "symbol": "IIRM",
     "isin": "INE670C01026",
-    "bars": 11,
+    "bars": 9,
     "start_date": "2026-10-22",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.095329,
+        "prev_close": 114.44,
+        "prior_close": 104.48,
+        "diff_pct": 9.53
+      }
+    ],
+    "gap_count": 3
   },
   "BONFIG": {
     "symbol": "BONFIG",
     "isin": "INE28SO01013",
-    "bars": 10,
+    "bars": 8,
     "start_date": "2026-10-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.056702,
+        "prev_close": 660.65,
+        "prior_close": 625.2,
+        "diff_pct": 5.67
+      }
+    ],
+    "gap_count": 3
   },
   "ICICILIFE": {
     "symbol": "ICICILIFE",
     "isin": "INE726G01019",
-    "bars": 10,
+    "bars": 8,
     "start_date": "2026-10-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.031829,
+        "prev_close": 423.05,
+        "prior_close": 410.0,
+        "diff_pct": 3.18
+      }
+    ],
+    "gap_count": 3
   },
   "NITYAS": {
     "symbol": "NITYAS",
     "isin": "INE211501023",
-    "bars": 10,
+    "bars": 8,
     "start_date": "2026-10-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.016348,
+        "prev_close": 66.52,
+        "prior_close": 65.45,
+        "diff_pct": 1.63
+      }
+    ],
+    "gap_count": 3
   },
   "SMT": {
     "symbol": "SMT",
     "isin": "INE356Y01018",
-    "bars": 10,
+    "bars": 8,
     "start_date": "2026-10-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.05014,
+        "prev_close": 485.9,
+        "prior_close": 462.7,
+        "diff_pct": 5.01
+      }
+    ],
+    "gap_count": 3
   },
   "TONBO": {
     "symbol": "TONBO",
     "isin": "INE0LDG01026",
-    "bars": 10,
+    "bars": 8,
     "start_date": "2026-10-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.977691,
+        "prev_close": 1275.3,
+        "prior_close": 1304.4,
+        "diff_pct": 2.23
+      }
+    ],
+    "gap_count": 3
   },
   "VNL": {
     "symbol": "VNL",
     "isin": "INE1O5L01025",
-    "bars": 10,
+    "bars": 8,
     "start_date": "2026-10-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.004898,
+        "prev_close": 104.64,
+        "prior_close": 104.13,
+        "diff_pct": 0.49
+      }
+    ],
+    "gap_count": 3
   },
   "ZETWERK": {
     "symbol": "ZETWERK",
     "isin": "INE09PO01019",
-    "bars": 10,
+    "bars": 8,
     "start_date": "2026-10-23",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.011102,
+        "prev_close": 164.85,
+        "prior_close": 163.04,
+        "diff_pct": 1.11
+      }
+    ],
+    "gap_count": 3
   },
   "BIRLATOTAL": {
     "symbol": "BIRLATOTAL",
     "isin": "INF209KC1746",
-    "bars": 8,
+    "bars": 6,
     "start_date": "2026-10-27",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.039801,
+        "prev_close": 10.45,
+        "prior_close": 10.05,
+        "diff_pct": 3.98
+      }
+    ],
+    "gap_count": 3
   },
   "KHAZANCHI": {
     "symbol": "KHAZANCHI",
     "isin": "INE0OWC01011",
-    "bars": 8,
+    "bars": 6,
     "start_date": "2026-10-27",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.984067,
+        "prev_close": 710.25,
+        "prior_close": 721.75,
+        "diff_pct": 1.59
+      }
+    ],
+    "gap_count": 3
   },
   "SUDARSHAN": {
     "symbol": "SUDARSHAN",
     "isin": "INE00TV01023",
-    "bars": 8,
+    "bars": 6,
     "start_date": "2026-10-27",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.88413,
+        "prev_close": 32.2,
+        "prior_close": 36.42,
+        "diff_pct": 11.59
+      }
+    ],
+    "gap_count": 3
   },
   "TRIVENIPT": {
     "symbol": "TRIVENIPT",
     "isin": "INE2WKE01011",
-    "bars": 8,
+    "bars": 6,
     "start_date": "2026-10-27",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.023069,
+        "prev_close": 470.1,
+        "prior_close": 459.5,
+        "diff_pct": 2.31
+      }
+    ],
+    "gap_count": 3
   },
   "JPL": {
     "symbol": "JPL",
     "isin": "INE0BJO01010",
-    "bars": 7,
+    "bars": 5,
     "start_date": "2026-10-28",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.993293,
+        "prev_close": 1421.7,
+        "prior_close": 1431.3,
+        "diff_pct": 0.67
+      }
+    ],
+    "gap_count": 3
   },
   "PARASHLTH": {
     "symbol": "PARASHLTH",
     "isin": "INE661T01029",
-    "bars": 7,
+    "bars": 5,
     "start_date": "2026-10-28",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.012422,
+        "prev_close": 749.8,
+        "prior_close": 740.6,
+        "diff_pct": 1.24
+      }
+    ],
+    "gap_count": 3
   },
   "PHARMAIETF": {
     "symbol": "PHARMAIETF",
     "isin": "INF109K1A716",
-    "bars": 7,
+    "bars": 5,
     "start_date": "2026-10-28",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.997806,
+        "prev_close": 27.29,
+        "prior_close": 27.35,
+        "diff_pct": 0.22
+      }
+    ],
+    "gap_count": 3
   },
   "BONDADA": {
     "symbol": "BONDADA",
     "isin": "INE0Q8P01029",
-    "bars": 6,
+    "bars": 4,
     "start_date": "2026-10-29",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.999088,
+        "prev_close": 273.75,
+        "prior_close": 274.0,
+        "diff_pct": 0.09
+      }
+    ],
+    "gap_count": 3
   },
   "SBIDEFETF": {
     "symbol": "SBIDEFETF",
     "isin": "INF200KB1CJ6",
-    "bars": 6,
+    "bars": 4,
     "start_date": "2026-10-29",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.063053,
+        "prev_close": 76.88,
+        "prior_close": 72.32,
+        "diff_pct": 6.31
+      }
+    ],
+    "gap_count": 3
   },
   "ARHAM": {
     "symbol": "ARHAM",
     "isin": "INE0L2Y01011",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.000718,
+        "prev_close": 209.1,
+        "prior_close": 208.95,
+        "diff_pct": 0.07
+      }
+    ],
+    "gap_count": 3
   },
   "INDTONER": {
     "symbol": "INDTONER",
     "isin": "INE826B01026",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.051027,
+        "prev_close": 47.58,
+        "prior_close": 45.27,
+        "diff_pct": 5.1
+      }
+    ],
+    "gap_count": 3
   },
   "SBI10YGILT": {
     "symbol": "SBI10YGILT",
     "isin": "INF200KA1JT1",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.011275,
+        "prev_close": 261.91,
+        "prior_close": 258.99,
+        "diff_pct": 1.13
+      }
+    ],
+    "gap_count": 3
   },
   "SBIBANKNIF": {
     "symbol": "SBIBANKNIF",
     "isin": "INF200KA1580",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.022175,
+        "prev_close": 573.42,
+        "prior_close": 560.98,
+        "diff_pct": 2.22
+      }
+    ],
+    "gap_count": 3
   },
   "SBICONS": {
     "symbol": "SBICONS",
     "isin": "INF200KA1X17",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.040273,
+        "prev_close": 119.08,
+        "prior_close": 114.47,
+        "diff_pct": 4.03
+      }
+    ],
+    "gap_count": 3
   },
   "SBIEQLWT50": {
     "symbol": "SBIEQLWT50",
     "isin": "INF200KB1282",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.027358,
+        "prev_close": 32.67,
+        "prior_close": 31.8,
+        "diff_pct": 2.74
+      }
+    ],
+    "gap_count": 3
   },
   "SBIGOLD": {
     "symbol": "SBIGOLD",
     "isin": "INF200KA16D8",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.011199,
+        "prev_close": 120.09,
+        "prior_close": 118.76,
+        "diff_pct": 1.12
+      }
+    ],
+    "gap_count": 3
   },
   "SBIIT": {
     "symbol": "SBIIT",
     "isin": "INF200KA1S14",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 0.996476,
+        "prev_close": 359.13,
+        "prior_close": 360.4,
+        "diff_pct": 0.35
+      }
+    ],
+    "gap_count": 3
   },
   "SBIMID150": {
     "symbol": "SBIMID150",
     "isin": "INF200KB1AK8",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.035798,
+        "prev_close": 21.99,
+        "prior_close": 21.23,
+        "diff_pct": 3.58
+      }
+    ],
+    "gap_count": 3
   },
   "SBINEXT50": {
     "symbol": "SBINEXT50",
     "isin": "INF200KA1598",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.042387,
+        "prev_close": 756.95,
+        "prior_close": 726.17,
+        "diff_pct": 4.24
+      }
+    ],
+    "gap_count": 3
   },
   "SBINIFTY50": {
     "symbol": "SBINIFTY50",
     "isin": "INF200KA1FS1",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.039243,
+        "prev_close": 257.94,
+        "prior_close": 248.2,
+        "diff_pct": 3.92
+      }
+    ],
+    "gap_count": 3
   },
   "SBIPSUBNK": {
     "symbol": "SBIPSUBNK",
     "isin": "INF200KB1712",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.005426,
+        "prev_close": 48.18,
+        "prior_close": 47.92,
+        "diff_pct": 0.54
+      }
+    ],
+    "gap_count": 3
   },
   "SBIPVTBNK": {
     "symbol": "SBIPVTBNK",
     "isin": "INF200KA1S22",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.027052,
+        "prev_close": 283.23,
+        "prior_close": 275.77,
+        "diff_pct": 2.71
+      }
+    ],
+    "gap_count": 3
   },
   "SBIQUALITY": {
     "symbol": "SBIQUALITY",
     "isin": "INF200KA1WX6",
-    "bars": 5,
+    "bars": 3,
     "start_date": "2026-10-30",
-    "end_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
-    "corporate_actions": [],
-    "gap_count": 0
+    "corporate_actions": [
+      {
+        "date": "2026-11-05",
+        "factor": 1.030224,
+        "prev_close": 214.06,
+        "prior_close": 207.78,
+        "diff_pct": 3.02
+      }
+    ],
+    "gap_count": 3
   },
   "ABCIND": {
     "symbol": "ABCIND",
@@ -51616,8 +53199,108 @@
     "symbol": "BANKCASE",
     "isin": "INF0R8F01265",
     "bars": 2,
-    "start_date": "2026-11-04",
-    "end_date": "2026-11-05",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "BLSPOLY": {
+    "symbol": "BLSPOLY",
+    "isin": "INE0ZCQ01019",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "BNALTD": {
+    "symbol": "BNALTD",
+    "isin": "INE489D01011",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "CONSOFINVT": {
+    "symbol": "CONSOFINVT",
+    "isin": "INE025A01027",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "COUNCODOS": {
+    "symbol": "COUNCODOS",
+    "isin": "INE695B01025",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "DIACABS": {
+    "symbol": "DIACABS",
+    "isin": "INE989C01038",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "DTIL": {
+    "symbol": "DTIL",
+    "isin": "INE341R01014",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "E2E": {
+    "symbol": "E2E",
+    "isin": "INE255Z01027",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "EBIX": {
+    "symbol": "EBIX",
+    "isin": "INE432F01032",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "EDELALTS": {
+    "symbol": "EDELALTS",
+    "isin": "INE528L01027",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "ESAFSFB": {
+    "symbol": "ESAFSFB",
+    "isin": "INE818W01011",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
     "corporate_actions": [],
     "gap_count": 0
@@ -51626,8 +53309,58 @@
     "symbol": "EVONILE",
     "isin": "INE234A01025",
     "bars": 2,
-    "start_date": "2026-11-04",
-    "end_date": "2026-11-05",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "GANESHBE": {
+    "symbol": "GANESHBE",
+    "isin": "INE388A01029",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "GVPTECH": {
+    "symbol": "GVPTECH",
+    "isin": "INE382T01030",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "KCPSUGIND": {
+    "symbol": "KCPSUGIND",
+    "isin": "INE790B01024",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "LEENEE": {
+    "symbol": "LEENEE",
+    "isin": "INE791B01014",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "LOTUSDEV": {
+    "symbol": "LOTUSDEV",
+    "isin": "INE0V9Q01010",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
     "adjusted": true,
     "corporate_actions": [],
     "gap_count": 0
@@ -51636,8 +53369,188 @@
     "symbol": "MKJEWELS",
     "isin": "INE2IXO01012",
     "bars": 2,
-    "start_date": "2026-11-04",
-    "end_date": "2026-11-05",
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "NATCAPSUQ": {
+    "symbol": "NATCAPSUQ",
+    "isin": "INE936B01015",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "ORIENTLTD": {
+    "symbol": "ORIENTLTD",
+    "isin": "INE609C01024",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "PIONRINV": {
+    "symbol": "PIONRINV",
+    "isin": "INE746D01014",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "RMDRIP": {
+    "symbol": "RMDRIP",
+    "isin": "INE219Y01026",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SCANSTL": {
+    "symbol": "SCANSTL",
+    "isin": "INE099G01011",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SFCTECH": {
+    "symbol": "SFCTECH",
+    "isin": "INE0PKN01028",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SICALLOG": {
+    "symbol": "SICALLOG",
+    "isin": "INE075B01020",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SONAMLTD": {
+    "symbol": "SONAMLTD",
+    "isin": "INE00LM01029",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SPECTRUM": {
+    "symbol": "SPECTRUM",
+    "isin": "INE01EO01010",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "STALLION": {
+    "symbol": "STALLION",
+    "isin": "INE0RYC01010",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SUPERSPIN": {
+    "symbol": "SUPERSPIN",
+    "isin": "INE662A01027",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SWISSMLTRY": {
+    "symbol": "SWISSMLTRY",
+    "isin": "INE010C01025",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "SYSTMTXC": {
+    "symbol": "SYSTMTXC",
+    "isin": "INE356B01024",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "TIL": {
+    "symbol": "TIL",
+    "isin": "INE806C01018",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "TRANSPEK": {
+    "symbol": "TRANSPEK",
+    "isin": "INE687A01016",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "VIRTUALG": {
+    "symbol": "VIRTUALG",
+    "isin": "INE247C01023",
+    "bars": 2,
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "BAHETI": {
+    "symbol": "BAHETI",
+    "isin": "INE029Q01017",
+    "bars": 1,
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-06",
+    "adjusted": true,
+    "corporate_actions": [],
+    "gap_count": 0
+  },
+  "BRIGHTOUTD": {
+    "symbol": "BRIGHTOUTD",
+    "isin": "INE0OMI01019",
+    "bars": 1,
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-06",
     "adjusted": true,
     "corporate_actions": [],
     "gap_count": 0
