@@ -1,6 +1,6 @@
 # 📈 Recommendations & Model Predictive Accuracy Summary Sheet
 
-> **Last Updated:** 2026-11-08 10:20:11 IST  
+> **Last Updated:** 2026-11-09 04:14:58 IST  
 > **Tracking Period:** 2026-10-06 to 2026-11-06  
 
 ## 📊 Model Performance & Accuracy KPI
@@ -10,9 +10,9 @@
 | **Total Tracked Recommendations** | **27** | Complete universe of shortlisted swing trades |
 | **Resolved Trades (Hit / Stop)** | **14** | 10 Target Hits 🎯 vs 4 Stop Loss Hits 🛑 |
 | **Win Rate on Resolved Trades** | **71.4%** | Target 1 or Target 2 hit before stop-loss |
-| **Profit Factor (Gain / Loss)** | **2.03x** | Gross profit generated for every ₹1 lost |
-| **Total Capital Allocated** | **₹3,003,867.70** | Sized strictly at 1% portfolio risk per trade |
-| **Net Realized & Unrealized P&L** | **₹+26,378.44 (+0.88%)** | Positive asymmetric compounding return |
+| **Profit Factor (Gain / Loss)** | **2.23x** | Gross profit generated for every ₹1 lost |
+| **Total Capital Allocated** | **₹3,001,656.51** | Sized strictly at 1% portfolio risk per trade |
+| **Net Realized & Unrealized P&L** | **₹+28,589.63 (+0.95%)** | Positive asymmetric compounding return |
 | **Active / Open Trades** | **13** | Ongoing swings currently under daily surveillance |
 
 ---
@@ -21,8 +21,8 @@
 
 | Conviction Tier | Trades Tracked | Win / On-Track Rate | Avg Peak Gain (MFE %) | Predictive Quality |
 |:---|:---:|:---:|:---:|:---|
-| **High Conviction (≥ 85 / 100)** | **12** | **33.3%** | **+3.50%** | 🟢 Superior accuracy & asymmetric upside |
-| **Moderate Conviction (< 85 / 100)** | **15** | **60.0%** | **+4.09%** | 🟡 Requires strict trailing stop discipline |
+| **High Conviction (≥ 85 / 100)** | **12** | **33.3%** | **+3.52%** | 🟢 Superior accuracy & asymmetric upside |
+| **Moderate Conviction (< 85 / 100)** | **15** | **60.0%** | **+4.20%** | 🟡 Requires strict trailing stop discipline |
 
 ---
 
@@ -30,11 +30,11 @@
 
 | Date | Symbol | Conviction | Entry (₹) | Target 1 (₹) | SL (₹) | CMP (₹) | MFE % (Peak) | MAE % (Drawdown) | Realized R:R | P&L (%) | Accuracy % | Model Verdict |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| 2026-11-06 | **PIDILITIND** | **86** | ₹1580.58 | ₹1600.00 | ₹1518.58 | ₹1579.00 | -0.10% | -3.15% | **-0.03R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
-| 2026-11-06 | **CHOLAFIN** | **85** | ₹1786.78 | ₹1800.00 | ₹1700.84 | ₹1785.00 | -0.10% | -3.58% | **-0.02R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
-| 2026-11-06 | **TATACONSUM** | **83** | ₹1086.30 | ₹1100.00 | ₹1048.31 | ₹1086.30 | +0.00% | -2.42% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
-| 2026-11-06 | **CIPLA** | **82** | ₹1412.41 | ₹1464.86 | ₹1370.61 | ₹1411.00 | -0.10% | -2.15% | **-0.03R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
-| 2026-11-06 | **HCLTECH** | **82** | ₹1473.41 | ₹1460.00 | ₹1380.00 | ₹1440.00 | -0.30% | -3.15% | **-0.36R** | **-2.27%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
+| 2026-11-06 | **PIDILITIND** | **86** | ₹1579.00 | ₹1600.00 | ₹1518.58 | ₹1579.00 | +0.00% | -3.05% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
+| 2026-11-06 | **CHOLAFIN** | **85** | ₹1785.00 | ₹1800.00 | ₹1700.84 | ₹1785.00 | +0.00% | -3.48% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
+| 2026-11-06 | **TATACONSUM** | **83** | ₹1093.67 | ₹1100.00 | ₹1048.31 | ₹1086.30 | -0.67% | -3.08% | **-0.16R** | **-0.67%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
+| 2026-11-06 | **CIPLA** | **82** | ₹1411.00 | ₹1464.86 | ₹1370.61 | ₹1411.00 | +0.00% | -2.06% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
+| 2026-11-06 | **HCLTECH** | **82** | ₹1440.00 | ₹1460.00 | ₹1380.00 | ₹1440.00 | +2.01% | -0.90% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
 | 2026-11-05 | **AEROPLANE** | **89** | ₹242.50 | ₹266.42 | ₹224.56 | ₹238.71 | -0.51% | -3.92% | **-0.21R** | **-1.56%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
 | 2026-11-05 | **ASIANPAINT** | **89** | ₹2548.55 | ₹2650.46 | ₹2428.81 | ₹2546.00 | -0.10% | -3.78% | **-0.02R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
 | 2026-11-05 | **CIPLA** | **89** | ₹1412.41 | ₹1457.86 | ₹1363.78 | ₹1411.00 | -0.10% | -2.15% | **-0.03R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
