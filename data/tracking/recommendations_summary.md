@@ -1,6 +1,6 @@
 # 📈 Recommendations & Model Predictive Accuracy Summary Sheet
 
-> **Last Updated:** 2026-11-09 04:14:58 IST  
+> **Last Updated:** 2026-11-09 05:45:00 IST  
 > **Tracking Period:** 2026-10-06 to 2026-11-06  
 
 ## 📊 Model Performance & Accuracy KPI
@@ -10,9 +10,9 @@
 | **Total Tracked Recommendations** | **27** | Complete universe of shortlisted swing trades |
 | **Resolved Trades (Hit / Stop)** | **14** | 10 Target Hits 🎯 vs 4 Stop Loss Hits 🛑 |
 | **Win Rate on Resolved Trades** | **71.4%** | Target 1 or Target 2 hit before stop-loss |
-| **Profit Factor (Gain / Loss)** | **2.23x** | Gross profit generated for every ₹1 lost |
-| **Total Capital Allocated** | **₹3,001,656.51** | Sized strictly at 1% portfolio risk per trade |
-| **Net Realized & Unrealized P&L** | **₹+28,589.63 (+0.95%)** | Positive asymmetric compounding return |
+| **Profit Factor (Gain / Loss)** | **2.04x** | Gross profit generated for every ₹1 lost |
+| **Total Capital Allocated** | **₹3,003,818.87** | Sized strictly at 1% portfolio risk per trade |
+| **Net Realized & Unrealized P&L** | **₹+26,427.27 (+0.88%)** | Positive asymmetric compounding return |
 | **Active / Open Trades** | **13** | Ongoing swings currently under daily surveillance |
 
 ---
@@ -22,7 +22,7 @@
 | Conviction Tier | Trades Tracked | Win / On-Track Rate | Avg Peak Gain (MFE %) | Predictive Quality |
 |:---|:---:|:---:|:---:|:---|
 | **High Conviction (≥ 85 / 100)** | **12** | **33.3%** | **+3.52%** | 🟢 Superior accuracy & asymmetric upside |
-| **Moderate Conviction (< 85 / 100)** | **15** | **60.0%** | **+4.20%** | 🟡 Requires strict trailing stop discipline |
+| **Moderate Conviction (< 85 / 100)** | **15** | **60.0%** | **+4.12%** | 🟡 Requires strict trailing stop discipline |
 
 ---
 
@@ -32,8 +32,8 @@
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
 | 2026-11-06 | **PIDILITIND** | **86** | ₹1579.00 | ₹1600.00 | ₹1518.58 | ₹1579.00 | +0.00% | -3.05% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
 | 2026-11-06 | **CHOLAFIN** | **85** | ₹1785.00 | ₹1800.00 | ₹1700.84 | ₹1785.00 | +0.00% | -3.48% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
-| 2026-11-06 | **TATACONSUM** | **83** | ₹1093.67 | ₹1100.00 | ₹1048.31 | ₹1086.30 | -0.67% | -3.08% | **-0.16R** | **-0.67%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
-| 2026-11-06 | **CIPLA** | **82** | ₹1411.00 | ₹1464.86 | ₹1370.61 | ₹1411.00 | +0.00% | -2.06% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
+| 2026-11-06 | **TATACONSUM** | **83** | ₹1096.28 | ₹1100.00 | ₹1048.31 | ₹1086.30 | -0.91% | -3.31% | **-0.21R** | **-0.91%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
+| 2026-11-06 | **CIPLA** | **82** | ₹1425.66 | ₹1464.86 | ₹1370.61 | ₹1411.00 | -1.03% | -3.06% | **-0.27R** | **-1.03%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
 | 2026-11-06 | **HCLTECH** | **82** | ₹1440.00 | ₹1460.00 | ₹1380.00 | ₹1440.00 | +2.01% | -0.90% | **+0.00R** | **+0.00%** | 0.0% | 🟢 ON TRACK (IN PROFIT) |
 | 2026-11-05 | **AEROPLANE** | **89** | ₹242.50 | ₹266.42 | ₹224.56 | ₹238.71 | -0.51% | -3.92% | **-0.21R** | **-1.56%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
 | 2026-11-05 | **ASIANPAINT** | **89** | ₹2548.55 | ₹2650.46 | ₹2428.81 | ₹2546.00 | -0.10% | -3.78% | **-0.02R** | **-0.10%** | 0.0% | 🔴 IN DRAWDOWN (WITHIN SL) |
