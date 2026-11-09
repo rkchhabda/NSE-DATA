@@ -2,8 +2,8 @@ name: Morning 09:30 AM Swing Entry & Mobile Alert
 
 on:
   schedule:
-    # 09:30 AM IST (04:00 AM UTC), Monday through Friday
-    - cron: '00 04 * * 1-5'
+    # 09:33 AM IST (04:03 AM UTC), Monday through Friday (offset from :00 to avoid GitHub public queue congestion)
+    - cron: '03 04 * * 1-5'
   workflow_dispatch: # Allows manual trigger anytime from GitHub web or mobile app
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
           SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
           SMTP_PORT: ${{ secrets.SMTP_PORT || '465' }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD || secrets.SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: |
           python pipeline/tools/run_daily.py --morning --notify --top 5

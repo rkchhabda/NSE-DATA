@@ -16,7 +16,7 @@ from pathlib import Path
 
 WORKSPACE = Path(__file__).resolve().parent.parent.parent
 CONFIG_PATH = WORKSPACE / "pipeline" / "config" / "alerts.json"
-REPO = "rkchhabda/NSE-DATA"
+REPOS = ["rkchhabda/antigravity-nse", "rkchhabda/NSE-DATA"]
 
 SECRET_MAP = {
     "telegram_token":   "TELEGRAM_BOT_TOKEN",
@@ -42,29 +42,30 @@ def main():
     print(res.stdout or res.stderr)
 
     errors = 0
-    for json_key, secret_name in SECRET_MAP.items():
-        value = str(cfg.get(json_key, "")).strip()
-        if not value:
-            print(f"  SKIP  {secret_name} (empty in config)")
-            continue
+    for target_repo in REPOS:
+        print(f"\n--- Setting secrets for repository: {target_repo} ---")
+        for json_key, secret_name in SECRET_MAP.items():
+            value = str(cfg.get(json_key, "")).strip()
+            if not value:
+                print(f"  SKIP  {secret_name} (empty in config)")
+                continue
 
-        # Pipe the value via stdin so it never appears in process args
-        r = subprocess.run(
-            ["gh", "secret", "set", secret_name, "-R", REPO, "--body", value],
-            capture_output=True, text=True
-        )
-        if r.returncode == 0:
-            print(f"  [OK] SET  {secret_name}")
-        else:
-            print(f"  [ERR] FAIL {secret_name}: {r.stderr.strip()}")
-            errors += 1
+            r = subprocess.run(
+                ["gh", "secret", "set", secret_name, "-R", target_repo, "--body", value],
+                capture_output=True, text=True
+            )
+            if r.returncode == 0:
+                print(f"  [OK] SET  {secret_name}")
+            else:
+                print(f"  [ERR] FAIL {secret_name}: {r.stderr.strip()}")
+                errors += 1
 
     if errors:
         print(f"\n{errors} secret(s) failed. Make sure `gh auth login` is done as rkchhabda.")
         return 1
 
     print("\nAll secrets set! Now trigger a workflow to verify:")
-    print(f"  gh workflow run morning_entry_check.yml -R {REPO}")
+    print(f"  gh workflow run morning_entry_check.yml -R {REPOS[0]}")
     return 0
 
 

@@ -2,9 +2,9 @@ name: Daily Evening Screening Pipeline
 
 on:
   schedule:
-    # 17:45 IST (12:15 UTC), Monday through Friday
-    - cron: '15 12 * * 1-5'
-  workflow_dispatch: # Allows manual trigger from GitHub web or mobile app
+    # 17:48 IST (12:18 UTC), Monday through Friday (offset from :00/:15 to avoid GitHub public queue congestion)
+    - cron: '18 12 * * 1-5'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub web or mobile app
 
 jobs:
   screen_universe:
@@ -33,7 +33,7 @@ jobs:
           SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
           SMTP_PORT: ${{ secrets.SMTP_PORT || '465' }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD || secrets.SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: |
           python pipeline/tools/run_daily.py --notify --top 5
