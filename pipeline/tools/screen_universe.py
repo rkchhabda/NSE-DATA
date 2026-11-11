@@ -27,10 +27,15 @@ from typing import Dict, List, Optional, Tuple
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-GATE_DIR = os.path.join(os.path.dirname(ROOT), ".agents", "skills", "nse-data-integrity-engine", "scripts")
+WORKSPACE_ROOT = os.path.dirname(ROOT)
+if WORKSPACE_ROOT not in sys.path:
+    sys.path.insert(0, WORKSPACE_ROOT)
+
+GATE_DIR = os.path.join(WORKSPACE_ROOT, ".agents", "skills", "nse-data-integrity-engine", "scripts")
 if os.path.exists(GATE_DIR):
     sys.path.insert(0, GATE_DIR)
 import gate_check  # noqa: E402
+from pipeline.fetchers.nse_ban_and_events import fetch_fno_ban_list, fetch_upcoming_events
 
 
 def _f(v) -> Optional[float]:
@@ -289,13 +294,21 @@ def generate_trade_setup(cmp_val: float, atr_val: Optional[float], brk: dict) ->
     }
 
 
-def screen_stock(stock: dict, regime_score: int) -> dict:
-    """Evaluate one stock across upstream models and run through the gate."""
+def screen_stock(
+    stock: dict,
+    regime_score: int,
+    fo_ban_set: Optional[set] = None,
+    earnings_events: Optional[dict] = None
+) -> dict:
+    """Evaluate one stock across upstream models, risk filters, and run through the gate."""
     ev = stock.setdefault("evidence", {})
     cmp_recs = ev.get("cmp", [])
     if not cmp_recs:
         return None
     cmp_val = cmp_recs[0]["value"]
+    sym = stock["symbol"].upper()
+    fo_ban_set = fo_ban_set or set()
+    earnings_events = earnings_events or {}
     
     # Calculate scores
     tech_score, tech_details = score_technical(stock)
@@ -391,6 +404,27 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
         gate_status = "WAIT FOR BREAKOUT"
         gate_res["failed_conditions"].append("Derivatives: Pure short covering rally - wait for breakout")
 
+    # 1. Institutional F&O Ban Risk Filter
+    is_banned = sym in fo_ban_set
+    if is_banned:
+        gate_res["failed_conditions"].append(
+            f"F&O Ban: {sym} is in official NSE F&O ban period (OI > 95% MWPL). Cash swing entry blocked."
+        )
+        if gate_status == "BUY NOW":
+            gate_status = "WATCH"
+
+    # 2. Pre-Earnings Binary Risk Filter (within 72 hours)
+    imminent_event = None
+    if sym in earnings_events:
+        ev_info = earnings_events[sym]
+        if ev_info.get("is_earnings"):
+            imminent_event = ev_info
+            gate_res["failed_conditions"].append(
+                f"Pre-Earnings Risk: Financial Results on {ev_info.get('date')} ({ev_info.get('purpose')}). Binary gap risk."
+            )
+            if gate_status == "BUY NOW":
+                gate_status = "WAIT FOR BREAKOUT"
+
     # Attach trade setup if qualified
     atr_val = ev.get("indicators", {}).get("atr14", {}).get("internal")
     trade_plan = generate_trade_setup(cmp_val, atr_val, brk)
@@ -413,6 +447,8 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
         "trading_date": stock.get("trading_date"),
         "cmp": cmp_val,
         "gate_status": gate_status,
+        "is_fo_ban": is_banned,
+        "upcoming_earnings": imminent_event,
         "data_confidence": gate_res["data_confidence"]["score"],
         "data_band": gate_res["data_confidence"]["band"],
         "validation_status": gate_res["validation_status"],
@@ -427,12 +463,28 @@ def screen_stock(stock: dict, regime_score: int) -> dict:
     }
 
 
-def render_markdown_report(screened: List[dict], regime_info: dict, date_str: str) -> str:
+def render_markdown_report(
+    screened: List[dict],
+    regime_info: dict,
+    date_str: str,
+    fo_ban_list: Optional[List[str]] = None,
+    earnings_count: int = 0
+) -> str:
+    fo_ban_list = fo_ban_list or []
     out = [
         f"# NSE Data Integrity & Swing Trading Report ({date_str})",
         "",
         f"**Market Regime:** Breadth {regime_info['breadth_pct']}% of universe above 20 EMA | "
         f"Regime Score: {min(100, max(20, int(20 + regime_info['breadth_pct'] * 0.75)))}/100",
+        "",
+        "---",
+        "",
+        "## 🛡️ Institutional Risk & Event Watch",
+        "",
+        f"- **F&O Ban Period Securities ({len(fo_ban_list)}):** "
+        + (", ".join(fo_ban_list) if fo_ban_list else "*None*"),
+        f"- **Upcoming Corporate Earnings Monitored (Next 72 Hours):** {earnings_count} companies.",
+        "  *(Stocks with imminent earnings are quarantined from immediate BUY NOW to eliminate binary event risk.)*",
         "",
         "---",
         "",
@@ -485,9 +537,13 @@ def render_markdown_report(screened: List[dict], regime_info: dict, date_str: st
             fo_info = s.get("fo")
             segment_badge = f"F&O ({fo_info.get('buildup', 'NEUTRAL')})" if fo_info else "CASH"
             deriv_val = sc.get("derivatives", "-")
+            trigger_note = f"Entry: {ts['entry_range']}"
+            if s.get("upcoming_earnings"):
+                ev = s["upcoming_earnings"]
+                trigger_note += f" <br>*(⚠️ Results: {ev.get('date')})*"
             out.append(
                 f"| **{s['symbol']}** | {segment_badge} | ₹{s['cmp']} | {s['conviction_score']} | "
-                f"{s['data_confidence']} | {sc['technical']} | {deriv_val} | Entry: {ts['entry_range']} | ₹{ts['target_1']} |"
+                f"{s['data_confidence']} | {sc['technical']} | {deriv_val} | {trigger_note} | ₹{ts['target_1']} |"
             )
         out.append("")
     else:
@@ -504,6 +560,8 @@ def render_markdown_report(screened: List[dict], regime_info: dict, date_str: st
     for s in watch[:12]:
         fo_info = s.get("fo")
         segment_badge = f"F&O ({fo_info.get('buildup', 'NEUTRAL')})" if fo_info else "CASH"
+        if s.get("is_fo_ban"):
+            segment_badge += " [⚠️ BAN]"
         reasons = "; ".join(s["failed_conditions"][:2]) if s["failed_conditions"] else "Consolidating"
         out.append(
             f"| **{s['symbol']}** | {segment_badge} | ₹{s['cmp']} | {s['conviction_score']} | "
@@ -548,6 +606,26 @@ def main(argv=None):
         except Exception as e:
             print(f"Warning: Failed to load F&O data from {fo_path}: {e}")
 
+    # Load F&O ban list and upcoming corporate events
+    print(f"Loading F&O Ban list and Upcoming Corporate Events for {a.date}...")
+    try:
+        fo_ban_list = fetch_fno_ban_list(a.date)
+        fo_ban_set = set(fo_ban_list)
+        print(f"F&O Ban List ({len(fo_ban_list)}): {fo_ban_list if fo_ban_list else 'None'}")
+    except Exception as e:
+        print(f"Warning: Failed to fetch F&O Ban list: {e}")
+        fo_ban_list = []
+        fo_ban_set = set()
+
+    try:
+        earnings_events = fetch_upcoming_events(a.date, days_ahead=3)
+        fin_results_count = sum(1 for e in earnings_events.values() if e.get("is_earnings"))
+        print(f"Upcoming Corporate Events (Next 72h): {len(earnings_events)} total, {fin_results_count} Financial Results")
+    except Exception as e:
+        print(f"Warning: Failed to fetch upcoming events: {e}")
+        earnings_events = {}
+        fin_results_count = 0
+
     for s in stocks:
         sym = s.get("symbol")
         if sym in fo_stocks:
@@ -562,7 +640,7 @@ def main(argv=None):
 
     screened = []
     for s in stocks:
-        res = screen_stock(s, regime_score)
+        res = screen_stock(s, regime_score, fo_ban_set=fo_ban_set, earnings_events=earnings_events)
         if res:
             screened.append(res)
 
@@ -570,12 +648,18 @@ def main(argv=None):
     report_md_path = os.path.join(a.out_dir, f"screening_report_{a.date}.md")
     report_json_path = os.path.join(a.out_dir, f"screening_report_{a.date}.json")
 
-    md_text = render_markdown_report(screened, regime_info, a.date)
+    md_text = render_markdown_report(screened, regime_info, a.date, fo_ban_list=fo_ban_list, earnings_count=fin_results_count)
     with open(report_md_path, "w", encoding="utf-8") as f:
         f.write(md_text + "\n")
 
     with open(report_json_path, "w", encoding="utf-8") as f:
-        json.dump({"date": a.date, "regime": regime_info, "screened": screened}, f, indent=2)
+        json.dump({
+            "date": a.date,
+            "regime": regime_info,
+            "fo_ban_list": fo_ban_list,
+            "upcoming_earnings_count": fin_results_count,
+            "screened": screened
+        }, f, indent=2)
 
     print(f"\nScreening Complete!")
     print(f"  Markdown Report: {report_md_path}")

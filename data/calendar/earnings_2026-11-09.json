@@ -1,0 +1,2144 @@
+{
+  "from_date": "2026-11-09",
+  "days_ahead": 3,
+  "count": 267,
+  "events": {
+    "MEDICO": {
+      "symbol": "MEDICO",
+      "company": "Medico Remedies Limited",
+      "date": "09-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "OLECTRA": {
+      "symbol": "OLECTRA",
+      "company": "Olectra Greentech Limited",
+      "date": "09-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "PARKHOSPS": {
+      "symbol": "PARKHOSPS",
+      "company": "Park Medi World Limited",
+      "date": "09-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended on September 30, 2026",
+      "is_earnings": true
+    },
+    "RMDRIP": {
+      "symbol": "RMDRIP",
+      "company": "R M Drip and Sprinklers Systems Limited",
+      "date": "09-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SVPGLOB": {
+      "symbol": "SVPGLOB",
+      "company": "SVP GLOBAL TEXTILES LIMITED",
+      "date": "09-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "WHIRLPOOL": {
+      "symbol": "WHIRLPOOL",
+      "company": "Whirlpool of India Limited",
+      "date": "09-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ARSSINFRA": {
+      "symbol": "ARSSINFRA",
+      "company": "ARSS Infrastructure Projects Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "AVANTIFEED": {
+      "symbol": "AVANTIFEED",
+      "company": "Avanti Feeds Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "BAJFINANCE": {
+      "symbol": "BAJFINANCE",
+      "company": "Bajaj Finance Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Other business matters",
+      "bm_desc": "We wish to inform you that a meeting of the PI 2026- Special Committee of the Board of Directors of the Company is scheduled to be held on Tuesday, 10 November 2026",
+      "is_earnings": false
+    },
+    "COCHINSHIP": {
+      "symbol": "COCHINSHIP",
+      "company": "Cochin Shipyard Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and dividend",
+      "is_earnings": true
+    },
+    "DREDGECORP": {
+      "symbol": "DREDGECORP",
+      "company": "Dredging Corporation of India Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "HIRECT": {
+      "symbol": "HIRECT",
+      "company": "Hirect Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "IIFL": {
+      "symbol": "IIFL",
+      "company": "IIFL Finance Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Fund Raising",
+      "bm_desc": "IIFL Finance Limited has informed the Exchanges regarding Board Meeting scheduled to be held on November 10, 2026 to consider and approve fund raising.",
+      "is_earnings": false
+    },
+    "KALYANKJIL": {
+      "symbol": "KALYANKJIL",
+      "company": "Kalyan Jewellers India Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "KUNDANMM": {
+      "symbol": "KUNDANMM",
+      "company": "Kundan Minerals and Metals Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "The Company has informed the Exchange that a Board meeting to be held on November 10, 2026 has been re-scheduled on November 12, 2026, To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "LEEL": {
+      "symbol": "LEEL",
+      "company": "LEEL Electricals Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "LEEL : 12-Nov-2026 :  The Company has informed the Exchange that a Board meeting to be held on November 10, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on November 12, 2026,  To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "LFIC": {
+      "symbol": "LFIC",
+      "company": "Lakshmi Finance & Industrial Corporation Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MATRIMONY": {
+      "symbol": "MATRIMONY",
+      "company": "Matrimony.Com Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MIDWESTLTD": {
+      "symbol": "MIDWESTLTD",
+      "company": "Midwest Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MMTC": {
+      "symbol": "MMTC",
+      "company": "MMTC Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "MRF": {
+      "symbol": "MRF",
+      "company": "MRF Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and interim dividend, if any.",
+      "is_earnings": true
+    },
+    "PILANIINVS": {
+      "symbol": "PILANIINVS",
+      "company": "Pilani Investment and Industries Corporation Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "QUADFUTURE": {
+      "symbol": "QUADFUTURE",
+      "company": "Quadrant Future Tek Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To inter-alia consider and approve the Unaudited financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RENTOMOJO": {
+      "symbol": "RENTOMOJO",
+      "company": "Rentomojo Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ROSSELLIND": {
+      "symbol": "ROSSELLIND",
+      "company": "Rossell India Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SIMPLEXINF": {
+      "symbol": "SIMPLEXINF",
+      "company": "Simplex Infrastructures Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SURAKSHA": {
+      "symbol": "SURAKSHA",
+      "company": "Suraksha Diagnostic Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "TITAGARH": {
+      "symbol": "TITAGARH",
+      "company": "TITAGARH RAIL SYSTEMS LIMITED",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "UNITEDTEA": {
+      "symbol": "UNITEDTEA",
+      "company": "The United Nilgiri Tea Estates Company Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "VHL": {
+      "symbol": "VHL",
+      "company": "Vardhman Holdings Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "VIRINCHI": {
+      "symbol": "VIRINCHI",
+      "company": "Virinchi Limited",
+      "date": "10-Nov-2026",
+      "purpose": "Financial Results/Fund Raising",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and Fund Raising",
+      "is_earnings": true
+    },
+    "AFSL": {
+      "symbol": "AFSL",
+      "company": "Abans Financial Services Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "AIRAN": {
+      "symbol": "AIRAN",
+      "company": "Airan Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "AMBIKCO": {
+      "symbol": "AMBIKCO",
+      "company": "Ambika Cotton Mills Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "AVTNPL": {
+      "symbol": "AVTNPL",
+      "company": "AVT Natural Products Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BAFNAPH": {
+      "symbol": "BAFNAPH",
+      "company": "Bafna Pharmaceuticals Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Un-Audited Financial Results for the Quarter and Half Year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BAJAJHIND": {
+      "symbol": "BAJAJHIND",
+      "company": "Bajaj Hindusthan Sugar Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BALPHARMA": {
+      "symbol": "BALPHARMA",
+      "company": "Bal Pharma Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "BANARISUG": {
+      "symbol": "BANARISUG",
+      "company": "Bannari Amman Sugars Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BASML": {
+      "symbol": "BASML",
+      "company": "Bannari Amman Spinning Mills Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BURNPUR": {
+      "symbol": "BURNPUR",
+      "company": "Burnpur Cement Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CUPID": {
+      "symbol": "CUPID",
+      "company": "Cupid Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve Un-audited Financial Results (Standalone and Consolidated) of the Company for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "DCXINDIA": {
+      "symbol": "DCXINDIA",
+      "company": "DCX Systems Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "EDELALTS": {
+      "symbol": "EDELALTS",
+      "company": "EAAA India Alternatives Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and declaration of interim dividend if any",
+      "is_earnings": true
+    },
+    "EIHAHOTELS": {
+      "symbol": "EIHAHOTELS",
+      "company": "EIH Associated Hotels Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GANGOTRI": {
+      "symbol": "GANGOTRI",
+      "company": "Gangotri Textiles Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "GANGOTRI : 11-Nov-2026 :  The Company has informed the Exchange that a Board meeting to be held on October 31, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on November 11, 2026,  To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GLOTTIS": {
+      "symbol": "GLOTTIS",
+      "company": "Glottis Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GREENPOWER": {
+      "symbol": "GREENPOWER",
+      "company": "Orient Green Power Company Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GRSE": {
+      "symbol": "GRSE",
+      "company": "Garden Reach Shipbuilders & Engineers Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "This has reference to our letter No. SECY/GRSE/BD-69/CA/35/26-27 dated 23 Oct 2026 on the subject matter of  Intimation of Date of Board Meeting to, inter alia, consider and approve, Unaudited Financial Results for the quarter and half year ended 30th September, 2026 .This is to inform you that meeting of the Board of Directors of the Company, which is scheduled to be held on Wednesday, 04 Nov 2026, has been rescheduled and now will be held on Wednesday, 11 Nov 2026 due to unavoidable circumstances. Accordingly, the Trading Window for dealing in securities of the Company shall remain closed from 01st October, 2026 to 13th November, 2026.This is for your information and record.",
+      "is_earnings": true
+    },
+    "HALEOSLABS": {
+      "symbol": "HALEOSLABS",
+      "company": "HALEOS LABS LIMITED",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "HINDCOPPER": {
+      "symbol": "HINDCOPPER",
+      "company": "Hindustan Copper Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ICDSLTD": {
+      "symbol": "ICDSLTD",
+      "company": "ICDS Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "INSPIRISYS": {
+      "symbol": "INSPIRISYS",
+      "company": "Inspirisys Solutions Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "INTENTECH": {
+      "symbol": "INTENTECH",
+      "company": "Intense Technologies Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "LALITHAA": {
+      "symbol": "LALITHAA",
+      "company": "Lalithaa Jewellery Mart Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "LOTUSEYE": {
+      "symbol": "LOTUSEYE",
+      "company": "Lotus Eye Hospital and Institute Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MIDHANI": {
+      "symbol": "MIDHANI",
+      "company": "Mishra Dhatu Nigam Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NFL": {
+      "symbol": "NFL",
+      "company": "National Fertilizers Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NPST": {
+      "symbol": "NPST",
+      "company": "Network People Services Technologies Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "ORCHASP": {
+      "symbol": "ORCHASP",
+      "company": "Orchasp Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "ORTINGLOBE": {
+      "symbol": "ORTINGLOBE",
+      "company": "ORTIN GLOBAL LIMITED",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "PIONEEREMB": {
+      "symbol": "PIONEEREMB",
+      "company": "Pioneer Embroideries Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "POWERMECH": {
+      "symbol": "POWERMECH",
+      "company": "Power Mech Projects Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "PVSL": {
+      "symbol": "PVSL",
+      "company": "Popular Vehicles and Services Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ROTO": {
+      "symbol": "ROTO",
+      "company": "Roto Pumps Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the un-audited standalone and consolidated financial results for the second quarter and the half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SAKHTISUG": {
+      "symbol": "SAKHTISUG",
+      "company": "Sakthi Sugars Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SALONA": {
+      "symbol": "SALONA",
+      "company": "Salona Cotspin Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SECURKLOUD": {
+      "symbol": "SECURKLOUD",
+      "company": "SECUREKLOUD TECHNOLOGIES LIMITED",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "SEPC": {
+      "symbol": "SEPC",
+      "company": "SEPC Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "SEPC Limited has informed the Exchange about Board Meeting to be held on November 11, 2026 to inter-alia consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half-year ended September 30, 2026. Detailed letter is enclosed.",
+      "is_earnings": true
+    },
+    "SICALLOG": {
+      "symbol": "SICALLOG",
+      "company": "Sical Logistics Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "Board Meeting Intimation for Considering the Un-Audited Financial Results (Standalone & Consolidated) For the Quarter and Half Year Ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SOMATEX": {
+      "symbol": "SOMATEX",
+      "company": "Soma Textiles & Industries Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SRD": {
+      "symbol": "SRD",
+      "company": "Shankar Lal Rampal Dye-Chem Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "TALBROAUTO": {
+      "symbol": "TALBROAUTO",
+      "company": "Talbros Automotive Components Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Dividend/Other business matters",
+      "bm_desc": "To consider and approve the Unaudited financial results for the 2nd Quarter and half year ended September 30, 2026, dividend and other business matters.",
+      "is_earnings": true
+    },
+    "TATAPOWER": {
+      "symbol": "TATAPOWER",
+      "company": "Tata Power Company Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2026, and other business matters",
+      "is_earnings": true
+    },
+    "TERASOFT": {
+      "symbol": "TERASOFT",
+      "company": "Tera Software Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results/Fund Raising/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026, Fund Raising and other business matters",
+      "is_earnings": true
+    },
+    "THEJO": {
+      "symbol": "THEJO",
+      "company": "Thejo Engineering Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider the Financial Results (Standalone and Consolidated) of the Company for the quarter and half year ended September 30, 2026.",
+      "is_earnings": true
+    },
+    "TRITURBINE": {
+      "symbol": "TRITURBINE",
+      "company": "Triveni Turbine Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the second quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "TSFINV": {
+      "symbol": "TSFINV",
+      "company": "TSF INVESTMENTS LIMITED",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "VIPCLOTHNG": {
+      "symbol": "VIPCLOTHNG",
+      "company": "VIP Clothing Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "WIPL": {
+      "symbol": "WIPL",
+      "company": "The Western India Plywoods Limited",
+      "date": "11-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ACE": {
+      "symbol": "ACE",
+      "company": "Action Construction Equipment Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ACEINTEG": {
+      "symbol": "ACEINTEG",
+      "company": "Ace Integrated Solutions Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "ADVANIHOTR": {
+      "symbol": "ADVANIHOTR",
+      "company": "Advani Hotels & Resorts (India) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ALBERTDAVD": {
+      "symbol": "ALBERTDAVD",
+      "company": "Albert David Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ALICON": {
+      "symbol": "ALICON",
+      "company": "Alicon Castalloy Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ALKEM": {
+      "symbol": "ALKEM",
+      "company": "Alkem Laboratories Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "to consider and approve the Standalone and Consolidated Unaudited Financial Results of the Company for the quarter and half year ended 30th September, 2026.",
+      "is_earnings": true
+    },
+    "ALPHAGEO": {
+      "symbol": "ALPHAGEO",
+      "company": "Alphageo (India) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "AMBER": {
+      "symbol": "AMBER",
+      "company": "Amber Enterprises India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ANTGRAPHIC": {
+      "symbol": "ANTGRAPHIC",
+      "company": "Antarctica Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "ANTGRAPHIC : 12-Nov-2026 :  The Company has informed the Exchange that a Board meeting to be held on November 05, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on November 12, 2026,  To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "APCL": {
+      "symbol": "APCL",
+      "company": "Anjani Portland Cement Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited standalone and consolidated financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "APEX": {
+      "symbol": "APEX",
+      "company": "Apex Frozen Foods Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the un-audited financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "APOLSINHOT": {
+      "symbol": "APOLSINHOT",
+      "company": "Apollo Sindoori Hotels Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ARDEE": {
+      "symbol": "ARDEE",
+      "company": "Ardee Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "AROGRANITE": {
+      "symbol": "AROGRANITE",
+      "company": "Aro Granite Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ASAHISONG": {
+      "symbol": "ASAHISONG",
+      "company": "Asahi Songwon Colors Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ASALCBR": {
+      "symbol": "ASALCBR",
+      "company": "Associated Alcohols & Breweries Ltd.",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the second quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ASIANHOTNR": {
+      "symbol": "ASIANHOTNR",
+      "company": "Asian Hotels (North) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited standalone and consolidated financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ASTRAMICRO": {
+      "symbol": "ASTRAMICRO",
+      "company": "Astra Microwave Products Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "AUTOAXLES": {
+      "symbol": "AUTOAXLES",
+      "company": "Automotive Axles Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "AVALON": {
+      "symbol": "AVALON",
+      "company": "Avalon Technologies Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BALAXI": {
+      "symbol": "BALAXI",
+      "company": "BALAXI PHARMACEUTICALS LIMITED",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the Unaudited Standalone and Consolidated financial results of the Company for the second quarter and half year ended 30th September, 2026 of the Financial Year 2026-27, and other business matters.",
+      "is_earnings": true
+    },
+    "BANKA": {
+      "symbol": "BANKA",
+      "company": "Banka BioLoo Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results and other inter alia business matters for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BDL": {
+      "symbol": "BDL",
+      "company": "Bharat Dynamics Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BLKASHYAP": {
+      "symbol": "BLKASHYAP",
+      "company": "B. L. Kashyap and Sons Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BONDADA": {
+      "symbol": "BONDADA",
+      "company": "Bondada Engineering Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "BONFIG": {
+      "symbol": "BONFIG",
+      "company": "Bonfiglioli Transmissions Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CANTABIL": {
+      "symbol": "CANTABIL",
+      "company": "Cantabil Retail India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CAPLIPOINT": {
+      "symbol": "CAPLIPOINT",
+      "company": "Caplin Point Laboratories Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CCHHL": {
+      "symbol": "CCHHL",
+      "company": "Country Club Hospitality & Holidays Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CEINSYS": {
+      "symbol": "CEINSYS",
+      "company": "Ceinsys Tech Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "CEREBRAINT": {
+      "symbol": "CEREBRAINT",
+      "company": "Cerebra Integrated Technologies Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CLSEL": {
+      "symbol": "CLSEL",
+      "company": "Chaman Lal Setia Exports Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CONSOFINVT": {
+      "symbol": "CONSOFINVT",
+      "company": "Consolidated Finvest & Holdings Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "COUNCODOS": {
+      "symbol": "COUNCODOS",
+      "company": "Country Condo's Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CROWN": {
+      "symbol": "CROWN",
+      "company": "Crown Lifters Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "CROWN : 12-Nov-2026 :  The Company has informed the Exchange that a Board meeting to be held on November 02, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on November 12, 2026,  To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CTE": {
+      "symbol": "CTE",
+      "company": "Cambridge Technology Enterprises Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "CURAA": {
+      "symbol": "CURAA",
+      "company": "Cura Technologies Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "DAVANGERE": {
+      "symbol": "DAVANGERE",
+      "company": "Davangere Sugar Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited financial results (standalone and consolidated) for the quarter and half year ended September 30, 2026.",
+      "is_earnings": true
+    },
+    "DBEIL": {
+      "symbol": "DBEIL",
+      "company": "Deepak Builders & Engineers India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "DBL": {
+      "symbol": "DBL",
+      "company": "Dilip Buildcon Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "DDEVPLSTIK": {
+      "symbol": "DDEVPLSTIK",
+      "company": "Ddev Plastiks Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "DECCANCE": {
+      "symbol": "DECCANCE",
+      "company": "Deccan Cements Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "DHUNINV": {
+      "symbol": "DHUNINV",
+      "company": "Dhunseri Investments Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Un-Audited Financial Results of The Company for the Quarter Ended 30th September, 2026",
+      "is_earnings": true
+    },
+    "DISHTV": {
+      "symbol": "DISHTV",
+      "company": "Dish TV India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "DOLLAR": {
+      "symbol": "DOLLAR",
+      "company": "Dollar Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Un-Audited financial results for the Quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "DSKULKARNI": {
+      "symbol": "DSKULKARNI",
+      "company": "DS Kulkarni Developers Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the un-audited Standalone and Consolidated Financial Results for the quarter ended September 30, 2026",
+      "is_earnings": true
+    },
+    "EIHOTEL": {
+      "symbol": "EIHOTEL",
+      "company": "EIH Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ELEVATE": {
+      "symbol": "ELEVATE",
+      "company": "Elevate Campuses Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Unaudited Consolidated and Standalone Financial Results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ELGIRUBCO": {
+      "symbol": "ELGIRUBCO",
+      "company": "Elgi Rubber Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited standalone and consolidated financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "EMAMIREAL": {
+      "symbol": "EMAMIREAL",
+      "company": "Emami Realty Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "EMSLIMITED": {
+      "symbol": "EMSLIMITED",
+      "company": "EMS Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "ENERGYDEV": {
+      "symbol": "ENERGYDEV",
+      "company": "Energy Development Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ENNATURE": {
+      "symbol": "ENNATURE",
+      "company": "Ennature Bio Pharma Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ERAINFRA": {
+      "symbol": "ERAINFRA",
+      "company": "Era Infra Engineering Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ETHOSLTD": {
+      "symbol": "ETHOSLTD",
+      "company": "Ethos Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "FIEMIND": {
+      "symbol": "FIEMIND",
+      "company": "Fiem Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "FMGOETZE": {
+      "symbol": "FMGOETZE",
+      "company": "Federal-Mogul Goetze (India) Limited.",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GANGESSECU": {
+      "symbol": "GANGESSECU",
+      "company": "Ganges Securities Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "GAUDIUMIVF": {
+      "symbol": "GAUDIUMIVF",
+      "company": "Gaudium IVF and Women Health Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "Gaudium IVF and Women Health Limited has informed the Exchange about the Board Meeting scheduled to be held on November 12, 2026, to consider and approve the Un-audited Financial Results (Standalone and Consolidated) of the Company for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GAYAHWS": {
+      "symbol": "GAYAHWS",
+      "company": "Gayatri Highways Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "GAYAHWS : 12-Nov-2026 :  The Company has informed the Exchange that a Board meeting to be held on November 05, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on November 12, 2026,  To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GICHSGFIN": {
+      "symbol": "GICHSGFIN",
+      "company": "GIC Housing Finance Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "GLOBAL": {
+      "symbol": "GLOBAL",
+      "company": "Global Education Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "GOLDTECH": {
+      "symbol": "GOLDTECH",
+      "company": "AION-TECH SOLUTIONS LIMITED",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GUJRAFFIA": {
+      "symbol": "GUJRAFFIA",
+      "company": "Gujarat Raffia Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "GULPOLY": {
+      "symbol": "GULPOLY",
+      "company": "Gulshan Polyols Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the Un-audited financial results for the quarter and half year ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "HAL": {
+      "symbol": "HAL",
+      "company": "Hindustan Aeronautics Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "HAVISHA": {
+      "symbol": "HAVISHA",
+      "company": "Sri Havisha Hospitality and Infrastructure Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "HDFIRE": {
+      "symbol": "HDFIRE",
+      "company": "HD Fire Protect Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "HGS": {
+      "symbol": "HGS",
+      "company": "Hinduja Global Solutions Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "IDEA": {
+      "symbol": "IDEA",
+      "company": "Vodafone Idea Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited financial results for the second quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "IFCI": {
+      "symbol": "IFCI",
+      "company": "IFCI Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "IGLSPIRITS": {
+      "symbol": "IGLSPIRITS",
+      "company": "IGL Spirits Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "IIRM": {
+      "symbol": "IIRM",
+      "company": "IIRM Holdings India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve inter alia the unaudited financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "INDNIPPON": {
+      "symbol": "INDNIPPON",
+      "company": "India Nippon Electricals Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "INDOFARM": {
+      "symbol": "INDOFARM",
+      "company": "Indo Farm Equipment Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "INDOTECH": {
+      "symbol": "INDOTECH",
+      "company": "Indo Tech Transformers Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "INDTERRAIN": {
+      "symbol": "INDTERRAIN",
+      "company": "Indian Terrain Fashions Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "INDUSFILA": {
+      "symbol": "INDUSFILA",
+      "company": "Indus Fila Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "IRCTC": {
+      "symbol": "IRCTC",
+      "company": "Indian Railway Catering And Tourism Corporation Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ITDC": {
+      "symbol": "ITDC",
+      "company": "India Tourism Development Corporation Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "JBFIND": {
+      "symbol": "JBFIND",
+      "company": "JBF Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Un-audited  financial results for the period quarter and half year  ended September 30, 2026",
+      "is_earnings": true
+    },
+    "JKIPL": {
+      "symbol": "JKIPL",
+      "company": "Jinkushal Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "JMA": {
+      "symbol": "JMA",
+      "company": "Jullundur Motor Agency (Delhi) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "JPOLYINVST": {
+      "symbol": "JPOLYINVST",
+      "company": "Jindal Poly Investment and Finance Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "KARMAENG": {
+      "symbol": "KARMAENG",
+      "company": "Karma Energy Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "KCPSUGIND": {
+      "symbol": "KCPSUGIND",
+      "company": "KCP Sugar and Industries Corporation Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited Standalone and Consolidated financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "KESORAMIND": {
+      "symbol": "KESORAMIND",
+      "company": "Kesoram Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "LAL": {
+      "symbol": "LAL",
+      "company": "Lorenzini Apparels Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "LANCORHOL": {
+      "symbol": "LANCORHOL",
+      "company": "Lancor Holdings Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "LANDMARK": {
+      "symbol": "LANDMARK",
+      "company": "Landmark Cars Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "Landmark Cars Ltd has informed the exchange that the meeting of the Board of Directors of the Company is scheduled on 12/11/2026 ,inter alia, to consider and approve Standalone and Consolidated Unaudited Financial Results for the Quarter and Half Year ended September 30, 2026.",
+      "is_earnings": true
+    },
+    "LASERPOWER": {
+      "symbol": "LASERPOWER",
+      "company": "Laser Power & Infra Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "LIBERTSHOE": {
+      "symbol": "LIBERTSHOE",
+      "company": "Liberty Shoes Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "LOKESHMACH": {
+      "symbol": "LOKESHMACH",
+      "company": "Lokesh Machines Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "LOYALTEX": {
+      "symbol": "LOYALTEX",
+      "company": "Loyal Textile Mills Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MADRASFERT": {
+      "symbol": "MADRASFERT",
+      "company": "Madras Fertilizers Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "MAHAPEXLTD": {
+      "symbol": "MAHAPEXLTD",
+      "company": "Maha Rashtra Apex Corporation Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MALLCOM": {
+      "symbol": "MALLCOM",
+      "company": "Mallcom (India) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "MANAKALUCO": {
+      "symbol": "MANAKALUCO",
+      "company": "Manaksia Aluminium Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MANAPPURAM": {
+      "symbol": "MANAPPURAM",
+      "company": "Manappuram Finance Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Dividend/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026, dividend and other business matters",
+      "is_earnings": true
+    },
+    "MANINDS": {
+      "symbol": "MANINDS",
+      "company": "Man Industries (India) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MANORAMA": {
+      "symbol": "MANORAMA",
+      "company": "Manorama Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MARKOLINES": {
+      "symbol": "MARKOLINES",
+      "company": "Markolines Pavement Technologies Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the standalone and consolidated financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MBECL": {
+      "symbol": "MBECL",
+      "company": "Mcnally Bharat Engineering Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MBLINFRA": {
+      "symbol": "MBLINFRA",
+      "company": "MBL Infrastructure Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MOMSBELIEF": {
+      "symbol": "MOMSBELIEF",
+      "company": "Rays of Belief Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MSTCLTD": {
+      "symbol": "MSTCLTD",
+      "company": "Mstc Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MUKANDLTD": {
+      "symbol": "MUKANDLTD",
+      "company": "Mukand Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "MURUDCERA": {
+      "symbol": "MURUDCERA",
+      "company": "Murudeshwar Ceramics Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "Notice of the Board Meeting scheduled to be held on Thursday, November 12, 2026.",
+      "is_earnings": true
+    },
+    "MVELECTRO": {
+      "symbol": "MVELECTRO",
+      "company": "MV Electrosystems Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NAVA": {
+      "symbol": "NAVA",
+      "company": "NAVA LIMITED",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NCLIND": {
+      "symbol": "NCLIND",
+      "company": "NCL Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "NIPPOBATRY": {
+      "symbol": "NIPPOBATRY",
+      "company": "Indo-National Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NIRAJISPAT": {
+      "symbol": "NIRAJISPAT",
+      "company": "Niraj Ispat Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the Un-Audit financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "NMDC": {
+      "symbol": "NMDC",
+      "company": "NMDC Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NOIDATOLL": {
+      "symbol": "NOIDATOLL",
+      "company": "Noida Toll Bridge Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NRL": {
+      "symbol": "NRL",
+      "company": "Nupur Recyclers Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "NSIL": {
+      "symbol": "NSIL",
+      "company": "Nalwa Sons Investments Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "Prior Intimation of the Board meeting pursuant to Regulation 29 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
+      "is_earnings": true
+    },
+    "NSLNISP": {
+      "symbol": "NSLNISP",
+      "company": "NMDC Steel Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "OIL": {
+      "symbol": "OIL",
+      "company": "Oil India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and dividend",
+      "is_earnings": true
+    },
+    "OLAELEC": {
+      "symbol": "OLAELEC",
+      "company": "Ola Electric Mobility Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited Standalone and Consolidated financial results for the Quarter and Half-year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ORIENTCABL": {
+      "symbol": "ORIENTCABL",
+      "company": "Orient Cables (India) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited limited reviewed financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "OSWALPUMPS": {
+      "symbol": "OSWALPUMPS",
+      "company": "Oswal Pumps Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "PAGEIND": {
+      "symbol": "PAGEIND",
+      "company": "Page Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and dividend",
+      "is_earnings": true
+    },
+    "PGHH": {
+      "symbol": "PGHH",
+      "company": "Procter & Gamble Hygiene and Health Care Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "PGINVIT": {
+      "symbol": "PGINVIT",
+      "company": "POWERGRID Infrastructure Investment Trust",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "PICCADIL": {
+      "symbol": "PICCADIL",
+      "company": "Piccadily Agro Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "POCL": {
+      "symbol": "POCL",
+      "company": "Pondy Oxides & Chemicals Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "POWERINDIA": {
+      "symbol": "POWERINDIA",
+      "company": "Hitachi Energy India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the secondquarter and half year ended September 30, 2026.",
+      "is_earnings": true
+    },
+    "PPL": {
+      "symbol": "PPL",
+      "company": "Prakash Pipes Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "PRAENG": {
+      "symbol": "PRAENG",
+      "company": "Prajay Engineers Syndicate Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026Sub.:  Intimation of Board Meeting under Reg.29 of SEBI (LODR) Regulations, 2015.This is to inform and intimate that a meeting of the Board of Directors of Prajay Engineers Syndicate Limited ( The Company ) will be held on Thursday, the 12th day of November, 2026, at the Registered Office situated at 1-10-63 & 64, 5th Floor, Prajay Corporate House, Chikoti Gardens, Begumpet, Hyderabad- 500016, Telangana, India, inter-alia to:1. To consider and approve the Unaudited Financial Results (both Standalone and Consolidated) for the Second Quarter and Half Year ended 30-09-2026.This intimation is being submitted pursuant to Regulation 29 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015. Further, in accordance with Code of internal procedures and conduct of the Company for regulating, monitoring and reporting of trading by designated persons framed and adopted in accordance with SEBI (Prohibition of Insider Trading) Regulations, 2015 (as amended from time to time), the trading window for dealing in securities of Company by the designated persons was closed from 01st October 2026 and shall continue to remain closed till 48 hours after the financial results for the Second Quarter and Half Year ended 30-09-2026 are declared to the Stock Exchange(s). Kindly take the above information on your records.",
+      "is_earnings": true
+    },
+    "PRAKASH": {
+      "symbol": "PRAKASH",
+      "company": "Prakash Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "PRAXIS": {
+      "symbol": "PRAXIS",
+      "company": "Praxis Home Retail Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Fund Raising",
+      "bm_desc": "To consider and approve terms of Rights Issue by duly authorised Committee of Directors.",
+      "is_earnings": false
+    },
+    "PREMEXPLN": {
+      "symbol": "PREMEXPLN",
+      "company": "Premier Explosives Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "PRIMESECU": {
+      "symbol": "PRIMESECU",
+      "company": "Prime Securities Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RADAAN": {
+      "symbol": "RADAAN",
+      "company": "Radaan Mediaworks India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RADIANTCMS": {
+      "symbol": "RADIANTCMS",
+      "company": "Radiant Cash Management Services Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RAJTV": {
+      "symbol": "RAJTV",
+      "company": "Raj Television Network Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RANEHOLDIN": {
+      "symbol": "RANEHOLDIN",
+      "company": "Rane Holdings Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "RANE HOLDINGS LTD. has informed that the meeting of the Board of Directors of the Company is scheduled on November 12, 2026, inter alia, to consider and approve the Un-Audited Financial Results for the quarter and half- year ending September 30, 2026. Further, in accordance with Rane's Insider code, the 'Trading window' would remain closed for Promoters, Directors, other connected persons and designated employees of the company from September 30, 2026 to November 14, 2026 (both days inclusive) for the above purpose.",
+      "is_earnings": true
+    },
+    "RCF": {
+      "symbol": "RCF",
+      "company": "Rashtriya Chemicals and Fertilizers Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "REGENCERAM": {
+      "symbol": "REGENCERAM",
+      "company": "Regency Ceramics Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RELIABLE": {
+      "symbol": "RELIABLE",
+      "company": "Reliable Data Services Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RELIGARE": {
+      "symbol": "RELIGARE",
+      "company": "Religare Enterprises Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RKDL": {
+      "symbol": "RKDL",
+      "company": "Ravi Kumar Distilleries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the un-audited financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RKSWAMY": {
+      "symbol": "RKSWAMY",
+      "company": "R K Swamy Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Un-Audited Financial Results (Standalone and Consolidated) of the Company for the quarter and half year ended September 30, 2026.",
+      "is_earnings": true
+    },
+    "RPOWER": {
+      "symbol": "RPOWER",
+      "company": "Reliance Power Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RUBFILA": {
+      "symbol": "RUBFILA",
+      "company": "Rubfila International Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "RUBYMILLS": {
+      "symbol": "RUBYMILLS",
+      "company": "The Ruby Mills Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "RVNL": {
+      "symbol": "RVNL",
+      "company": "Rail Vikas Nigam Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "Intimation of Board Meeting- Re-schedule",
+      "is_earnings": true
+    },
+    "SALZERELEC": {
+      "symbol": "SALZERELEC",
+      "company": "Salzer Electronics Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SCPL": {
+      "symbol": "SCPL",
+      "company": "Sheetal Cool Products Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Bonus/Other business matters",
+      "bm_desc": "To consider bonus, Stock Split and other business matters",
+      "is_earnings": false
+    },
+    "SHARDAMOTR": {
+      "symbol": "SHARDAMOTR",
+      "company": "Sharda Motor Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SHIVAMILLS": {
+      "symbol": "SHIVAMILLS",
+      "company": "Shiva Mills Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the  Unaudited Financial Results for the quarter/six months ended  30.9.2026",
+      "is_earnings": true
+    },
+    "SHIVATEX": {
+      "symbol": "SHIVATEX",
+      "company": "Shiva Texyarn Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the un-audited financial results (Standalone & Consolidated) of the Company  for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SINGERIND": {
+      "symbol": "SINGERIND",
+      "company": "Singer India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "SPAL": {
+      "symbol": "SPAL",
+      "company": "S. P. Apparels Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SPMLINFRA": {
+      "symbol": "SPMLINFRA",
+      "company": "SPML Infra Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the Un-Audited financial results for the 2nd Quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SRIT": {
+      "symbol": "SRIT",
+      "company": "SRIT India Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "STANLEY": {
+      "symbol": "STANLEY",
+      "company": "Stanley Lifestyles Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SUNSHINE": {
+      "symbol": "SUNSHINE",
+      "company": "Sunshine Pictures Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "SURYALAXMI": {
+      "symbol": "SURYALAXMI",
+      "company": "Suryalakshmi Cotton Mills Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "SYSTMTXC": {
+      "symbol": "SYSTMTXC",
+      "company": "Systematix Corporate Services Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the standalone & consolidated un-audited financial results of the Company for the quarter and half year ended September 30, 2026.",
+      "is_earnings": true
+    },
+    "TAJGVK": {
+      "symbol": "TAJGVK",
+      "company": "Taj GVK Hotels & Resorts Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "TARC": {
+      "symbol": "TARC",
+      "company": "TARC Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "TARC : 12-Nov-2026 :  The Company has informed the Exchange that a Board meeting to be held on November 05, 2026 has been re-scheduled. Further, the Company has informed the Exchange that the meeting of the Board of Directors of the Company will be held on November 12, 2026, To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "TARSONS": {
+      "symbol": "TARSONS",
+      "company": "Tarsons Products Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "TDPOWERSYS": {
+      "symbol": "TDPOWERSYS",
+      "company": "TD Power Systems Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the unaudited financial results for the period ended September 30, 2026 and interim dividend, if any.",
+      "is_earnings": true
+    },
+    "TECHNOE": {
+      "symbol": "TECHNOE",
+      "company": "Techno Electric & Engineering Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "TECILCHEM": {
+      "symbol": "TECILCHEM",
+      "company": "TECIL Chemicals and Hydro Power Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "THOMASCOTT": {
+      "symbol": "THOMASCOTT",
+      "company": "Thomas Scott (India) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "TRAVELFOOD": {
+      "symbol": "TRAVELFOOD",
+      "company": "Travel Food Services Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve Un-audited Financial Results (Standalone and Consolidated) of the Company for the quarter and half year ended on September 30, 2026.",
+      "is_earnings": true
+    },
+    "TURTLEMINT": {
+      "symbol": "TURTLEMINT",
+      "company": "Turtlemint Fintech Solutions Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "TURTLEMINT FINTECH SOLUTIONS LIMITED has informed the Exchange about Board Meeting to be held on November 12, 2026 to inter-alia consider and approve the unaudited financial results of the Company for the quarter and half year ended September 30, 2026.",
+      "is_earnings": true
+    },
+    "UFLEX": {
+      "symbol": "UFLEX",
+      "company": "UFLEX Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "UNITECH": {
+      "symbol": "UNITECH",
+      "company": "Unitech Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "VARDMNPOLY": {
+      "symbol": "VARDMNPOLY",
+      "company": "Vardhman Polytex Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "VHLTD": {
+      "symbol": "VHLTD",
+      "company": "Viceroy Hotels Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "VINEETLAB": {
+      "symbol": "VINEETLAB",
+      "company": "Vineet Laboratories Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "VIPIND": {
+      "symbol": "VIPIND",
+      "company": "VIP Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "to consider and approve the Un-Audited Standalone and Consolidated Financial Results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "VISACHROME": {
+      "symbol": "VISACHROME",
+      "company": "VISA Chrome Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "VISAKAIND": {
+      "symbol": "VISAKAIND",
+      "company": "Visaka Industries Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "WAKEFIT": {
+      "symbol": "WAKEFIT",
+      "company": "Wakefit Innovations Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the unaudited financial results for the quarter and half year ended September 30, 2026",
+      "is_earnings": true
+    },
+    "WEIZMANIND": {
+      "symbol": "WEIZMANIND",
+      "company": "Weizmann Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "WEL": {
+      "symbol": "WEL",
+      "company": "Wonder Electricals Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "WILLAMAGOR": {
+      "symbol": "WILLAMAGOR",
+      "company": "Williamson Magor & Company Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "WINSOME": {
+      "symbol": "WINSOME",
+      "company": "Winsome Yarns Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "WSI": {
+      "symbol": "WSI",
+      "company": "W S Industries (I) Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Other business matters",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and other business matters",
+      "is_earnings": true
+    },
+    "YATRA": {
+      "symbol": "YATRA",
+      "company": "Yatra Online Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026",
+      "is_earnings": true
+    },
+    "ZEEL": {
+      "symbol": "ZEEL",
+      "company": "Zee Entertainment Enterprises Limited",
+      "date": "12-Nov-2026",
+      "purpose": "Other business matters",
+      "bm_desc": "To consider other business matters",
+      "is_earnings": false
+    },
+    "ZUARIIND": {
+      "symbol": "ZUARIIND",
+      "company": "ZUARI INDUSTRIES LIMITED",
+      "date": "12-Nov-2026",
+      "purpose": "Financial Results/Dividend",
+      "bm_desc": "To consider and approve the financial results for the period ended September 30, 2026 and dividend on unlisted preference share capital of the Company",
+      "is_earnings": true
+    }
+  },
+  "updated_at": "2026-11-11T06:20:04.801588"
+}

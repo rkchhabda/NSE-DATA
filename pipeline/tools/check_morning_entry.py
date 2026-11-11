@@ -34,6 +34,7 @@ if hasattr(sys.stdout, "reconfigure"):
 WORKSPACE_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(WORKSPACE_ROOT))
 
+from pipeline.fetchers.nse_ban_and_events import fetch_fno_ban_list, fetch_upcoming_events
 from pipeline.fetchers.nse_live_quote import NSELiveQuoteFetcher
 from pipeline.tools.run_daily import get_latest_available_date, is_pure_equity
 
@@ -70,6 +71,8 @@ def evaluate_opening_range(
     capital: float = 500000.0,
     risk_pct: float = 1.0,
     vwap: Optional[float] = None,
+    is_fo_ban: bool = False,
+    earnings_info: Optional[dict] = None,
 ) -> Dict:
     """Evaluates 15-minute opening range against quantitative swing rules."""
     gap_pct = ((open_price - prev_close) / prev_close) * 100.0 if prev_close > 0 else 0.0
@@ -77,6 +80,43 @@ def evaluate_opening_range(
 
     range_spread = h15 - l15
     range_pos = (p930 - l15) / range_spread if range_spread > 0.001 else 0.50
+
+    # 0. Check Institutional Risk: F&O Ban or Imminent Earnings
+    if is_fo_ban:
+        return {
+            "symbol": symbol,
+            "verdict": "RED_LIGHT",
+            "action": "SKIP TODAY",
+            "reason": "Stock is in official NSE F&O ban period (OI > 95% MWPL). Cash swing entry prohibited.",
+            "order": None,
+            "prev_close": prev_close,
+            "open": open_price,
+            "h15": h15,
+            "l15": l15,
+            "p930": p930,
+            "vwap": vwap,
+            "gap_pct": round(gap_pct, 2),
+            "change_pct": round(change_pct, 2),
+            "range_pos_pct": round(range_pos * 100.0, 1),
+        }
+
+    if earnings_info and earnings_info.get("is_earnings"):
+        return {
+            "symbol": symbol,
+            "verdict": "RED_LIGHT",
+            "action": "SKIP TODAY",
+            "reason": f"Binary Event Risk: Financial Results / Board Meeting on {earnings_info.get('date')} ({earnings_info.get('purpose')}).",
+            "order": None,
+            "prev_close": prev_close,
+            "open": open_price,
+            "h15": h15,
+            "l15": l15,
+            "p930": p930,
+            "vwap": vwap,
+            "gap_pct": round(gap_pct, 2),
+            "change_pct": round(change_pct, 2),
+            "range_pos_pct": round(range_pos * 100.0, 1),
+        }
 
     # 1. Check Scenario C: RED LIGHT (Skip)
     if p930 < prev_close:
@@ -232,6 +272,24 @@ def run_morning_check(
     print(f"  Capital: ₹{capital:,.2f} | Risk per trade: {risk_pct}% (₹{capital*(risk_pct/100):,.2f})")
     print("=" * 74)
 
+    # Load today's F&O ban list and corporate events to catch overnight developments
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    try:
+        fo_ban_list = fetch_fno_ban_list(today_str)
+        fo_ban_set = set(fo_ban_list)
+        if fo_ban_list:
+            print(f"  [🛡️] Active F&O Ban List ({len(fo_ban_list)}): {', '.join(fo_ban_list)}")
+    except Exception as e:
+        fo_ban_set = set()
+
+    try:
+        earnings_events = fetch_upcoming_events(today_str, days_ahead=2)
+        fin_count = sum(1 for e in earnings_events.values() if e.get("is_earnings"))
+        if fin_count > 0:
+            print(f"  [🛡️] Monitored Earnings Calendar: {fin_count} companies reporting results today/tomorrow")
+    except Exception as e:
+        earnings_events = {}
+
     fetcher = NSELiveQuoteFetcher()
     results = []
 
@@ -247,6 +305,10 @@ def run_morning_check(
         t2 = ts.get("target_2", 0.0)
         rr = ts.get("risk_reward_t1", "1:1.33")
         atr = ts.get("atr_14", 0.0)
+
+        # Check overnight F&O Ban or earnings filings
+        is_banned = (sym in fo_ban_set) or bool(s.get("is_fo_ban"))
+        ev_info = earnings_events.get(sym) or s.get("upcoming_earnings")
 
         # Fetch live 09:30 quote
         mock_arg = mock_scenarios[idx % len(mock_scenarios)] if mock else None
@@ -282,6 +344,8 @@ def run_morning_check(
             capital=capital,
             risk_pct=risk_pct,
             vwap=vwap,
+            is_fo_ban=is_banned,
+            earnings_info=ev_info,
         )
         eval_res["conviction_score"] = s.get("conviction_score")
         fo_info = s.get("fo")

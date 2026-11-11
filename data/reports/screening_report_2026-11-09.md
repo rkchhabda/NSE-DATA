@@ -4,10 +4,18 @@
 
 ---
 
+## 🛡️ Institutional Risk & Event Watch
+
+- **F&O Ban Period Securities (1):** KAYNES
+- **Upcoming Corporate Earnings Monitored (Next 72 Hours):** 262 companies.
+  *(Stocks with imminent earnings are quarantined from immediate BUY NOW to eliminate binary event risk.)*
+
+---
+
 ## Summary Verdicts
 
-- **BUY NOW:** 250 stocks
-- **WAIT FOR BREAKOUT:** 124 stocks
+- **BUY NOW:** 238 stocks
+- **WAIT FOR BREAKOUT:** 136 stocks
 - **WATCH:** 2369 stocks
 - **EXCLUDED:** 0 stocks
 
@@ -39,6 +47,7 @@
 | **INDOWIND** | CASH | ₹9.27 | 81 | 76.5 | 98 | 55 | Entry: 9.22 - 9.32 | ₹10.33 |
 | **BAJAJFINSV** | F&O (NEUTRAL) | ₹1836.9 | 79 | 80.5 | 93 | 68 | Entry: 1827.72 - 1846.08 | ₹1880.0 |
 | **JSWENERGY** | F&O (NEUTRAL) | ₹523.15 | 79 | 80.5 | 93 | 67 | Entry: 520.53 - 525.77 | ₹530.0 |
+| **AIRAN** | CASH | ₹15.93 | 78 | 80.5 | 88 | 55 | Entry: 15.85 - 16.01 <br>*(⚠️ Results: 11-Nov-2026)* | ₹17.81 |
 | **MOTILALOFS** | F&O (NEUTRAL) | ₹1147.3 | 78 | 80.5 | 85 | 82 | Entry: 1141.56 - 1153.04 | ₹1200.0 |
 | **NTPC** | F&O (SHORT_COVERING) | ₹328.75 | 78 | 80.5 | 100 | 37 | Entry: 327.11 - 330.39 | ₹344.37 |
 | **ZEELEARN** | CASH | ₹6.18 | 78 | 76.5 | 88 | 55 | Entry: 6.15 - 6.21 | ₹6.92 |
@@ -46,10 +55,9 @@
 | **NBCC** | F&O (NEUTRAL) | ₹80.4 | 77 | 80.5 | 83 | 73 | Entry: 80.0 - 80.8 | ₹85.0 |
 | **SPECTRUM** | CASH | ₹4558.9 | 77 | 76.5 | 88 | 50 | Entry: 4536.11 - 4581.69 | ₹5030.76 |
 | **ADANIPOWER** | F&O (NEUTRAL) | ₹206.0 | 76 | 80.5 | 93 | 53 | Entry: 204.97 - 207.03 | ₹218.16 |
+| **EIHOTEL** | CASH | ₹308.55 | 76 | 80.5 | 90 | 50 | Entry: 307.01 - 310.09 <br>*(⚠️ Results: 12-Nov-2026)* | ₹327.23 |
 | **HAVELLS** | F&O (SHORT_COVERING) | ₹1159.5 | 76 | 80.5 | 100 | 37 | Entry: 1153.7 - 1165.3 | ₹1160.0 |
 | **HDFCLIFE** | F&O (NEUTRAL) | ₹565.4 | 76 | 80.5 | 95 | 48 | Entry: 562.57 - 568.23 | ₹594.14 |
-| **INDIGO** | F&O (NEUTRAL) | ₹5430.0 | 76 | 80.5 | 73 | 78 | Entry: 5402.85 - 5457.15 | ₹5500.0 |
-| **KFINTECH** | F&O (NEUTRAL) | ₹914.5 | 76 | 80.5 | 93 | 53 | Entry: 909.93 - 919.07 | ₹976.26 |
 
 ## 🟠 Top WATCHLIST Candidates
 

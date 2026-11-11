@@ -147,6 +147,15 @@ def run_daily(date_str: Optional[str] = None, top_n: int = 5, notify: bool = Fal
         except Exception as e:
             print(f"  [!] Note: F&O Bhavcopy not fetched for {date_str} (proceeding in standard cash mode).")
 
+    # 1C. Fetch & cache NSE F&O Ban securities and upcoming corporate events
+    try:
+        run_pipeline_step(
+            ["pipeline/fetchers/nse_ban_and_events.py", "--date", date_str],
+            "Fetching F&O Ban list and upcoming corporate earnings calendar"
+        )
+    except Exception as e:
+        print(f"  [!] Note: F&O Ban & Events not fetched for {date_str} ({e}).")
+
     # 2. Build gate input (corroborate NSE + BSE + F&O)
     gate_input_path = WORKSPACE_ROOT / "data" / f"gate_input_{date_str}.json"
     run_pipeline_step(
